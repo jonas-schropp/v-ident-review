@@ -1,0 +1,132 @@
+---
+title: "LLM Prescreening"
+author: "Jonas Schropp"
+format: html
+editor: visual
+---
+
+```{r eval = false}
+reticulate::py_install(
+  c("openai", "pandas", "tqdm"), 
+  python = "C:/Users/schroppj/Documents/.virtualenvs/r-reticulate/Scripts/python.exe"
+  )
+```
+
+```{r}
+library(dplyr)
+library(reticulate)
+#reticulate::py_config()
+reticulate::use_python(
+  'C:/Users/schroppj/Documents/.virtualenvs/r-reticulate/Scripts/python.exe', 
+  required = TRUE
+  )
+```
+
+## Load data
+
+```{r}
+refs_path <- here::here("data/search-results", 
+                        "abstracts-deduplicated.csv")
+refs <- readr::read_csv(refs_path)
+
+inclusion_criteria <- '1. Studies involving human subjects or datasets that include vital signs or physiological signals for passive user authentication.
+2. Concept: Studies that propose, implement, evaluate, or discuss methods for user authentication based on vital signs or physiological signals (e.g., heart rate, respiration rate, blood pressure, ECG, PPG, GSR, EEG).
+3. Context: Studies applied in any context (e.g., healthcare, consumer electronics, security systems, HCI, telemedicine, or fitness).
+4. Data Type: Studies using real-world data, experimental data, or simulated data representing vital signs collected using wearable devices and sensors.
+'
+
+exclusion_criteria <- '1. Studies focusing exclusively on biometric authentication not involving vital signs (e.g., facial recognition, iris scans, fingerprinting).
+2. Studies that only use demographic or behavioral signals (e.g., keystroke dynamics, gait) without physiological components.
+3. Studies that require active intervention by the user (e.g., gestures, signatures) or a second person for authentication (e.g., providing stimuli). For example, studies using EEG must involve passive signal capture without requiring the subject to perform a specific cognitive or physical task.
+4. Studies that do not use wearable devices as the sole data source.
+5. Reviews, editorials, opinion papers, or patents (though relevant reviews will be screened for additional sources).
+7. Animal studies or purely theoretical/mathematical modeling without application to biometric authentication.
+'
+```
+
+## Screening
+
+Screening was done interactively and in several sessions due to processing time. That's why you only see 201:485 below.
+
+openai.api_key = "..."
+
+```{r}
+py_file <- here::here("code/llm-prescreening", "screen_papers.py")
+
+reticulate::source_python(py_file)
+
+mod <- 'openai/gpt-4-turbo-preview'
+#mod <- 'meta-llama/llama-4-maverick:free'
+
+test <- refs[201:485, ]
+screened_refs_2 <- screen_papers(
+  test, inclusion_criteria, exclusion_criteria, mod
+  )
+
+readr::write_rds(
+  screened_refs_2, 
+  here::here("search-results", "screened-refs-2.rds")
+)
+
+readr::write_rds(
+  screened_refs_1, 
+  here::here("search-results", "screened-refs-1.rds")
+)
+```
+
+```{r}
+screened_refs_2[,c('abstract', 'llm_decision', 'llm_reason')] %>% View()
+readr::write_csv(
+  test_res[,c('abstract', 'llm_decision', 'llm_reason')], 
+  here::here("search-results", "test_res_llama.csv")
+  )
+```
+
+```{r}
+refs_path_1 <- here::here("search-results", "screened-refs-1.rds")
+refs_path_2 <- here::here("search-results", "screened-refs-2.rds")
+
+refs1 <- readr::read_rds(refs_path_1)
+refs2 <- readr::read_rds(refs_path_2)
+
+refs <- rbind(refs1, refs2)
+
+dplyr::glimpse(refs)
+
+table(refs$llm_decision, useNA = "ifany")
+```
+
+```{r}
+refs_path <- here::here("data/search-results", "refs_llm_screened.rds")
+readr::write_rds(refs, refs_path)
+```
+
+## Create excel files for screening
+
+```{r}
+refs$include <- ""
+refs$reason <- ""
+cls <- c("id", "title", "abstract", "include", "reason")
+  
+refs_path_1 <- here::here("data/paper-screening", "refs_llm_screened_1-50.xlsx")
+refs_path_2 <- here::here("data/paper-screening", "refs_llm_screened_51-100.xlsx")
+refs_path_3 <- here::here("data/paper-screening", "refs_llm_screened_101-150.xlsx")
+refs_path_4 <- here::here("data/paper-screening", "refs_llm_screened_151-200.xlsx")
+refs_path_5 <- here::here("data/paper-screening", "refs_llm_screened_201-250.xlsx")
+refs_path_6 <- here::here("data/paper-screening", "refs_llm_screened_251-300.xlsx")
+refs_path_7 <- here::here("data/paper-screening", "refs_llm_screened_301-350.xlsx")
+refs_path_8 <- here::here("data/paper-screening", "refs_llm_screened_351-400.xlsx")
+refs_path_9 <- here::here("data/paper-screening", "refs_llm_screened_401-450.xlsx")
+refs_path_10 <- here::here("data/paper-screening", "refs_llm_screened_451-485.xlsx")
+
+writexl::write_xlsx(refs[1:50,cls], refs_path_1)
+writexl::write_xlsx(refs[51:100,cls], refs_path_2)
+writexl::write_xlsx(refs[101:150,cls], refs_path_3)
+writexl::write_xlsx(refs[151:200,cls], refs_path_4)
+writexl::write_xlsx(refs[201:250,cls], refs_path_5)
+writexl::write_xlsx(refs[251:300,cls], refs_path_6)
+writexl::write_xlsx(refs[301:350,cls], refs_path_7)
+writexl::write_xlsx(refs[351:400,cls], refs_path_8)
+writexl::write_xlsx(refs[401:450,cls], refs_path_9)
+writexl::write_xlsx(refs[451:485,cls], refs_path_10)
+```
