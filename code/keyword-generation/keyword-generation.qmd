@@ -1,0 +1,281 @@
+---
+title: "Keyword Generation"
+format: pdf
+editor: visual
+---
+
+```{r}
+library(pdftools)
+library(litsearchr)
+library(textclean)
+library(tm)
+library(igraph)
+library(tidygraph)
+library(ggraph)
+library(ggplot2)
+
+```
+
+## 1. Seed Papers
+
+\begin{itemize}
+  \item A novel biometric authentication approach using ECG and EMG signals   
+  \item A Survey of PPG’s Application in Authentication 
+  \item A Wearable Wrist Band-Type System for Multimodal Biometrics Integrated with Multispectral Skin Photomatrix and Electrocardiogram Sensors
+  \item Biometric Authentication Using the PPG_A Long-Term Feasibility Study
+  \item CardioGuard
+  \item Combining Cryptography with EEG Biometrics
+  \item Comparison_of_Wrist_and_Forearm_EMG_for_Multi-day
+  \item Convolutional Neural Network for Individual Identification Using Phase Space Reconstruction of Electrocardiogram                        
+  \item Deep learning-based photoplethysmography biometric authentication for continuous user verification                                      
+  \item ECG Authentication Based on Non-Linear Normalization under Various Physiological Conditions                                             
+  \item ECG classification system based on multi-domain features approach coupled with least square support vector machine (LS-SVM)             
+  \item ECG_Biometric_Authentication_Using_Self-Supervised_Learning_for_IoT_Edge_Sensors
+  \item Efficiently Updating ECG-Based Biometric Authentication Based on Incremental Learning
+  \item Electrocardiogram (ECG)-Based User Authentication Using Deep Learning Algorithms                                                        
+  \item Explaining vulnerabilities of heart rate biometric models securing IoT wearables                                                        
+  \item Individual identification via electrocardiogram analysis
+  \item Multimodal biometric authentication method by federated learning
+  \item Securing Internet-of-Medical-Things networks using cancellable ECG recognition
+\end{itemize}
+
+## 2. Co-occurrence Networks
+
+Define "stopwords" lists - these are specific to scientific papers and simply contain uninformative terms that are generally uninteresting to us. Created with the help of ChatGPT and manually screened to make sure they don't contain relevant terms.
+
+```{r}
+general_science_stopwords <- c(
+  "study", "studies", "result", "results", "method", "methods", "conclusion",
+  "conclusions", "introduction", "discussion", "analysis", "data", "research",
+  "author", "authors", "paper", "article", "journal", "abstract", "background",
+  "review", "objective", "aim", "findings", "report", "section", "evidence",
+  "information", "support", "based", "including", "case", "example", "approach",
+  "international conference", "conference", "engineering", 
+  "university", "international conference", "conference proceedings", 
+  "scientific research",
+  "research paper", "research article", "research study", "literature review",
+  "case study", "case studies", "study results", "experimental results",
+  "scientific journal", "research findings", "experimental setup",
+  "experimental design", "introduction section", "conclusion section",
+  "future work", "related work", "supporting information", "annual international",
+  "annual international conference", "creative commons"
+)
+cs_stopwords <- c(
+  "algorithm", "algorithms", "model", "models", "system", "systems", "input",
+  "output", "performance", "process", "processing", "parameters", "architecture",
+  "evaluation", "implementation", "training", "testing", "dataset", "datasets",
+  "accuracy", "computation", "computational", "experiment", "experiments",
+  "framework", "technique", "techniques", "network", "networks", "learning",
+  "deep", "machine", "artificial", "intelligence", "code", "hardware", "software",
+  "machine learning", "artificial intelligence", "pattern", "pattern recognition",
+  "vector", "signal", "features", "training data",
+  "test data", "input data", "output data", "ground truth", "real time",
+  "high performance", "state of the art", "feature extraction",
+  "pattern recognition", "object detection", "image recognition",
+  "signal processing", "vector representation", "data representation",
+  "graph based", "unsupervised learning", "supervised learning",
+  "data processing", "data analysis", "model accuracy", "learning rate",
+  "parameter tuning", "code implementation", "data preprocessing",
+  "software implementation", "hardware implementation", "computational model",
+  "computer science"
+)
+ml_stopwords <- c(
+  # Classic supervised methods
+  "decision tree", "random forest", "logistic regression", "linear regression",
+  "naive bayes", "support vector machine", "svm", "k nearest neighbor", "knn",
+  "gradient boosting", "xgboost", "lightgbm", "catboost",
+  # Neural nets & deep learning
+  "neural network", "artificial neural network", "convolutional neural network",
+  "cnn", "recurrent neural network", "rnn", "long short term memory",
+  "lstm", "transformer", "autoencoder", "deep learning", 
+  "convolutional neural networks",
+  # Unsupervised learning
+  "k means", "k means clustering", "hierarchical clustering", "dbscan",
+  "gaussian mixture model", "gmm", "principal component analysis",
+  "pca", "t distributed stochastic neighbor embedding", "t sne", "umap",
+  # Probabilistic methods
+  "bayesian network", "hidden markov model", "markov chain", "monte carlo",
+  # Ensemble & meta-methods
+  "ensemble learning", "bagging", "boosting", "stacking",
+  # Optimization/metaheuristics
+  "genetic algorithm", "simulated annealing", "particle swarm optimization",
+  # General/ambiguous terms
+  "machine learning", "supervised learning", "unsupervised learning",
+  "semi supervised learning", "reinforcement learning", "feature selection",
+  "feature", "signals", "number", "false acceptance"
+)
+medical_stopwords <- c(
+  "patient", "patients", "clinical", "trial", "trials", "treatment", "group",
+  "groups", "disease", "diseases", "therapy", "therapies", "medical", "health",
+  "hospital", "symptom", "symptoms", "diagnosis", "diagnostic", "care",
+  "outcome", "outcomes", "intervention", "interventions", "procedure",
+  "procedures", "follow", "followup", "comorbidity", "case", "cases",
+  "cohort", "cohorts", "monitoring", "evaluation", "management",
+  "biomedical engineering",  "baseline", 
+  "clinical trial", "clinical trials", "clinical data", "medical treatment",
+  "medical care", "medical diagnosis", "health care", "health outcomes",
+  "disease management", "patient care", "patient data", "treatment group",
+  "control group", "study group", "clinical outcome", "study population",
+  "biomedical engineering", "case report", "case series", "cohort study",
+  "cohort studies", "prospective study", "retrospective study",
+  "longitudinal study", "follow up", "quality of life", "disease burden",
+  "risk factor", "risk factors", "adverse event", "adverse events",
+  "real world data", "electronic health record", "electronic medical record",
+  "emergency department", "intensive care", "intensive care unit", "icu stay"
+)
+stopwords_smart <- quanteda::stopwords(source = "smart")
+stopwords <- c(stopwords_smart, general_science_stopwords, 
+               cs_stopwords, medical_stopwords, ml_stopwords)
+```
+
+```{r}
+# STEP 1: Load PDFs from a folder
+pdf_folder <- here::here('keyword-generation/1. seed set') 
+pdf_files <- list.files(pdf_folder, pattern = "\\.pdf$", full.names = TRUE)
+
+# STEP 2: Extract full text 
+extract_full_text <- function(file) {
+  text <- pdf_text(file)
+  full_text <- paste(text, collapse = " ")
+  
+  # Basic cleaning
+  text_clean <- tolower(full_text)
+  text_clean <- replace_non_ascii(text_clean)
+  text_clean <- gsub("[^a-z\\s]", " ", text_clean)  # remove punctuation/digits
+  text_clean <- gsub("\\s+", " ", text_clean)       # collapse whitespace
+  return(text_clean)
+}
+
+# STEP 3: Build clean text vector
+texts <- vapply(pdf_files, extract_full_text, character(1))
+
+# STEP 4: Extract terms using litsearchr
+terms1 <- extract_terms(
+  texts, method = "fakerake", min_freq = 8, min_n = 2, max_n = 2
+  )
+terms2 <- extract_terms(
+  texts, method = "fakerake", min_freq = 17, min_n = 1, max_n = 1
+  )
+terms3 <- extract_terms(
+  texts, method = "fakerake", min_freq = 6, min_n = 3, max_n = 3
+  )
+
+terms <- c(terms1, terms2, terms3)
+terms <- terms[!tolower(terms) %in% stopwords]
+
+# STEP 5: Create DFM and Co-occurrence Network
+dfm <- create_dfm(texts, features = terms)
+cooc_net <- create_network(dfm)
+```
+
+```{r}
+graph_tbl <- as_tbl_graph(cooc_net)
+
+net_viz <- ggraph(graph_tbl, layout = "fr") + 
+  geom_edge_link(aes(edge_alpha = after_stat(index)), 
+                 show.legend = FALSE,
+                 alpha = 0.3, color = "lightgrey") +
+  geom_node_point(color = "orange", 
+                  size = 3) +
+  geom_node_text(aes(label = name), 
+                 repel = TRUE, 
+                 size = 2.5) +
+  theme_void() +
+  ggtitle("Co-occurrence Network")
+
+ggsave(
+  here::here("keyword-generation", "co_occurrence_network.tiff"),
+  plot = net_viz,
+  width = 12, height = 8, bg = "white"
+)
+net_viz
+```
+
+## Network Pruning
+
+```{r}
+pm_node_strength <- igraph::strength(cooc_net)
+pm_node_rankstrenght <- data.frame(term = names(pm_node_strength), strength = pm_node_strength, row.names = NULL)
+pm_node_rankstrenght$rank <- rank(pm_node_rankstrenght$strength, ties.method = "min")
+pm_node_rankstrenght <- pm_node_rankstrenght[order(pm_node_rankstrenght$rank),]
+
+pm_plot_strenght <- 
+  ggplot(pm_node_rankstrenght, aes(x = rank, y = strength, label = term)) +
+  geom_line(lwd = 0.8) +
+  geom_point() +
+  ggrepel::geom_text_repel(size = 3, hjust = "right", nudge_y = 3, max.overlaps = 30) +
+  theme_bw()
+```
+
+```{r}
+# Cumulatively - retain a certain proportion (e.g. 80%) of the total strength of the network of search terms
+pm_cutoff_cum <- litsearchr::find_cutoff(
+  cooc_net, method = "cumulative", percent = 0.8
+  )
+# Changepoints - certain points along the ranking of terms where the strength of the next strongest term is much greater than that of the previous one
+pm_cutoff_change <- litsearchr::find_cutoff(
+  cooc_net, method = "changepoint", knot_num = 3
+  )
+
+pm_plot_strenght <- pm_plot_strenght +
+  geom_hline(
+    yintercept = pm_cutoff_cum, 
+    color = "red", lwd = 0.7, 
+    linetype = "longdash", alpha = 0.6
+    ) +
+  geom_hline(
+    yintercept = pm_cutoff_change, 
+    color = "orange", lwd = 0.7, 
+    linetype = "dashed", alpha = 0.6
+    )
+
+ggsave(
+  here::here("keyword-generation", "feature_strength.tiff"),
+  plot = pm_plot_strenght,
+  width = 12, height = 8, bg = "white"
+)
+
+pm_plot_strenght
+```
+
+```{r}
+pm_cutoff_change
+pm_cutoff_cum
+```
+
+```{r}
+cutoff <- 437 # Change later!
+strong_terms <- subset(pm_node_rankstrenght, strength >= cutoff)
+strong_terms$Katja <- NA
+strong_terms$Jonas <- NA
+strong_terms$include <- NA
+
+# save
+readr::write_csv(
+  strong_terms, 
+  here::here("keyword-generation", "strong_terms_for_mapping.csv")
+  )
+```
+
+## 4. LLM-assisted Query Expansion
+
+```{r}
+signal_type <- c("biometric system*", "biometric signal*",
+                 "vital sign*", "physiological signal*", 
+                 "biosignal*", "biophysical signal*", 
+                 "heart rate", "respiration rate", "respiratory rate", 
+                 "skin temperature", "blood pressure", "ECG", "PPG", 
+                 "GSR", "EDA", "EEG") 
+authentication <- c("authentication", 
+                    "user recognition", "identity verification", 
+                    "user access") 
+specific_combinations <- c("biometric access", "biometric recognition",
+                           "biometric verification")
+```
+
+
+To further broaden and validate our terminology coverage, we employed a large language model (LLM) to suggest additional semantically similar or related terms not identified via co-occurrence analysis. These suggestions were manually reviewed for relevance and incorporated when appropriate.
+
+## 5. Boolean Optimization
+
+We tested multiple iterations of the refined query for balance between sensitivity and specificity by applying it to major databases (e.g., PubMed, Scopus, IEEE Xplore) and manually screening the top-ranked results for relevance.

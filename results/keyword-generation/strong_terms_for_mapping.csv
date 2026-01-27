@@ -1,0 +1,48 @@
+term;strength;rank;Katja;Jonas;include;
+biology society;437;28;0;0;NA;
+large scale;459;29;0;0;NA;
+trans biomed;463;30;0;0;NA;
+figure shows;468;31;0;0;NA;
+biometric authentication system;474;32;1;1;NA;
+identification system;476;33;0;0;NA;
+based biometrics;477;34;0;0;NA;
+support vector;500;35;0;0;NA;
+vector machine;500;35;0;0;NA;
+convolutional neural;503;37;0;0;NA;
+system based;510;38;0;0;NA;
+wearable devices;511;39;0;1?;NA;"hierüber könnte man es vermutlich deutlich einschränken, insb. Die EEG-basierten Geschichten wären damit raus; aber wollen wir diese Einschränkung wirklich? Wir haben an anderer Stelle extra Methodik ausgeschlossen und das ist ja nichts anderes als eine Erhebungsinstrument.."
+access article;520;40;0;0;NA;
+authentication based;526;41;0;0;NA;
+authentication methods;559;42;1;1;NA;
+identification based;571;43;0;0;NA;
+biometric systems;578;44;1;1;NA;
+multimodal biometric;579;45;0;0;NA;
+biometric identification;649;46;0;0;NA;
+neural networks;653;47;0;0;NA;
+authors declare;661;48;0;0;NA;
+human identification;667;49;0;0;NA;
+biometric system;684;50;1;1;NA;
+authentication systems;693;51;1;1;NA;
+biometric recognition;709;52;1;1;NA;
+authentication method;710;53;1;1;NA;
+pattern recognit;713;54;0;0;NA;
+based authentication;733;55;0;0;NA;
+based biometric;779;56;0;0;NA;
+biometric authentication;790;57;1;1;NA;
+authentication system;828;58;1;1;NA;
+signal process;828;58;0;0;NA;
+access;828;58;0;1;NA;ist das nicht zu unspezifisch??
+applications;828;58;0;0;NA;
+applied;828;58;0;0;NA;
+authentication;828;58;1;1;NA;
+biomedical;828;58;0;0;NA;
+biometric;828;58;0;1;NA;nur in Kombination mit authentification oder?
+biometrics;828;58;0;0;NA;
+compared;828;58;0;0;NA;
+detection;828;58;0;0;NA;
+extracted;828;58;0;0;NA;
+identification;828;58;0;0;NA;
+recognition;828;58;1;1;NA;
+references;828;58;0;0;NA;
+security;828;58;0;0;NA;
+single;828;58;0;0;NA;
