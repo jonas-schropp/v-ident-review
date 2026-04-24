@@ -130,7 +130,7 @@ stopwords <- c(stopwords_smart, general_science_stopwords,
 
 ```{r}
 # STEP 1: Load PDFs from a folder
-pdf_folder <- here::here('keyword-generation/1. seed set') 
+pdf_folder <- here::here('data/keyword-generation/1. seed set') 
 pdf_files <- list.files(pdf_folder, pattern = "\\.pdf$", full.names = TRUE)
 
 # STEP 2: Extract full text 
@@ -272,7 +272,6 @@ authentication <- c("authentication",
 specific_combinations <- c("biometric access", "biometric recognition",
                            "biometric verification")
 ```
-
 
 To further broaden and validate our terminology coverage, we employed a large language model (LLM) to suggest additional semantically similar or related terms not identified via co-occurrence analysis. These suggestions were manually reviewed for relevance and incorporated when appropriate.
 
