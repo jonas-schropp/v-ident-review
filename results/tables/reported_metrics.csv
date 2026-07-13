@@ -1,0 +1,11 @@
+Metric,Reported studies,Not reported studies,Reported studies (%),Reported experiments,Not reported experiments,Reported experiments (%)
+EER,13,13,50,622,104,85.7
+accuracy,12,14,46.2,130,596,17.9
+F1,6,20,23.1,40,686,5.5
+AUC,3,23,11.5,38,688,5.2
+memory performance,2,24,7.7,7,719,1
+authentication time,20,6,76.9,684,42,94.2
+enrollment time,22,4,84.6,619,107,85.3
+further metrics,9,17,34.6,41,685,5.6
+calibration,0,26,0,0,726,0
+multiple metrics,7,19,26.9,61,665,8.4

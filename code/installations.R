@@ -11,7 +11,7 @@ packages <- c("elizagrames/litsearchr", "easyPubMed", "revtools",
               "reticulate", "tidytext", "tm", "text2vec",
               "topicmodels", "reshape2", "writexl", "readxl",
               "roadoi", "brms", "devtools",
-              "mice")
+              "flextable", "officer", "mice")
 
 renv::install(packages)
 y

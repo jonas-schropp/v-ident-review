@@ -1,0 +1,5 @@
+device,device location,modality,number of studies,number of experiments,sampling frequency,number of channels / electrodes,study_ids
+own device,wrist | chest/torso,ECG,4,7,100hz | 1000hz | 40 kHz,not reported | 3 electrodes | 2 electrodes,205; 253; 278; 43
+own device,wrist,PPG,5,37,100hz | 125 Hz | 1000hz | 300 Hz,not reported | one channel (green),205; 266; 278; 298; 374
+own device,wrist | neck | chest/torso,SCG,1,120,150 Hz,one channel (green),147
+own device,not reported,VHF,1,27,1000 Hz,antenna,75

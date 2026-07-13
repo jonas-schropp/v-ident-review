@@ -1,0 +1,21 @@
+Modality,Feature type,Feature dimension,Dimensionality reduction,Study IDs,Studies,Experiments
+ECG,deep,not coded,no,455 | 475,2,11
+ECG,handcrafted,medium,no,330 | 36,2,26
+ECG,handcrafted,not coded,no,278 | 330 | 43 | 445 | 495,5,23
+ECG,hybrid,high,no,455,1,1
+ECG,hybrid,medium,no,455,1,1
+ECG,hybrid,not coded,no,205 | 253 | 447,3,272
+ECG,hybrid,not coded,yes,460,1,1
+PPG,deep,not coded,no,266 | 28 | 374 | 401,4,48
+PPG,handcrafted,low,no,298 | 305 | 486 | 55 | 61,5,158
+PPG,handcrafted,low,yes,61,1,2
+PPG,handcrafted,medium,no,459 | 486 | 61,3,12
+PPG,handcrafted,not coded,no,278,1,4
+PPG,hybrid,medium,no,382,1,6
+PPG,hybrid,not coded,no,205,1,1
+Other,handcrafted,low,no,189 | 305,2,22
+Other,handcrafted,low,yes,61,1,1
+Other,handcrafted,medium,no,61,1,1
+Other,handcrafted,medium,yes,75,1,27
+Other,handcrafted,not coded,no,147,1,120
+Other,hybrid,medium,no,382,1,3

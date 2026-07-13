@@ -1,0 +1,7 @@
+validation_category,studies,experiments,study_ids
+Within-subject / within-session split,2,130,147; 475
+Cross-validation,8,107,266; 330; 374; 382; 445; 55; 61; 75
+Time-based split,3,22,298; 460; 495
+Day-based or session-based split,4,52,189; 278; 305; 401
+Held-out users or unseen intruders,6,303,253; 28; 36; 401; 447; 455
+Unclear or not reported,7,112,189; 205; 401; 43; 459; 486; 495

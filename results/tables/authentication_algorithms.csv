@@ -1,0 +1,32 @@
+Algorithm class,Algorithm,Modality,Studies,Experiments,Study IDs
+Deep learning,CNN,ECG,3,272,43; 447; 455
+Deep learning,MLP,ECG,1,1,253
+Deep learning,CNN,PPG,1,2,382
+Deep learning,FF-NN,PPG,2,101,459; 486
+Deep learning,MLP,PPG,2,12,305; 55
+Deep learning,CNN,Other,1,3,75
+Deep learning,FF-NN,Other,1,4,189
+Deep learning,MLP,Other,2,9,305; 75
+Temporal deep learning,Autoencoder,ECG,1,5,475
+Temporal deep learning,LSTM,ECG,2,6,205; 475
+Temporal deep learning,LSTM,PPG,2,2,205; 28
+Temporal deep learning,RNN,PPG,1,2,382
+Temporal deep learning,TCM/CNN+LSTM/CRNN,PPG,4,46,266; 374; 382; 401
+Tree-based methods,DT,ECG,2,9,330; 36
+Tree-based methods,RF,ECG,2,5,330; 455
+Tree-based methods,GBM,PPG,1,19,298
+Tree-based methods,RF,PPG,2,12,305; 55
+Tree-based methods,GBM,Other,1,6,75
+Tree-based methods,RF,Other,2,9,305; 75
+Kernel-based methods,SVM,ECG,3,17,330; 445; 495
+Kernel-based methods,SVM,PPG,1,4,61
+Kernel-based methods,SVM,Other,2,126,147; 75
+Linear models,LDA,ECG,1,3,330
+Linear models,LR,ECG,1,3,330
+Linear models,LR,PPG,2,12,305; 55
+Linear models,LR,Other,1,3,305
+Distance-based methods,kNN,ECG,2,7,278; 330
+Distance-based methods,unspecified distance metric,ECG,1,1,460
+Distance-based methods,kNN,PPG,2,10,278; 55
+Probability-based methods,NB,ECG,1,6,36
+Probability-based methods,NB,PPG,1,6,55

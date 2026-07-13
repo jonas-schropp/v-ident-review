@@ -1,0 +1,42 @@
+internal,external,studies,experiments,study_ids
+"10-fold CV, unclear whether within participants or not",no intruders,1,2,495
+20 x Monte Carlo CV 50/50 across time,no intruders,1,19,298
+3-fold-CV,no intruders,1,27,75
+"4 days training, day 5 testing",no intruders,1,27,305
+"5-Fold CV, 3 intruders held out in each fold, 50/50 training/testing within fold",3 intruders,1,4,36
+"5-Fold CV, 3 intruders held out in each fold, 60/40 training/testing within fold",3 intruders,1,4,36
+"5-Fold CV, 3 intruders held out in each fold, 70/30 training/testing within fold",3 intruders,1,4,36
+5-fold CV within users,no unseen imposters,2,13,266; 374
+6-fold CV within conditions and participants,no unseen imposters,1,6,445
+6-fold CV within participants (5/6 breathing events),no intruders,1,4,61
+"60/40, not clear whether random or across time",no intruders,1,1,189
+70/30 random split,no intruders,1,120,147
+"75% selected for training, rest for testing against intruders",12 intruders,1,3,455
+8-fold CV over sessions within users,6 intruders,1,16,401
+8-fold CV over sessions within users,no intruders,1,15,401
+80/20 split within 11 users,2 intruders,1,270,447
+"80/20, 1 valid user",no,1,2,475
+"80/20, 2 valid users",no,1,2,475
+"80/20, 3 valid users",no,1,2,475
+"80/20, 4 valid users",no,1,2,475
+"80/20, 5 valid users",no,1,2,475
+LO-intruder-O- CV,38 intruders,1,1,253
+LOO-CV,no intruders,1,21,330
+LOO-CV at inhalation event level (6 fold CV),no unseen imposters,1,6,382
+"Train T1 + T2, Test T2 - maybe some sort of 10-fold CV?",no intruders,1,1,495
+"Train T1, Test T2",no intruders,1,2,495
+"day 1 60/40, not clear whether random or across time, days 2+3 testing",no intruders,1,1,189
+nested: 10-fold CV within users + 10/90 split,no intruders,1,15,55
+nested: 10-fold CV within users + 30/70 split,no intruders,1,15,55
+not described,?,1,1,43
+not described,not described,1,5,459
+split between sessions,no intruders,1,2,278
+split between tasks,no intruders,1,6,278
+time-based splitting,14 intruders,1,1,28
+time-based splitting,no,1,1,460
+train/test not specified,10 patients 20 non-patients?,1,95,486
+train/test not specified,10 users 20 non-users?,1,1,486
+"train/test, unclear how split, only one valid user",no intruders,1,2,205
+"training day 1, testing day 2",no intruders,1,1,189
+"training day 1, testing day 3",no intruders,1,1,189
+NA,NA,1,3,401

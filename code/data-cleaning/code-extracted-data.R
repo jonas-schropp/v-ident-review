@@ -1,7 +1,7 @@
-inpath <- here::here("data",
-                   "data-extraction.xlsx")
-
 #' Code Extracted Data into Analysis Categories
+#' 
+#' This function calls the single coding functions and creates a list of 
+#' coded data frames for further processing into analysis tables.
 #' 
 #' @param inpath the path to the data extraction excel file
 #' @param outpath the path to the coded data file for results
@@ -9,6 +9,11 @@ inpath <- here::here("data",
 code_dext <- function(inpath) {
   
   require(dplyr)
+  require(here)
+  folder <- "code/data-cleaning"
+  funs <- c("code-auth.R", "code-eval.R", "code-features.R", "code-preproc.R",
+            "code-signal.R")
+  for (i in funs)( source(here(folder, i)) )
   
   dext <- list(
     'general' = readxl::read_xlsx( inpath, sheet = 1 ),
@@ -34,6 +39,14 @@ code_dext <- function(inpath) {
     select(-`acquisition environment`)
   
   dext[[3]] <- dext[[3]] %>%
-  
-}
+    code_filtering() %>%
+    code_segmentation_type() %>%
+    code_normalization()
 
+  dext[[4]] <- dext[[4]] %>%
+    code_feature_type() %>%
+    code_feature_dim() %>%
+    code_dim_reduction()
+    
+  return(dext)
+}

@@ -1,0 +1,21 @@
+dataset_name,study_id,Genuine users,Intruders,Total participants,modality,acquisition time,conditions,situational stability,permanence,study_ids
+own data,43,47,Not reported,47,ECG,Not reported,Not reported,Unclear,Not reported,43
+own data,55,28,Not reported,28,PPG,30-120 min,multiple conditions,Moderate,One day,55
+own data,61,10,Not reported,10,PPG | PPG+microphone,Not reported,Not reported,Moderate | Unclear,Not reported,61
+own data,75,13,Not reported,13,VHF,5-30 min,multiple conditions | one condition,None | Limited,One day,75
+own data,147,20,Not reported,20,SCG,up to 5 min,one condition,None,One day,147
+own data,189,30,Not reported,30,EDA,over 120 min,everyday activities,High,Multiple days,189
+own data,253,2,38,40,ECG,up to 5 min,multiple conditions,Unclear,Multiple days,253
+own data,278,53,Not reported,53,ECG | PPG,up to 5 min,multiple conditions | one condition,None | Limited,One day | High (> one week),278
+own data,298,20 | 4 | 5,Not reported,20 | 4 | 5,PPG,5-30 min | up to 5 min,multiple conditions | one condition,None | Moderate,One day,298
+own data,305,74,Not reported,74,"EDA | EDA, PPG | PPG",over 120 min,everyday activities,High,Multiple days,305
+own data,330,5,Not reported,5,ECG,5-30 min,one condition,None,Not reported,330
+own data,382,10,Not reported,10,"PPG | PPG, microphone",over 120 min,everyday activities,High,One day,382
+own data,401,66 | 89,Not reported,66 | 89,PPG,5-30 min | over 120 min,multiple conditions | one condition,None | Moderate | Unclear,Multiple days,401
+own data,445,11,Not reported,11,ECG,5-30 min,multiple conditions | one condition,None | Limited,One day,445
+own data,455,29,Not reported,29,ECG,5-30 min,one condition,None,One day,455
+own data,459,30,Not reported,30,PPG,30-120 min,everyday activities,None,One day,459
+own data,460,4,Not reported,4,ECG,over 120 min,everyday activities,High,One day,460
+own data,475,15,Not reported,15,ECG,5-30 min,one condition,None,One day,475
+own data,486,30,Not reported,30,PPG,over 120 min,everyday activities,High | Unclear,One day,486
+own data,495,11,Not reported,11,ECG,30-120 min | 5-30 min,everyday activities | multiple conditions,Moderate | High,One day | High (> one week),495

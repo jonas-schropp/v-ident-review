@@ -1,0 +1,17 @@
+Algorithm class,Algorithm,Studies,Experiments,Study IDs
+Deep learning,CNN,5,277,382; 43; 447; 455; 75
+Deep learning,FF-NN,3,105,189; 459; 486
+Deep learning,MLP,4,22,253; 305; 55; 75
+Temporal deep learning,Autoencoder,1,5,475
+Temporal deep learning,LSTM,3,8,205; 28; 475
+Temporal deep learning,RNN,1,2,382
+Temporal deep learning,TCM/CNN+LSTM/CRNN,4,46,266; 374; 382; 401
+Tree-based methods,DT,2,9,330; 36
+Tree-based methods,GBM,2,25,298; 75
+Tree-based methods,RF,5,26,305; 330; 455; 55; 75
+Kernel-based methods,SVM,6,147,147; 330; 445; 495; 61; 75
+Linear models,LDA,1,3,330
+Linear models,LR,3,18,305; 330; 55
+Distance-based methods,kNN,3,17,278; 330; 55
+Distance-based methods,unspecified distance metric,1,1,460
+Probability-based methods,NB,2,12,36; 55

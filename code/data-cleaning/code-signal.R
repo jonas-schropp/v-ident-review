@@ -185,18 +185,18 @@ code_duration <- function(signal) {
   
 }
 
-code_users <- function(signal) {
-  
-  signal %>%
-    mutate(
-      `number of individuals` = as.integer(
-        if_else(
-          `number of individuals` == "2 users, 38 intruders",
-          "2", `number of individuals`
-        )
-      )
-    )
-}
+#code_users <- function(signal) {
+#  
+#  signal %>%
+#    mutate(
+#      `number of individuals` = as.integer(
+#        if_else(
+#          `number of individuals` == "2 users, 38 intruders",
+#          "2", `number of individuals`
+#        )
+#      )
+#    )
+#}
 
 
 code_conditions <- function(signal) {
@@ -205,13 +205,13 @@ code_conditions <- function(signal) {
     mutate(
       conditions = factor(
         case_when(
-          signal %in% c(
+          conditions %in% c(
             "during driving task", "resting", "working", "sitting", 
             "standing", "walking", "post-exercise", "idle+idle", "rest",
             "sitting in car", "Resting", "Walking", "Standing", "Uphill walking",                                                                                                                                                                                                                                                                                
             "3 min of standing", "3 min of sitting", "3 min of typical walking"
           ) ~ 1L,
-          signal %in% c(
+          conditions %in% c(
             "resting, walking, standing and uphill walking",
             "baseline, lecture, examination, recovery",
             "resting, working", "resting, working, resting",
@@ -230,7 +230,7 @@ code_conditions <- function(signal) {
             "T1: walking or running on treadmill: 1–2 km/h (30 s), 6–8 km/h (1 min), 12–15 km/h (1 min), 6–8 km/h (1 min), 12–15 km/h (1 min), and 1–2 km/h (30 s); T2: forearm/upper arm exercises (e.g. shake hands, stretch, push, running, jump, and push-ups). T3: intense arm movements (e.g. boxing)",
             "walking or running on treadmill: 1–2 km/h (30 s), 6–8 km/h (1 min), 12–15 km/h (1 min), 6–8 km/h (1 min), 12–15 km/h (1 min), and 1–2 km/h (30 s)"
           ) ~ 2L,
-          signal %in% c(
+          conditions %in% c(
             "regular daily activities", "everyday activities", 
             "daily routine activity", 
             "daily living; activities, e.g., sitting, walking and resting, and sleep",

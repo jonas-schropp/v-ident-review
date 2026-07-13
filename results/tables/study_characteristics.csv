@@ -1,0 +1,27 @@
+id,authors,year,experiments,modalities
+253,Pasero,2015,1,ECG
+189,Enamamu,2017,4,EDA
+459,Enamamu,2017,5,PPG
+460,Šprager,2017,1,ECG
+266,Everson,2018,12,PPG
+278,Martinho,2018,8,ECG; PPG
+205,Fahrid,2019,2,ECG; PPG
+374,Biswas,2019,1,PPG
+55,Ekiz,2020,30,PPG
+305,Ekiz,2020,27,"EDA; EDA, PPG; PPG"
+330,Chandrashekhar,2020,21,ECG
+455,Repcik,2020,3,ECG
+486,Enamamu,2020,96,PPG
+43,Weihong,2021,1,ECG
+61,Vhaduri,2021,4,PPG; PPG+microphone
+147,Hsu,2021,120,SCG
+36,Bıçakcı,2022,12,ECG
+298,Zhao,2022,19,PPG
+445,Nawawi,2023,6,ECG
+28,Chibbar,2024,1,PPG
+75,Hinatsu,2024,27,VHF
+382,Vhaduri,2024,6,"PPG; PPG, microphone"
+475,Chang,2024,10,ECG
+495,Nawawi,2024,5,ECG
+401,Wu,2025,34,PPG
+447,Yeşilkaya,2025,270,ECG

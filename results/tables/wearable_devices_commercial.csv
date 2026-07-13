@@ -1,0 +1,21 @@
+device,device location,modality,number of studies,number of experiments,sampling frequency,number of channels / electrodes,study_ids
+ASUS VivoWatch BP,wrist,ECG,1,10,60 Hz,not reported,475
+Apple watch,wrist,ECG,1,21,514 Hz,similar to Lead I,330
+Empatica E4,wrist,EDA,1,9,4 Hz,not reported,305
+Empatica E4,wrist,"EDA, PPG",1,9,"4 Hz, 64 Hz",1 channel,305
+Empatica E4,wrist,PPG,3,20,64 Hz,not reported | 1 channel | one channel (green),28; 305; 55
+Fitbit Charge HR,wrist,PPG,1,2,not reported,one channel (green),61
+Fitbit Charge HR+Evistr Digital microphone Recorder,wrist,PPG+microphone,1,2,not reported+44.1 kHz,one channel (green),61
+Fitbit Ionic,wrist,PPG,1,3,not reported,one channel (green),382
+Fitbit Ionic + microphone,wrist,"PPG, microphone",1,3,"not reported, 44.1 kHz",one channel (green),382
+Hexoskin Hx1,chest/torso,ECG,2,282,256 Hz,3 electrodes,36; 447
+Hexoskin Proshirt,chest/torso,ECG,1,6,256 Hz,3 electrodes,445
+Hexoskin Proshirt / HeartIn Fit shirt,chest/torso,ECG,1,5,"256 Hz, 512 Hz",3 & 2,495
+Huawei Watch G2,wrist,PPG,1,34,100hz,not reported,401
+Maxim wristband,wrist,ECG,1,3,512 Hz,Lead I,455
+Microsoft Band 2,wrist,EDA,1,4,not reported,not reported,189
+Microsoft Band 2,wrist,PPG,1,96,8 Hz,one channel (green),486
+"Mio Fuse, Fitbit, Microsoft Band",wrist,PPG,1,5,"16 Hz, 32 Hz, 64 Hz",not reported,459
+Samsung Gear S,wrist,PPG,1,10,100hz,one channel (green),55
+Samsung Gear S2,wrist,PPG,1,10,100hz,one channel (green),55
+Savvy,chest/torso,ECG,1,1,125 Hz,2 lead / 12 electrode,460

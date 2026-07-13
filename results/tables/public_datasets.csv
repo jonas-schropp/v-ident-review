@@ -1,0 +1,6 @@
+dataset_name,study_ids,N,modality,acquisition time,conditions,situational stability,permanence
+Blasco & Lopez,205,10,ECG | PPG,up to 5 min,one condition,None,Not reported
+IEEE SPC,374,20,PPG,5-30 min,multiple conditions,Moderate,One day
+PPG-DaLiA,28,15,PPG,5-30 min,one condition,Limited,One day
+TROIKA,266,12,PPG,up to 5 min,multiple conditions,Moderate,One day
+Vollmer DB,36; 447,13,ECG,5-30 min | up to 5 min,multiple conditions | one condition,None | Moderate | High,One day
