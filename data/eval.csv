@@ -1,0 +1,740 @@
+id,experience,modality,internal,external,EER,accuracy,F1,AUC,memory performance,Number of signals rejected for poor quality (FTA),authentication time,Enroll time,further metrics,...14
+28,NA,PPG,time-based splitting,14 intruders,4.8%,NA,NA,NA,NA,NA,64 PPG readings,5 min,NA,NA
+36,Hexoskin M50 NB,ECG,"5-Fold CV, 3 intruders held out in each fold, 50/50 training/testing within fold",3 intruders,24.62%,NA,NA,NA,NA,NA,4s,837 samples,NA,NA
+36,Hexoskin M40 NB,ECG,"5-Fold CV, 3 intruders held out in each fold, 60/40 training/testing within fold",3 intruders,21.09%,NA,NA,NA,NA,NA,4s,1005 samples,NA,NA
+36,Hexoskin M30 NB,ECG,"5-Fold CV, 3 intruders held out in each fold, 70/30 training/testing within fold",3 intruders,18.27%,NA,NA,NA,NA,NA,4s,1172 samples,NA,NA
+36,Hexoskin E50 NB,ECG,"5-Fold CV, 3 intruders held out in each fold, 50/50 training/testing within fold",3 intruders,26.04%,NA,NA,NA,NA,NA,4s,837 samples,NA,NA
+36,Hexoskin E40 NB,ECG,"5-Fold CV, 3 intruders held out in each fold, 60/40 training/testing within fold",3 intruders,22.05%,NA,NA,NA,NA,NA,4s,1005 samples,NA,NA
+36,Hexoskin E30 NB,ECG,"5-Fold CV, 3 intruders held out in each fold, 70/30 training/testing within fold",3 intruders,20.38%,NA,NA,NA,NA,NA,4s,1172 samples,NA,NA
+36,Hexoskin M50 DT,ECG,"5-Fold CV, 3 intruders held out in each fold, 50/50 training/testing within fold",3 intruders,30.87%,NA,NA,NA,NA,NA,4s,837 samples,NA,NA
+36,Hexoskin M40 DT,ECG,"5-Fold CV, 3 intruders held out in each fold, 60/40 training/testing within fold",3 intruders,26.64%,NA,NA,NA,NA,NA,4s,1005 samples,NA,NA
+36,Hexoskin M30 DT,ECG,"5-Fold CV, 3 intruders held out in each fold, 70/30 training/testing within fold",3 intruders,25.42%,NA,NA,NA,NA,NA,4s,1172 samples,NA,NA
+36,Hexoskin E50 DT,ECG,"5-Fold CV, 3 intruders held out in each fold, 50/50 training/testing within fold",3 intruders,31.67%,NA,NA,NA,NA,NA,4s,837 samples,NA,NA
+36,Hexoskin E40 DT,ECG,"5-Fold CV, 3 intruders held out in each fold, 60/40 training/testing within fold",3 intruders,29.33%,NA,NA,NA,NA,NA,4s,1005 samples,NA,NA
+36,Hexoskin E30 DT,ECG,"5-Fold CV, 3 intruders held out in each fold, 70/30 training/testing within fold",3 intruders,26.41%,NA,NA,NA,NA,NA,4s,1172 samples,NA,NA
+43,NA,ECG,not described,?,2.11%,NA,NA,NA,9kb,NA,single heartbeat,?,NA,NA
+55,Empatica kNN 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,19.43 (10.2),NA,NA,NA,NA,5.94%,2 min,90 min,NA,NA
+55,Empatica RF 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,6.77 (4.08),NA,NA,NA,NA,5.94%,2 min,90 min,NA,NA
+55,Empatica MLP 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,13.03 (8.73),NA,NA,NA,NA,5.94%,2 min,90 min,NA,NA
+55,Empatica LR 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,13.47 (6.87),NA,NA,NA,NA,5.94%,2 min,90 min,NA,NA
+55,Empatica NB 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,15.77 (5.78),NA,NA,NA,NA,5.94%,2 min,90 min,NA,NA
+55,S kNN 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,4.84 (4),NA,NA,NA,NA,12.66%,2 min,90 min,NA,NA
+55,S RF 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,3.96 (1.38),NA,NA,NA,NA,12.66%,2 min,90 min,NA,NA
+55,S MLP 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,4.8 (0.707),NA,NA,NA,NA,12.66%,2 min,90 min,NA,NA
+55,S LR 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,3.53 (0.666),NA,NA,NA,NA,12.66%,2 min,90 min,NA,NA
+55,S NB 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,7.71 (2.11),NA,NA,NA,NA,12.66%,2 min,90 min,NA,NA
+55,S2 kNN 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,30.86 (8.16),NA,NA,NA,NA,32.36%,2 min,90 min,NA,NA
+55,S2 RF 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,13.28 (6.54),NA,NA,NA,NA,32.36%,2 min,90 min,NA,NA
+55,S2 MLP 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,21.36 (8.20),NA,NA,NA,NA,32.36%,2 min,90 min,NA,NA
+55,S2 LR 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,20.86 (6.56),NA,NA,NA,NA,32.36%,2 min,90 min,NA,NA
+55,S2 NB 9/1,PPG,nested: 10-fold CV within users + 10/90 split,no intruders,18.74 (7.18),NA,NA,NA,NA,32.36%,2 min,90 min,NA,NA
+55,Empatica kNN 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,13.77%,NA,NA,NA,NA,5.94%,2 min,70 min,NA,NA
+55,Empatica RF 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,11.26%,NA,NA,NA,NA,5.94%,2 min,70 min,NA,NA
+55,Empatica MLP 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,14.26%,NA,NA,NA,NA,5.94%,2 min,70 min,NA,NA
+55,Empatica LR 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,14.13%,NA,NA,NA,NA,5.94%,2 min,70 min,NA,NA
+55,Empatica NB 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,16.21%,NA,NA,NA,NA,5.94%,2 min,70 min,NA,NA
+55,S kNN 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,3.18%,NA,NA,NA,NA,12.66%,2 min,70 min,NA,NA
+55,S RF 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,4.24%,NA,NA,NA,NA,12.66%,2 min,70 min,NA,NA
+55,S MLP 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,4.24%,NA,NA,NA,NA,12.66%,2 min,70 min,NA,NA
+55,S LR 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,3.8%,NA,NA,NA,NA,12.66%,2 min,70 min,NA,NA
+55,S NB 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,3.92%,NA,NA,NA,NA,12.66%,2 min,70 min,NA,NA
+55,S2 kNN 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,18.01%,NA,NA,NA,NA,32.36%,2 min,70 min,NA,NA
+55,S2 RF 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,21.06%,NA,NA,NA,NA,32.36%,2 min,70 min,NA,NA
+55,S2 MLP 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,21.06%,NA,NA,NA,NA,32.36%,2 min,70 min,NA,NA
+55,S2 LR 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,19.26%,NA,NA,NA,NA,32.36%,2 min,70 min,NA,NA
+55,S2 NB 7/3,PPG,nested: 10-fold CV within users + 30/70 split,no intruders,19.81%,NA,NA,NA,NA,32.36%,2 min,70 min,NA,NA
+75,SVM AC/DCT,VHF,3-fold-CV,no intruders,7.1 (6.3),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,RF AC/DCT,VHF,3-fold-CV,no intruders,7.1 (5.3),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,XGB AC/DCT,VHF,3-fold-CV,no intruders,7.1 (4.7),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,MLP AC/DCT,VHF,3-fold-CV,no intruders,7 (5.4),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,SVM MFCC,VHF,3-fold-CV,no intruders,14.5 (9.6,NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,RF MFCC,VHF,3-fold-CV,no intruders,11.4 (6.3),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,XGB MFCC,VHF,3-fold-CV,no intruders,11.4 (6.5),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,MLP MFCC,VHF,3-fold-CV,no intruders,12.3 (6.3),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,SVM AC/DCT+MFCC,VHF,3-fold-CV,no intruders,6.1 (4.4),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,RF AC/DCT+MFCC,VHF,3-fold-CV,no intruders,6.3 (4.2),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,XGB AC/DCT+MFCC,VHF,3-fold-CV,no intruders,7.6 (4),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,MLP AC/DCT+MFCC,VHF,3-fold-CV,no intruders,6.3 (4.5),NA,NA,NA,NA,NA,5 s,600 s,NA,NA
+75,SVM rr,VHF,3-fold-CV,no intruders,6.1 (4.4),92.3 (6),91.8 (7.1),96.9 (3.4),NA,NA,5 s,300 s,NA,NA
+75,SVM ww,VHF,3-fold-CV,no intruders,10.2 (7.6),90 (7.3),89.9 (7.4),94.8 (6.1),NA,NA,5 s,300 s,NA,NA
+75,SVM rw,VHF,3-fold-CV,no intruders,21.6 (14),74.4 (12.3),71.9 (15),74.1 (13.7),NA,NA,5 s,600 s,NA,NA
+75,RF rr,VHF,3-fold-CV,no intruders,6.3 (4.2),82 (9),79.9 (11.5),97.2 (3.6),NA,NA,5 s,300 s,NA,NA
+75,RF ww,VHF,3-fold-CV,no intruders,9.6 (6.3),84.1 (8.8),83 (10.2),95.5 (5.2),NA,NA,5 s,300 s,NA,NA
+75,RF rw,VHF,3-fold-CV,no intruders,21.7 (9.6),61.8 (10.4),52.9 (15.4),61.7 (11.2),NA,NA,5 s,600 s,NA,NA
+75,XGB rr,VHF,3-fold-CV,no intruders,7.6 (4.1),86.1 (7.6),85 (9.1),96.6 (3.8),NA,NA,5 s,300 s,NA,NA
+75,XGB ww,VHF,3-fold-CV,no intruders,9.9 (5.9),85.5 (8.3),84.8 (9.2),95.5 (4.7),NA,NA,5 s,300 s,NA,NA
+75,XGB rw,VHF,3-fold-CV,no intruders,23.7 (8.5),60.3 (8.6),51.1 (13.2),61.5 (10.3),NA,NA,5 s,600 s,NA,NA
+75,MLP rr,VHF,3-fold-CV,no intruders,6.3 (4.5),90.8 (6.9),90.1 (8.2),97 (3.8),NA,NA,5 s,300 s,NA,NA
+75,MLP ww,VHF,3-fold-CV,no intruders,8.8 (7.2),87.6 (9),87.1 (9.8),95.7 (5.1),NA,NA,5 s,300 s,NA,NA
+75,MLP rw,VHF,3-fold-CV,no intruders,24.9 (16.4),70.2 (14.3),67 (17.4),79.7 (16.5),NA,NA,5 s,600 s,NA,NA
+75,1D CNN rr,VHF,3-fold-CV,no intruders,7.5 (6.8),91 (8.2),90.4 (9.9),95 (7.1),NA,NA,5 s,300 s,NA,NA
+75,1D CNN ww,VHF,3-fold-CV,no intruders,14.5 (9.7),82.6 (10.9),81.6 (12.6),90.3 (9.3),NA,NA,5 s,300 s,NA,NA
+75,1D CNN rw,VHF,3-fold-CV,no intruders,25 (14.9),70.6 (13.9),68 (16.2),79.4 (15.3),NA,NA,5 s,600 s,NA,NA
+147,Right Hand Vertical Sit,SCG,70/30 random split,no intruders,45.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Sit,SCG,70/30 random split,no intruders,49.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Sit,SCG,70/30 random split,no intruders,49.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Sit,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Sit,SCG,70/30 random split,no intruders,48.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Sit,SCG,70/30 random split,no intruders,46.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Sit,SCG,70/30 random split,no intruders,43.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Sit,SCG,70/30 random split,no intruders,43.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Sit,SCG,70/30 random split,no intruders,46.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Sit,SCG,70/30 random split,no intruders,28.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Sit,SCG,70/30 random split,no intruders,37.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Sit,SCG,70/30 random split,no intruders,33.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Sit,SCG,70/30 random split,no intruders,27.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Sit,SCG,70/30 random split,no intruders,36.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Sit,SCG,70/30 random split,no intruders,32.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Resilient Sit,SCG,70/30 random split,no intruders,14.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Resilient Sit,SCG,70/30 random split,no intruders,17.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Resilient Sit,SCG,70/30 random split,no intruders,18.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Resilient Sit,SCG,70/30 random split,no intruders,16.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Resilient Sit,SCG,70/30 random split,no intruders,17.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Resilient Sit,SCG,70/30 random split,no intruders,13.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Resilient Sit,SCG,70/30 random split,no intruders,9.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Resilient Sit,SCG,70/30 random split,no intruders,13.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Resilient Sit,SCG,70/30 random split,no intruders,12.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Resilient Sit,SCG,70/30 random split,no intruders,1.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Resilient Sit,SCG,70/30 random split,no intruders,5.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Resilient Sit,SCG,70/30 random split,no intruders,2.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Resilient Sit,SCG,70/30 random split,no intruders,1.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Resilient Sit,SCG,70/30 random split,no intruders,4.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Resilient Sit,SCG,70/30 random split,no intruders,1.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Stand,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Stand,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Stand,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Stand,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Stand,SCG,70/30 random split,no intruders,48.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Stand,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Stand,SCG,70/30 random split,no intruders,40.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Stand,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Stand,SCG,70/30 random split,no intruders,45.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Stand,SCG,70/30 random split,no intruders,28.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Stand,SCG,70/30 random split,no intruders,35.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Stand,SCG,70/30 random split,no intruders,26.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Stand,SCG,70/30 random split,no intruders,28.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Stand,SCG,70/30 random split,no intruders,33.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Stand,SCG,70/30 random split,no intruders,28.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Resilient Stand,SCG,70/30 random split,no intruders,15.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Resilient Stand,SCG,70/30 random split,no intruders,19.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Resilient Stand,SCG,70/30 random split,no intruders,15.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Resilient Stand,SCG,70/30 random split,no intruders,13.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Resilient Stand,SCG,70/30 random split,no intruders,18.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Resilient Stand,SCG,70/30 random split,no intruders,20.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Resilient Stand,SCG,70/30 random split,no intruders,6.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Resilient Stand,SCG,70/30 random split,no intruders,15.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Resilient Stand,SCG,70/30 random split,no intruders,14.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Resilient Stand,SCG,70/30 random split,no intruders,1.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Resilient Stand,SCG,70/30 random split,no intruders,0.3%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Resilient Stand,SCG,70/30 random split,no intruders,0.1%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Resilient Stand,SCG,70/30 random split,no intruders,0.3%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Resilient Stand,SCG,70/30 random split,no intruders,0.6%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Resilient Stand,SCG,70/30 random split,no intruders,0.3%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Walk,SCG,70/30 random split,no intruders,35.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Walk,SCG,70/30 random split,no intruders,50.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Walk,SCG,70/30 random split,no intruders,52.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Walk,SCG,70/30 random split,no intruders,52.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Walk,SCG,70/30 random split,no intruders,51.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Walk,SCG,70/30 random split,no intruders,48.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Walk,SCG,70/30 random split,no intruders,49.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Walk,SCG,70/30 random split,no intruders,49.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Walk,SCG,70/30 random split,no intruders,49.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Walk,SCG,70/30 random split,no intruders,44.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Walk,SCG,70/30 random split,no intruders,45.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Walk,SCG,70/30 random split,no intruders,41.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Walk,SCG,70/30 random split,no intruders,45.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Walk,SCG,70/30 random split,no intruders,43.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Walk,SCG,70/30 random split,no intruders,41.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Resilient Walk,SCG,70/30 random split,no intruders,25.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Resilient Walk,SCG,70/30 random split,no intruders,29.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Resilient Walk,SCG,70/30 random split,no intruders,23.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Resilient Walk,SCG,70/30 random split,no intruders,26.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Resilient Walk,SCG,70/30 random split,no intruders,29.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Resilient Walk,SCG,70/30 random split,no intruders,21.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Resilient Walk,SCG,70/30 random split,no intruders,19.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Resilient Walk,SCG,70/30 random split,no intruders,25.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Resilient Walk,SCG,70/30 random split,no intruders,23.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Resilient Walk,SCG,70/30 random split,no intruders,6.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Resilient Walk,SCG,70/30 random split,no intruders,13.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Resilient Walk,SCG,70/30 random split,no intruders,6.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Resilient Walk,SCG,70/30 random split,no intruders,6.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Resilient Walk,SCG,70/30 random split,no intruders,14.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Resilient Walk,SCG,70/30 random split,no intruders,4.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Post-Exercise,SCG,70/30 random split,no intruders,45.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Post-Exercise,SCG,70/30 random split,no intruders,48.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Post-Exercise,SCG,70/30 random split,no intruders,49.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Post-Exercise,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Post-Exercise,SCG,70/30 random split,no intruders,48.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Post-Exercise,SCG,70/30 random split,no intruders,47.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Post-Exercise,SCG,70/30 random split,no intruders,41.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Post-Exercise,SCG,70/30 random split,no intruders,45.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Post-Exercise,SCG,70/30 random split,no intruders,48.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Post-Exercise,SCG,70/30 random split,no intruders,30.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Post-Exercise,SCG,70/30 random split,no intruders,37.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Post-Exercise,SCG,70/30 random split,no intruders,31.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Post-Exercise,SCG,70/30 random split,no intruders,31.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Post-Exercise,SCG,70/30 random split,no intruders,36.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Post-Exercise,SCG,70/30 random split,no intruders,31.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Vertical Resilient Post-Exercise,SCG,70/30 random split,no intruders,20.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Horizontal Resilient Post-Exercise,SCG,70/30 random split,no intruders,19.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Right Hand Dorsal-Ventral Resilient Post-Exercise,SCG,70/30 random split,no intruders,18.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Vertical Resilient Post-Exercise,SCG,70/30 random split,no intruders,13.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Horizontal Resilient Post-Exercise,SCG,70/30 random split,no intruders,19.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Hand Dorsal-Ventral Resilient Post-Exercise,SCG,70/30 random split,no intruders,20.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Vertical Resilient Post-Exercise,SCG,70/30 random split,no intruders,9.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Horizontal Resilient Post-Exercise,SCG,70/30 random split,no intruders,12.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Left Carotid Dorsal-Ventral Resilient Post-Exercise,SCG,70/30 random split,no intruders,11.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Vertical Resilient Post-Exercise,SCG,70/30 random split,no intruders,0.1%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Horizontal Resilient Post-Exercise,SCG,70/30 random split,no intruders,2.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Heart Dorsal-Ventral Resilient Post-Exercise,SCG,70/30 random split,no intruders,2.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Vertical Resilient Post-Exercise,SCG,70/30 random split,no intruders,0.1%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Horizontal Resilient Post-Exercise,SCG,70/30 random split,no intruders,2.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+147,Sternum Dorsal-Ventral Resilient Post-Exercise,SCG,70/30 random split,no intruders,1.0%,NA,NA,NA,NA,NA,1 sec,126 sec,NA,NA
+189,NN-FF intraday,EDA,"60/40, not clear whether random or across time",no intruders,1.46% (1.53),NA,NA,NA,NA,NA,3 sec,>144 min,NA,NA
+189,NN-FF 2,EDA,"training day 1, testing day 2",no intruders,2.18% (2.65),NA,NA,NA,NA,NA,3 sec,>240 min,NA,NA
+189,NN-FF 3,EDA,"training day 1, testing day 3",no intruders,3.4% (4.88),NA,NA,NA,NA,NA,3 sec,>240 min,NA,NA
+189,NN-FF best score,EDA,"day 1 60/40, not clear whether random or across time, days 2+3 testing",no intruders,0.54% (1),NA,NA,NA,NA,NA,3 sec,>240 min,NA,NA
+205,PPG,PPG,"train/test, unclear how split, only one valid user",no intruders,NA,100.0%,1,NA,NA,NA,?,?,"Precision=1, Recall=1, TNR=1",NA
+205,ECG,ECG,"train/test, unclear how split, only one valid user",no intruders,NA,88.9%,0.86,NA,NA,NA,?,?,"Precision=0.78, Recall=1, TNR=1",NA
+253,NA,ECG,LO-intruder-O- CV,38 intruders,NA,NA,NA,NA,NA,NA,10s,20x10s?,NA,NA
+278,S1 idle - S1 typing1 PPG,PPG,split between tasks,no intruders,20.68% (1.18),NA,NA,NA,NA,36-85%,600 ms,2 min,NA,NA
+278,S1 idle - S1 touchpad PPG,PPG,split between tasks,no intruders,6.84% (0.65),NA,NA,NA,NA,36-85%,600 ms,2 min,NA,NA
+278,S1 idle - S1 typing 2 PPG,PPG,split between tasks,no intruders,22.12% (0.77),NA,NA,NA,NA,36-85%,600 ms,2 min,NA,NA
+278,S1 idle - S2 idle PPG,PPG,split between sessions,no intruders,27.9% (0.55),NA,NA,NA,NA,36-85%,600 ms,2 min,NA,NA
+278,S1 idle - S1 typing1 ECG,ECG,split between tasks,no intruders,6.66% (0.04),NA,NA,NA,NA,ca. 11%,600 ms,2 min,NA,NA
+278,S1 idle - S1 touchpad ECG,ECG,split between tasks,no intruders,5.88% (0.35),NA,NA,NA,NA,ca. 11%,600 ms,2 min,NA,NA
+278,S1 idle - S1 typing 2 ECG,ECG,split between tasks,no intruders,7.53% (0.4),NA,NA,NA,NA,ca. 11%,600 ms,2 min,NA,NA
+278,S1 idle - S2 idle ECG,ECG,split between sessions,no intruders,32.72% (0.4),NA,NA,NA,NA,ca. 11%,600 ms,2 min,NA,NA
+298,static GBT,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,90.73%,NA,NA,NA,NA,NA,5 min,NA,NA
+298,static 4 windows,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,90.0%,NA,NA,NA,NA,4*(HB+2s),5 min,TNR=88%; FNR=3.9%,NA
+298,static 6 windows,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,90.0%,NA,NA,NA,NA,6*(HB+2s),5 min,TNR=90%; FNR=4.2%,NA
+298,static 5min,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,90.65%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,static 1min,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,77.75%,NA,NA,NA,NA,6*(HB+2s),1 min,NA,NA
+298,static SVM,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,75.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,static NN,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,80.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,static 25hz,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,88.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,far-wrist MA removal,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,89.2%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,far-wrist  no MA removal,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,72.2%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,near-wrist MA removal,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,75.2%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,near-wrist  no MA removal,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,36.6%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,static 2h,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,86.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,static 3h,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,84.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,static adaptive 3h,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,90.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,VMD+FastICA 12s,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,62.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,CEEMDAN + FastICA 12s,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,63.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,VMD+FastICA 24s,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,69.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+298,CEEMDAN + FastICA 24s,PPG,20 x Monte Carlo CV 50/50 across time,no intruders,NA,74.0%,NA,NA,NA,NA,6*(HB+2s),5 min,NA,NA
+305,LR 30 EDA,EDA,"4 days training, day 5 testing",no intruders,21.87%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,MLP 30 EDA,EDA,"4 days training, day 5 testing",no intruders,22.08%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,RF 30 EDA,EDA,"4 days training, day 5 testing",no intruders,22.14%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,LR 60 EDA,EDA,"4 days training, day 5 testing",no intruders,22.34%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,MLP 60 EDA,EDA,"4 days training, day 5 testing",no intruders,21.43%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,RF 60 EDA,EDA,"4 days training, day 5 testing",no intruders,21.05%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,LR 120 EDA,EDA,"4 days training, day 5 testing",no intruders,25.88%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,MLP 120 EDA,EDA,"4 days training, day 5 testing",no intruders,24.71%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,RF 120 EDA,EDA,"4 days training, day 5 testing",no intruders,25.34%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,LR 30 HRV,PPG,"4 days training, day 5 testing",no intruders,18.17%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,MLP 30 HRV,PPG,"4 days training, day 5 testing",no intruders,18.21%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,RF 30 HRV,PPG,"4 days training, day 5 testing",no intruders,17.88%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,LR 60 HRV,PPG,"4 days training, day 5 testing",no intruders,19.24%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,MLP 60 HRV,PPG,"4 days training, day 5 testing",no intruders,18.38%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,RF 60 HRV,PPG,"4 days training, day 5 testing",no intruders,18.44%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,LR 120 HRV,PPG,"4 days training, day 5 testing",no intruders,19.66%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,MLP 120 HRV,PPG,"4 days training, day 5 testing",no intruders,19.49%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,RF 120 HRV,PPG,"4 days training, day 5 testing",no intruders,19.03%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,LR 30 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,15.06%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,MLP 30 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,14.87%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,RF 30 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,14.01%,NA,NA,NA,NA,NA,30s,4 days,NA,NA
+305,LR 60 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,15.44%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,MLP 60 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,13.95%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,RF 60 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,14.63%,NA,NA,NA,NA,NA,60s,4 days,NA,NA
+305,LR 120 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,17.38%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,MLP 120 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,15.66%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+305,RF 120 EDA-HRV,"EDA, PPG","4 days training, day 5 testing",no intruders,14.51%,NA,NA,NA,NA,NA,120s,4 days,NA,NA
+330,Apple watch LR:ACC,ECG,LOO-CV,no intruders,14.67%,89.57%,NA,87.31%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch LR:MFCC,ECG,LOO-CV,no intruders,7.86%,93.82%,NA,95.33%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch LR:QRS,ECG,LOO-CV,no intruders,2.77%,98.13%,NA,99.21%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch LDA:ACC,ECG,LOO-CV,no intruders,8.71%,94.65%,NA,92.95%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch LDA:MFCC,ECG,LOO-CV,no intruders,8.6%,92.90%,NA,95.30%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch LDA:QRS,ECG,LOO-CV,no intruders,3.21%,97.57%,NA,99.17%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch SVM:ACC,ECG,LOO-CV,no intruders,12.12%,92.82%,NA,90.8%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch SVM:MFCC,ECG,LOO-CV,no intruders,15.21%,87.30%,NA,94.56%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch SVM:QRS,ECG,LOO-CV,no intruders,10.34%,90.94,NA,95.88%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch RBF-SVM:ACC,ECG,LOO-CV,no intruders,12.46%,90.07,NA,90.33%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch RBF-SVM:MFCC,ECG,LOO-CV,no intruders,9.05%,86.87,NA,92.52%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch RBF-SVM:QRS,ECG,LOO-CV,no intruders,3.9%,95.88%,NA,98.42%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch KNN:ACC,ECG,LOO-CV,no intruders,5.93%,94.01%,NA,91.72%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch KNN:MFCC,ECG,LOO-CV,no intruders,5.4%,95.06%,NA,95.34%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch KNN:QRS,ECG,LOO-CV,no intruders,0.8%,99.2%,NA,99.46%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch DT:ACC,ECG,LOO-CV,no intruders,5.19%,91.67%,NA,82.14%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch DT:MFCC,ECG,LOO-CV,no intruders,3.64%,94.41%,NA,89.14%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch DT:QRS,ECG,LOO-CV,no intruders,1.17%,97.98%,NA,96.40%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch RF:ACC,ECG,LOO-CV,no intruders,8.19%,94.34%,NA,94.79%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch RF:MFCC,ECG,LOO-CV,no intruders,5.37%,96.41%,NA,97.53%,NA,NA,1 HB,~1 min,NA,NA
+330,Apple watch RF:QRS,ECG,LOO-CV,no intruders,1.12%,99.17%,NA,99.92%,NA,NA,1 HB,~1 min,NA,NA
+401,S1 in-sample 30HB s80,PPG,8-fold CV over sessions within users,no intruders,NA,92.1%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample 30HB s80,PPG,8-fold CV over sessions within users,6 intruders,NA,88.3%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample 1HB,PPG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+401,S1 out-of-sample 5HB,PPG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+401,S1 out-of-sample 15HB,PPG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+401,S1 in-sample 1HB,PPG,8-fold CV over sessions within users,no intruders,NA,87.3%,NA,NA,NA,NA,1 HB,~110 min,NA,NA
+401,S1 out-of-sample 30HB s20,PPG,8-fold CV over sessions within users,6 intruders,NA,80.4%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample 30HB s40,PPG,8-fold CV over sessions within users,6 intruders,NA,NA,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample 30HB s60,PPG,8-fold CV over sessions within users,6 intruders,NA,NA,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 in-sample 30HB s20,PPG,8-fold CV over sessions within users,no intruders,NA,82.1%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 in-sample s80 30HB low-HR,PPG,8-fold CV over sessions within users,no intruders,NA,76.3%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 in-sample s80 30HB mid-HR,PPG,8-fold CV over sessions within users,no intruders,NA,72.6%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 in-sample s80 30HB high-HR,PPG,8-fold CV over sessions within users,no intruders,NA,67.4%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample s80 30HB low-HR,PPG,8-fold CV over sessions within users,6 intruders,NA,76.6%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample s80 30HB mid-HR,PPG,8-fold CV over sessions within users,6 intruders,NA,72.7%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S1 out-of-sample s80 30HB high-HR,PPG,8-fold CV over sessions within users,6 intruders,NA,73.6%,NA,NA,NA,NA,30HB,~110 min,NA,NA
+401,S2 in-sample s80 30HB low-low,PPG,8-fold CV over sessions within users,no intruders,NA,91.4%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB low-mid,PPG,8-fold CV over sessions within users,no intruders,NA,65.6%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB low-high,PPG,8-fold CV over sessions within users,no intruders,NA,62.7%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB mid-low,PPG,8-fold CV over sessions within users,no intruders,NA,87.0%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB mid-mid,PPG,8-fold CV over sessions within users,no intruders,NA,89.3%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB mid-high,PPG,8-fold CV over sessions within users,no intruders,NA,71.1%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB high-low,PPG,8-fold CV over sessions within users,no intruders,NA,80.1%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB high-mid,PPG,8-fold CV over sessions within users,no intruders,NA,76.1%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 in-sample s80 30HB high-high,PPG,8-fold CV over sessions within users,no intruders,NA,86.4%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB low-low,PPG,8-fold CV over sessions within users,6 intruders,NA,89.2%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB low-mid,PPG,8-fold CV over sessions within users,6 intruders,NA,65.9%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB low-high,PPG,8-fold CV over sessions within users,6 intruders,NA,61.9%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB mid-low,PPG,8-fold CV over sessions within users,6 intruders,NA,86.8%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB mid-mid,PPG,8-fold CV over sessions within users,6 intruders,NA,86.7%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB mid-high,PPG,8-fold CV over sessions within users,6 intruders,NA,71.8%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB high-low,PPG,8-fold CV over sessions within users,6 intruders,NA,79.5%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB high-mid,PPG,8-fold CV over sessions within users,6 intruders,NA,76.2%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+401,S2 out-of-sample s80 30HB high-high,PPG,8-fold CV over sessions within users,6 intruders,NA,84.5%,NA,NA,NA,NA,30HB,~130 min,NA,NA
+61,L1HR binary SVM,PPG,6-fold CV within participants (5/6 breathing events),no intruders,NA,67% (12),0.63 (0.15),67% (12),NA,NA,?,5 breathing events,RMSE=o.o4 (0.01); TAR=60% (18); AWSP=0.43; TRR=74% (16),NA
+61,L3aHR+Resp binary SVM,PPG+microphone,6-fold CV within participants (5/6 breathing events),no intruders,NA,94% (3),0.94 (0.04),94% (3),NA,NA,?,5 breathing events,RMSE=0.02 (0.01); TAR=95% (4); AWSP=0.89; TRR=93% (4),NA
+61,L1HR unary SVM,PPG,6-fold CV within participants (5/6 breathing events),no intruders,NA,55% (5),0.55 (0.07),NA,NA,NA,?,5 breathing events,RMSE=0.05 (0.09); TAR=57% (7); AWSP=0.31; TRR=54% (9),NA
+61,L3aHR+Resp unary SVM,PPG+microphone,6-fold CV within participants (5/6 breathing events),no intruders,NA,78% (6),0.76 (0.05),NA,NA,NA,?,5 breathing events,RMSE=0.03 (0.00); TAR=70% (5); AWSP=0.6; TRR=86% (11),NA
+495,S1,ECG,"10-fold CV, unclear whether within participants or not",no intruders,NA,99.27%,NA,NA,NA,NA,?,15 min,TPR=92.77%; FRR=7.23%; FAR=0.40%,NA
+495,S2,ECG,"Train T1, Test T2",no intruders,NA,93.59%,NA,NA,NA,NA,?,13 min,TPR=30.81%; FRR=69.19%; FAR=2.84%,NA
+495,S3,ECG,"Train T1 + T2, Test T2 - maybe some sort of 10-fold CV?",no intruders,NA,99.20%,NA,NA,NA,NA,?,27 min,TPR=90.32%; FRR=9.68%; FAR=0.27%,NA
+495,S4,ECG,"10-fold CV, unclear whether within participants or not",no intruders,NA,99.63%,NA,NA,NA,NA,?,12 min,TPR=97.14%; FRR=2.86%; FAR=0.14%,NA
+495,S5,ECG,"Train T1, Test T2",no intruders,NA,88.86%,NA,NA,NA,NA,?,15 min,TPR=44.56%; FRR=55.44%; FAR=6.05%,NA
+475,LSTM / PM 1 subject,ECG,"80/20, 1 valid user",no,NA,92.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,LSTM / PM 2 subject,ECG,"80/20, 2 valid users",no,NA,90.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,LSTM / PM 3 subject,ECG,"80/20, 3 valid users",no,NA,92.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,LSTM / PM 4 subject,ECG,"80/20, 4 valid users",no,NA,91.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,LSTM / PM 5 subject,ECG,"80/20, 5 valid users",no,NA,93.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,AE / PM 1 subject,ECG,"80/20, 1 valid user",no,NA,92.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,AE / PM 2 subject,ECG,"80/20, 2 valid users",no,NA,89.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,AE / PM 3 subject,ECG,"80/20, 3 valid users",no,NA,94.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,AE / PM 4 subject,ECG,"80/20, 4 valid users",no,NA,93.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+475,AE / PM 5 subject,ECG,"80/20, 5 valid users",no,NA,91.0%,NA,NA,NA,NA,?,36 x 15 s,NA,NA
+460,460.0.1,ECG,time-based splitting,no,NA,NA,NA,NA,NA,NA,1HB,5 min  to 3 h,NA,"time-based splitting; four different splitting points: 5 min-355 min (1.4% - 98.6%), 20 min-340 min (5.6%-94.4%), 1 h-5 h (16.7%-83.3%) and 3 h-3 h (50%-50%)
+first number: enrollment duration, second test duration, third enrollment %, fourth Test%"
+459,level 1,PPG,not described,not described,17.2% (7.79),NA,NA,NA,NA,NA,?,?,NA,NA
+459,level 2,PPG,not described,not described,18.2% (7.55),NA,NA,NA,NA,NA,?,?,NA,NA
+459,level 3,PPG,not described,not described,20.9% (7.92),NA,NA,NA,NA,NA,?,?,NA,NA
+459,level 4,PPG,not described,not described,21.8% (8.26),NA,NA,NA,NA,NA,?,?,NA,NA
+459,level fusion,PPG,not described,not described,11.25% (6.16),NA,NA,NA,NA,NA,?,?,NA,NA
+455,time,ECG,"75% selected for training, rest for testing against intruders",12 intruders,NA,NA,NA,NA,NA,NA,300HB,11.25 min,"FAR 7.57, 10.31, 3.46; FRR 10.43, 8.56, 0.48",NA
+455,wavelet,ECG,"75% selected for training, rest for testing against intruders",12 intruders,NA,NA,NA,NA,NA,NA,300HB,11.25 min,"FAR 6.52, 9.71, 4.66; FRR 33.66, 26.23, 4.96",NA
+455,DL,ECG,"75% selected for training, rest for testing against intruders",12 intruders,NA,NA,NA,NA,NA,NA,300HB,11.25 min,"FAR 0.00, 1.72, 0.00; FRR 0.00, 0.00, 0.00",NA
+447,ResNet50 1s Sc2,ECG,80/20 split within 11 users,2 intruders,41.48%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 1s Sc4,ECG,80/20 split within 11 users,2 intruders,34.01%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 1s Sc10,ECG,80/20 split within 11 users,2 intruders,22.53%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 1s Sp2,ECG,80/20 split within 11 users,2 intruders,39.11%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 1s Sp4,ECG,80/20 split within 11 users,2 intruders,35.97%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 1s Sp10,ECG,80/20 split within 11 users,2 intruders,24.39%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 1s Mel2,ECG,80/20 split within 11 users,2 intruders,38.34%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 1s Mel4,ECG,80/20 split within 11 users,2 intruders,35.50%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 1s Mel10,ECG,80/20 split within 11 users,2 intruders,28.10%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 3s Sc2,ECG,80/20 split within 11 users,2 intruders,36.45%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 3s Sc4,ECG,80/20 split within 11 users,2 intruders,12.19%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 3s Sc10,ECG,80/20 split within 11 users,2 intruders,20.47%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 3s Sp2,ECG,80/20 split within 11 users,2 intruders,33.28%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 3s Sp4,ECG,80/20 split within 11 users,2 intruders,30.64%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 3s Sp10,ECG,80/20 split within 11 users,2 intruders,20.95%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 3s Mel2,ECG,80/20 split within 11 users,2 intruders,39.22%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 3s Mel4,ECG,80/20 split within 11 users,2 intruders,34.37%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 3s Mel10,ECG,80/20 split within 11 users,2 intruders,28.79%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 5s Sc2,ECG,80/20 split within 11 users,2 intruders,34.46%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 5s Sc4,ECG,80/20 split within 11 users,2 intruders,11.21%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 5s Sc10,ECG,80/20 split within 11 users,2 intruders,19.09%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 5s Sp2,ECG,80/20 split within 11 users,2 intruders,34.64%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 5s Sp4,ECG,80/20 split within 11 users,2 intruders,28.62%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 5s Sp10,ECG,80/20 split within 11 users,2 intruders,21.23%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 5s Mel2,ECG,80/20 split within 11 users,2 intruders,39.48%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,ResNet50 5s Mel4,ECG,80/20 split within 11 users,2 intruders,35.68%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,ResNet50 5s Mel10,ECG,80/20 split within 11 users,2 intruders,27.55%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 1s Sc2,ECG,80/20 split within 11 users,2 intruders,35.78%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 1s Sc4,ECG,80/20 split within 11 users,2 intruders,22.49%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 1s Sc10,ECG,80/20 split within 11 users,2 intruders,20.47%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 1s Sp2,ECG,80/20 split within 11 users,2 intruders,38.78%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 1s Sp4,ECG,80/20 split within 11 users,2 intruders,33.95%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 1s Sp10,ECG,80/20 split within 11 users,2 intruders,19.58%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 1s Mel2,ECG,80/20 split within 11 users,2 intruders,39.26%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 1s Mel4,ECG,80/20 split within 11 users,2 intruders,38.56%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 1s Mel10,ECG,80/20 split within 11 users,2 intruders,29.17%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 3s Sc2,ECG,80/20 split within 11 users,2 intruders,31.12%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 3s Sc4,ECG,80/20 split within 11 users,2 intruders,10.60%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 3s Sc10,ECG,80/20 split within 11 users,2 intruders,19.92%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 3s Sp2,ECG,80/20 split within 11 users,2 intruders,36.58%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 3s Sp4,ECG,80/20 split within 11 users,2 intruders,29.29%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 3s Sp10,ECG,80/20 split within 11 users,2 intruders,19.03%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 3s Mel2,ECG,80/20 split within 11 users,2 intruders,38.93%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 3s Mel4,ECG,80/20 split within 11 users,2 intruders,37.21%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 3s Mel10,ECG,80/20 split within 11 users,2 intruders,28.90%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 5s Sc2,ECG,80/20 split within 11 users,2 intruders,30.79%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 5s Sc4,ECG,80/20 split within 11 users,2 intruders,8.88%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 5s Sc10,ECG,80/20 split within 11 users,2 intruders,18.13%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 5s Sp2,ECG,80/20 split within 11 users,2 intruders,35.30%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 5s Sp4,ECG,80/20 split within 11 users,2 intruders,27.76%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 5s Sp10,ECG,80/20 split within 11 users,2 intruders,18.20%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,DensNet201 5s Mel2,ECG,80/20 split within 11 users,2 intruders,41.06%,NA,NA,NA,NA,NA,2s,16 min,NA,NA
+447,DensNet201 5s Mel4,ECG,80/20 split within 11 users,2 intruders,35.62%,NA,NA,NA,NA,NA,4s,16 min,NA,NA
+447,DensNet201 5s Mel10,ECG,80/20 split within 11 users,2 intruders,26.85%,NA,NA,NA,NA,NA,10s,16 min,NA,NA
+447,ResNet50 1s Sc2 Resting,ECG,80/20 split within 11 users,2 intruders,25.44%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sc4 Resting,ECG,80/20 split within 11 users,2 intruders,0.98%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sc10 Resting,ECG,80/20 split within 11 users,2 intruders,15.83%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sp2 Resting,ECG,80/20 split within 11 users,2 intruders,30.82%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sp4 Resting,ECG,80/20 split within 11 users,2 intruders,25.74%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sp10 Resting,ECG,80/20 split within 11 users,2 intruders,12.62%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Mel2 Resting,ECG,80/20 split within 11 users,2 intruders,38.28%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Mel4 Resting,ECG,80/20 split within 11 users,2 intruders,31.35%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Mel10 Resting,ECG,80/20 split within 11 users,2 intruders,25.54%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sc2 Resting,ECG,80/20 split within 11 users,2 intruders,21.56%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sc4 Resting,ECG,80/20 split within 11 users,2 intruders,0.98%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sc10 Resting,ECG,80/20 split within 11 users,2 intruders,13.12%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sp2 Resting,ECG,80/20 split within 11 users,2 intruders,26.90%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sp4 Resting,ECG,80/20 split within 11 users,2 intruders,23.53%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sp10 Resting,ECG,80/20 split within 11 users,2 intruders,10.99%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Mel2 Resting,ECG,80/20 split within 11 users,2 intruders,36.47%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Mel4 Resting,ECG,80/20 split within 11 users,2 intruders,31.63%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Mel10 Resting,ECG,80/20 split within 11 users,2 intruders,23.91%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sc2 Resting,ECG,80/20 split within 11 users,2 intruders,21.98%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sc4 Resting,ECG,80/20 split within 11 users,2 intruders,0.74%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sc10 Resting,ECG,80/20 split within 11 users,2 intruders,12.03%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sp2 Resting,ECG,80/20 split within 11 users,2 intruders,26.47%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sp4 Resting,ECG,80/20 split within 11 users,2 intruders,21.57%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sp10 Resting,ECG,80/20 split within 11 users,2 intruders,8.82%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Mel2 Resting,ECG,80/20 split within 11 users,2 intruders,35.44%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Mel4 Resting,ECG,80/20 split within 11 users,2 intruders,31.37%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Mel10 Resting,ECG,80/20 split within 11 users,2 intruders,23.12%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sc2 Walking,ECG,80/20 split within 11 users,2 intruders,26.08%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sc4 Walking,ECG,80/20 split within 11 users,2 intruders,4.29%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sc10 Walking,ECG,80/20 split within 11 users,2 intruders,16.38%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sp2 Walking,ECG,80/20 split within 11 users,2 intruders,33.51%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sp4 Walking,ECG,80/20 split within 11 users,2 intruders,17.40%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sp10 Walking,ECG,80/20 split within 11 users,2 intruders,16.43%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Mel2 Walking,ECG,80/20 split within 11 users,2 intruders,37.65%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Mel4 Walking,ECG,80/20 split within 11 users,2 intruders,39.92%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Mel10 Walking,ECG,80/20 split within 11 users,2 intruders,23.71%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sc2 Walking,ECG,80/20 split within 11 users,2 intruders,26.55%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sc4 Walking,ECG,80/20 split within 11 users,2 intruders,4.04%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sc10 Walking,ECG,80/20 split within 11 users,2 intruders,9.86%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sp2 Walking,ECG,80/20 split within 11 users,2 intruders,31.35%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sp4 Walking,ECG,80/20 split within 11 users,2 intruders,16.42%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sp10 Walking,ECG,80/20 split within 11 users,2 intruders,12.62%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Mel2 Walking,ECG,80/20 split within 11 users,2 intruders,36.62%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Mel4 Walking,ECG,80/20 split within 11 users,2 intruders,31.67%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Mel10 Walking,ECG,80/20 split within 11 users,2 intruders,21.47%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sc2 Walking,ECG,80/20 split within 11 users,2 intruders,24.20%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sc4 Walking,ECG,80/20 split within 11 users,2 intruders,3.80%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sc10 Walking,ECG,80/20 split within 11 users,2 intruders,15.97%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sp2 Walking,ECG,80/20 split within 11 users,2 intruders,30.96%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sp4 Walking,ECG,80/20 split within 11 users,2 intruders,16.24%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sp10 Walking,ECG,80/20 split within 11 users,2 intruders,10.99%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Mel2 Walking,ECG,80/20 split within 11 users,2 intruders,36.47%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Mel4 Walking,ECG,80/20 split within 11 users,2 intruders,32.51%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Mel10 Walking,ECG,80/20 split within 11 users,2 intruders,21.74%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sc2 Standing,ECG,80/20 split within 11 users,2 intruders,26.55%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sc4 Standing,ECG,80/20 split within 11 users,2 intruders,0.61%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sc10 Standing,ECG,80/20 split within 11 users,2 intruders,14.13%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sp2 Standing,ECG,80/20 split within 11 users,2 intruders,33.09%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sp4 Standing,ECG,80/20 split within 11 users,2 intruders,22.79%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sp10 Standing,ECG,80/20 split within 11 users,2 intruders,11.75%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Mel2 Standing,ECG,80/20 split within 11 users,2 intruders,37.35%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Mel4 Standing,ECG,80/20 split within 11 users,2 intruders,34.88%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Mel10 Standing,ECG,80/20 split within 11 users,2 intruders,23.37%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sc2 Standing,ECG,80/20 split within 11 users,2 intruders,24.79%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sc4 Standing,ECG,80/20 split within 11 users,2 intruders,0.61%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sc10 Standing,ECG,80/20 split within 11 users,2 intruders,12.50%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sp2 Standing,ECG,80/20 split within 11 users,2 intruders,31.32%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sp4 Standing,ECG,80/20 split within 11 users,2 intruders,21.65%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sp10 Standing,ECG,80/20 split within 11 users,2 intruders,9.29%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Mel2 Standing,ECG,80/20 split within 11 users,2 intruders,36.32%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Mel4 Standing,ECG,80/20 split within 11 users,2 intruders,33.57%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Mel10 Standing,ECG,80/20 split within 11 users,2 intruders,21.20%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sc2 Standing,ECG,80/20 split within 11 users,2 intruders,22.86%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sc4 Standing,ECG,80/20 split within 11 users,2 intruders,0.49%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sc10 Standing,ECG,80/20 split within 11 users,2 intruders,9.24%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sp2 Standing,ECG,80/20 split within 11 users,2 intruders,31.03%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sp4 Standing,ECG,80/20 split within 11 users,2 intruders,19.54%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sp10 Standing,ECG,80/20 split within 11 users,2 intruders,8.27%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Mel2 Standing,ECG,80/20 split within 11 users,2 intruders,35.44%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Mel4 Standing,ECG,80/20 split within 11 users,2 intruders,33.29%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Mel10 Standing,ECG,80/20 split within 11 users,2 intruders,20.11%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sc2 walking,ECG,80/20 split within 11 users,2 intruders,25.64%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sc4 walking,ECG,80/20 split within 11 users,2 intruders,8.24%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sc10 walking,ECG,80/20 split within 11 users,2 intruders,22.28%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Sp2 walking,ECG,80/20 split within 11 users,2 intruders,38.25%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Sp4 walking,ECG,80/20 split within 11 users,2 intruders,29.06%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Sp10 walking,ECG,80/20 split within 11 users,2 intruders,23.71%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 1s Mel2 walking,ECG,80/20 split within 11 users,2 intruders,39.44%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 1s Mel4 walking,ECG,80/20 split within 11 users,2 intruders,33.08%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 1s Mel10 walking,ECG,80/20 split within 11 users,2 intruders,28.00%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sc2 walking,ECG,80/20 split within 11 users,2 intruders,24.35%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sc4 walking,ECG,80/20 split within 11 users,2 intruders,6.72%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sc10 walking,ECG,80/20 split within 11 users,2 intruders,22.28%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Sp2 walking,ECG,80/20 split within 11 users,2 intruders,36.40%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Sp4 walking,ECG,80/20 split within 11 users,2 intruders,26.65%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Sp10 walking,ECG,80/20 split within 11 users,2 intruders,21.54%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 3s Mel2 walking,ECG,80/20 split within 11 users,2 intruders,37.65%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 3s Mel4 walking,ECG,80/20 split within 11 users,2 intruders,34.18%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 3s Mel10 walking,ECG,80/20 split within 11 users,2 intruders,25.66%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sc2 walking,ECG,80/20 split within 11 users,2 intruders,22.22%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sc4 walking,ECG,80/20 split within 11 users,2 intruders,7.43%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sc10 walking,ECG,80/20 split within 11 users,2 intruders,18.34%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Sp2 walking,ECG,80/20 split within 11 users,2 intruders,35.76%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Sp4 walking,ECG,80/20 split within 11 users,2 intruders,25.61%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Sp10 walking,ECG,80/20 split within 11 users,2 intruders,19.99%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,ResNet50 5s Mel2 walking,ECG,80/20 split within 11 users,2 intruders,37.80%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,ResNet50 5s Mel4 walking,ECG,80/20 split within 11 users,2 intruders,34.81%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,ResNet50 5s Mel10 walking,ECG,80/20 split within 11 users,2 intruders,25.72%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sc2 Resting,ECG,80/20 split within 11 users,2 intruders,19.1%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sc4 Resting,ECG,80/20 split within 11 users,2 intruders,1.96%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sc10 Resting,ECG,80/20 split within 11 users,2 intruders,13.05%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sp2 Resting,ECG,80/20 split within 11 users,2 intruders,29.71%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sp4 Resting,ECG,80/20 split within 11 users,2 intruders,22.79%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sp10 Resting,ECG,80/20 split within 11 users,2 intruders,8.82%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Mel2 Resting,ECG,80/20 split within 11 users,2 intruders,35.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Mel4 Resting,ECG,80/20 split within 11 users,2 intruders,32.11%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Mel10 Resting,ECG,80/20 split within 11 users,2 intruders,22.83%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sc2 Resting,ECG,80/20 split within 11 users,2 intruders,15.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sc4 Resting,ECG,80/20 split within 11 users,2 intruders,2.94%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sc10 Resting,ECG,80/20 split within 11 users,2 intruders,11.41%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sp2 Resting,ECG,80/20 split within 11 users,2 intruders,26.18%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sp4 Resting,ECG,80/20 split within 11 users,2 intruders,22.79%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sp10 Resting,ECG,80/20 split within 11 users,2 intruders,8.27%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Mel2 Resting,ECG,80/20 split within 11 users,2 intruders,35.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Mel4 Resting,ECG,80/20 split within 11 users,2 intruders,30.64%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Mel10 Resting,ECG,80/20 split within 11 users,2 intruders,23.91%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sc2 Resting,ECG,80/20 split within 11 users,2 intruders,15.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sc4 Resting,ECG,80/20 split within 11 users,2 intruders,2.94%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sc10 Resting,ECG,80/20 split within 11 users,2 intruders,10.87%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sp2 Resting,ECG,80/20 split within 11 users,2 intruders,25.74%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sp4 Resting,ECG,80/20 split within 11 users,2 intruders,20.10%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sp10 Resting,ECG,80/20 split within 11 users,2 intruders,7.73%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Mel2 Resting,ECG,80/20 split within 11 users,2 intruders,35.91%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Mel4 Resting,ECG,80/20 split within 11 users,2 intruders,32.35%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Mel10 Resting,ECG,80/20 split within 11 users,2 intruders,22.83%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sc2 Walking,ECG,80/20 split within 11 users,2 intruders,27.65%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sc4 Walking,ECG,80/20 split within 11 users,2 intruders,3.19%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sc10 Walking,ECG,80/20 split within 11 users,2 intruders,10.06%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sp2 Walking,ECG,80/20 split within 11 users,2 intruders,28.09%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sp4 Walking,ECG,80/20 split within 11 users,2 intruders,16.91%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sp10 Walking,ECG,80/20 split within 11 users,2 intruders,8.82%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Mel2 Walking,ECG,80/20 split within 11 users,2 intruders,35.88%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Mel4 Walking,ECG,80/20 split within 11 users,2 intruders,31.13%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Mel10 Walking,ECG,80/20 split within 11 users,2 intruders,20.83%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sc2 Walking,ECG,80/20 split within 11 users,2 intruders,25.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sc4 Walking,ECG,80/20 split within 11 users,2 intruders,2.21%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sc10 Walking,ECG,80/20 split within 11 users,2 intruders,9.51%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sp2 Walking,ECG,80/20 split within 11 users,2 intruders,28.09%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sp4 Walking,ECG,80/20 split within 11 users,2 intruders,14.46%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sp10 Walking,ECG,80/20 split within 11 users,2 intruders,6.64%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Mel2 Walking,ECG,80/20 split within 11 users,2 intruders,35.74%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Mel4 Walking,ECG,80/20 split within 11 users,2 intruders,29.90%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Mel10 Walking,ECG,80/20 split within 11 users,2 intruders,20.92%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sc2 Walking,ECG,80/20 split within 11 users,2 intruders,22.50%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sc4 Walking,ECG,80/20 split within 11 users,2 intruders,2.45%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sc10 Walking,ECG,80/20 split within 11 users,2 intruders,8.42%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sp2 Walking,ECG,80/20 split within 11 users,2 intruders,25.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sp4 Walking,ECG,80/20 split within 11 users,2 intruders,14.71%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sp10 Walking,ECG,80/20 split within 11 users,2 intruders,6.10%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Mel2 Walking,ECG,80/20 split within 11 users,2 intruders,36.03%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Mel4 Walking,ECG,80/20 split within 11 users,2 intruders,30.15%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Mel10 Walking,ECG,80/20 split within 11 users,2 intruders,19.57%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sc2 Standing,ECG,80/20 split within 11 users,2 intruders,20.00%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sc4 Standing,ECG,80/20 split within 11 users,2 intruders,0.49%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sc10 Standing,ECG,80/20 split within 11 users,2 intruders,9.51%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sp2 Standing,ECG,80/20 split within 11 users,2 intruders,27.94%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sp4 Standing,ECG,80/20 split within 11 users,2 intruders,20.34%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sp10 Standing,ECG,80/20 split within 11 users,2 intruders,7.73%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Mel2 Standing,ECG,80/20 split within 11 users,2 intruders,38.82%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Mel4 Standing,ECG,80/20 split within 11 users,2 intruders,36.61%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Mel10 Standing,ECG,80/20 split within 11 users,2 intruders,21.74%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sc2 Standing,ECG,80/20 split within 11 users,2 intruders,17.79%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sc4 Standing,ECG,80/20 split within 11 users,2 intruders,0.49%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sc10 Standing,ECG,80/20 split within 11 users,2 intruders,8.42%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sp2 Standing,ECG,80/20 split within 11 users,2 intruders,28.68%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sp4 Standing,ECG,80/20 split within 11 users,2 intruders,20.10%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sp10 Standing,ECG,80/20 split within 11 users,2 intruders,7.19%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Mel2 Standing,ECG,80/20 split within 11 users,2 intruders,35.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Mel4 Standing,ECG,80/20 split within 11 users,2 intruders,35.88%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Mel10 Standing,ECG,80/20 split within 11 users,2 intruders,20.11%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sc2 Standing,ECG,80/20 split within 11 users,2 intruders,17.21%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sc4 Standing,ECG,80/20 split within 11 users,2 intruders,0.49%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sc10 Standing,ECG,80/20 split within 11 users,2 intruders,6.79%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sp2 Standing,ECG,80/20 split within 11 users,2 intruders,28.98%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sp4 Standing,ECG,80/20 split within 11 users,2 intruders,18.63%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sp10 Standing,ECG,80/20 split within 11 users,2 intruders,5.56%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Mel2 Standing,ECG,80/20 split within 11 users,2 intruders,36.62%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Mel4 Standing,ECG,80/20 split within 11 users,2 intruders,33.18%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Mel10 Standing,ECG,80/20 split within 11 users,2 intruders,18.48%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sc2 walking,ECG,80/20 split within 11 users,2 intruders,24.56%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sc4 walking,ECG,80/20 split within 11 users,2 intruders,5.64%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sc10 walking,ECG,80/20 split within 11 users,2 intruders,19.57%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Sp2 walking,ECG,80/20 split within 11 users,2 intruders,31.91%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Sp4 walking,ECG,80/20 split within 11 users,2 intruders,27.66%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Sp10 walking,ECG,80/20 split within 11 users,2 intruders,21.86%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 1s Mel2 walking,ECG,80/20 split within 11 users,2 intruders,39.01%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 1s Mel4 walking,ECG,80/20 split within 11 users,2 intruders,38.24%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 1s Mel10 walking,ECG,80/20 split within 11 users,2 intruders,24.73%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sc2 walking,ECG,80/20 split within 11 users,2 intruders,24.41%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sc4 walking,ECG,80/20 split within 11 users,2 intruders,6.62%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sc10 walking,ECG,80/20 split within 11 users,2 intruders,17.93%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Sp2 walking,ECG,80/20 split within 11 users,2 intruders,30.59%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Sp4 walking,ECG,80/20 split within 11 users,2 intruders,28.74%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Sp10 walking,ECG,80/20 split within 11 users,2 intruders,20.23%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 3s Mel2 walking,ECG,80/20 split within 11 users,2 intruders,38.24%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 3s Mel4 walking,ECG,80/20 split within 11 users,2 intruders,36.98%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 3s Mel10 walking,ECG,80/20 split within 11 users,2 intruders,22.60%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sc2 walking,ECG,80/20 split within 11 users,2 intruders,22.79%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sc4 walking,ECG,80/20 split within 11 users,2 intruders,6.86%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sc10 walking,ECG,80/20 split within 11 users,2 intruders,17.96%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Sp2 walking,ECG,80/20 split within 11 users,2 intruders,31.18%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Sp4 walking,ECG,80/20 split within 11 users,2 intruders,27.65%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Sp10 walking,ECG,80/20 split within 11 users,2 intruders,20.77%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+447,DenseNet201 5s Mel2 walking,ECG,80/20 split within 11 users,2 intruders,38.97%,NA,NA,NA,NA,NA,2s,4 min,NA,NA
+447,DenseNet201 5s Mel4 walking,ECG,80/20 split within 11 users,2 intruders,35.48%,NA,NA,NA,NA,NA,4s,4 min,NA,NA
+447,DenseNet201 5s Mel10 walking,ECG,80/20 split within 11 users,2 intruders,20.99%,NA,NA,NA,NA,NA,10s,4 min,NA,NA
+445,445.0.1 / A1,ECG,6-fold CV within conditions and participants,no unseen imposters,NA,98.66%,NA,NA,NA,NA,1HB,~12.5 min,TPR: 80.00%; FRR: 20.00%; FAR: 0.51%,NA
+445,445.0.1 / A2,ECG,6-fold CV within conditions and participants,no unseen imposters,NA,98.10%,NA,NA,NA,NA,1HB,~12.5 min,TPR: 87.78%; FRR: 12.22%; FAR: 1.37%,NA
+445,445.0.1 / A3,ECG,6-fold CV within conditions and participants,no unseen imposters,NA,98.73%,NA,NA,NA,NA,1HB,~12.5 min,TPR: 96.36%; FRR: 3.64%; FAR: 0.93%,NA
+445,445.0.1 / B1,ECG,6-fold CV within conditions and participants,no unseen imposters,NA,88.16%,NA,NA,NA,NA,1HB,~12.5 min,TPR: 38.79%; FRR: 61.21%; FAR: 7.10%,NA
+445,445.0.1 / B2,ECG,6-fold CV within conditions and participants,no unseen imposters,NA,92.81%,NA,NA,NA,NA,1HB,~12.5 min,TPR: 60.35%; FRR: 39.65%; FAR: 3.93%,NA
+445,445.0.1 / C,ECG,6-fold CV within conditions and participants,no unseen imposters,NA,98.81%,NA,NA,NA,NA,1HB,~12.5 min,TPR: 83.79%; FRR: 16.21%; FAR: 0.50%,NA
+486,486.0.1 / Exp 2 Bior1.1 D1,PPG,train/test not specified,10 patients 20 non-patients?,32.27%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.1 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.54%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.1 D2,PPG,train/test not specified,10 patients 20 non-patients?,32.21%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.1 A2,PPG,train/test not specified,10 patients 20 non-patients?,32.31%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.1 D3,PPG,train/test not specified,10 patients 20 non-patients?,16.41%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.1 A3,PPG,train/test not specified,10 patients 20 non-patients?,16.66%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.3 D1,PPG,train/test not specified,10 patients 20 non-patients?,31.02%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.3 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.77%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.3 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.51%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.3 A2,PPG,train/test not specified,10 patients 20 non-patients?,29.80%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.3 D3,PPG,train/test not specified,10 patients 20 non-patients?,16.79%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.3 A3,PPG,train/test not specified,10 patients 20 non-patients?,16.56%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.5 D1,PPG,train/test not specified,10 patients 20 non-patients?,32.33%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.5 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.42%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.5 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.32%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.5 A2,PPG,train/test not specified,10 patients 20 non-patients?,33.21%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.5 D3,PPG,train/test not specified,10 patients 20 non-patients?,17.56%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior1.5 A3,PPG,train/test not specified,10 patients 20 non-patients?,17.20%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.2  D1,PPG,train/test not specified,10 patients 20 non-patients?,31.79%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.2 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.12%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.2 D2,PPG,train/test not specified,10 patients 20 non-patients?,34.50%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.2 A2,PPG,train/test not specified,10 patients 20 non-patients?,32.99%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.2 D3,PPG,train/test not specified,10 patients 20 non-patients?,20.69%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.2 A3,PPG,train/test not specified,10 patients 20 non-patients?,21.69%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.4  D1,PPG,train/test not specified,10 patients 20 non-patients?,32.59%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.4 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.55%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.4 D2,PPG,train/test not specified,10 patients 20 non-patients?,32.06%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.4 A2,PPG,train/test not specified,10 patients 20 non-patients?,31.87%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.4 D3,PPG,train/test not specified,10 patients 20 non-patients?,20.02%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.4 A3,PPG,train/test not specified,10 patients 20 non-patients?,20.95%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.6  D1,PPG,train/test not specified,10 patients 20 non-patients?,30.87%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.6 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.44%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.6 D2,PPG,train/test not specified,10 patients 20 non-patients?,32.32%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.6 A2,PPG,train/test not specified,10 patients 20 non-patients?,34.55%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.6 D3,PPG,train/test not specified,10 patients 20 non-patients?,21.47%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.6 A3,PPG,train/test not specified,10 patients 20 non-patients?,19.94%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.8  D1,PPG,train/test not specified,10 patients 20 non-patients?,30.83%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.8 A1,PPG,train/test not specified,10 patients 20 non-patients?,30.39%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.8 D2,PPG,train/test not specified,10 users 20 non-users?,32.66%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.8 A2,PPG,train/test not specified,10 patients 20 non-patients?,29.81%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.8 D3,PPG,train/test not specified,10 patients 20 non-patients?,20.79%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior2.8 A3,PPG,train/test not specified,10 patients 20 non-patients?,20.44%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.1 D1,PPG,train/test not specified,10 patients 20 non-patients?,32.16%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.1 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.40%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.1 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.67%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.1 A2,PPG,train/test not specified,10 patients 20 non-patients?,31.58%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.1 D3,PPG,train/test not specified,10 patients 20 non-patients?,29.82%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.1 A3,PPG,train/test not specified,10 patients 20 non-patients?,29.70%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.3 D1,PPG,train/test not specified,10 patients 20 non-patients?,31.10%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.3 A1,PPG,train/test not specified,10 patients 20 non-patients?,33.64%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.3 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.74%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.3 A2,PPG,train/test not specified,10 patients 20 non-patients?,32.18%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.3 D3,PPG,train/test not specified,10 patients 20 non-patients?,32.82%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.3 A3,PPG,train/test not specified,10 patients 20 non-patients?,31.90%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.5 D1,PPG,train/test not specified,10 patients 20 non-patients?,32.65%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.5 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.40%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.5 D2,PPG,train/test not specified,10 patients 20 non-patients?,34.44%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.5 A2,PPG,train/test not specified,10 patients 20 non-patients?,31.63%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.5 D3,PPG,train/test not specified,10 patients 20 non-patients?,31.11%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.5 A3,PPG,train/test not specified,10 patients 20 non-patients?,34.32%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.7 D1,PPG,train/test not specified,10 patients 20 non-patients?,32.73%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.7 A1,PPG,train/test not specified,10 patients 20 non-patients?,32.90%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.7 D2,PPG,train/test not specified,10 patients 20 non-patients?,30.08%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.7 A2,PPG,train/test not specified,10 patients 20 non-patients?,33.67%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.7 D3,PPG,train/test not specified,10 patients 20 non-patients?,28.52%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.7 A3,PPG,train/test not specified,10 patients 20 non-patients?,28.95%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.9 D1,PPG,train/test not specified,10 patients 20 non-patients?,33.41%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.9 A1,PPG,train/test not specified,10 patients 20 non-patients?,29.99%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.9 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.10%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.9 A2,PPG,train/test not specified,10 patients 20 non-patients?,31.81%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.9 D3,PPG,train/test not specified,10 patients 20 non-patients?,28.50%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior3.9 A3,PPG,train/test not specified,10 patients 20 non-patients?,30.67%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior4.4 D1,PPG,train/test not specified,10 patients 20 non-patients?,31.85%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior4.4 A1,PPG,train/test not specified,10 patients 20 non-patients?,29.03%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior4.4 D2,PPG,train/test not specified,10 patients 20 non-patients?,37.57%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior4.4 A2,PPG,train/test not specified,10 patients 20 non-patients?,34.86%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior4.4 D3,PPG,train/test not specified,10 patients 20 non-patients?,36.54%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior4.4 A3,PPG,train/test not specified,10 patients 20 non-patients?,37.16%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior5.5 D1,PPG,train/test not specified,10 patients 20 non-patients?,31.61%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior5.5 A1,PPG,train/test not specified,10 patients 20 non-patients?,31.87%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior5.5 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.67%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior5.5 A2,PPG,train/test not specified,10 patients 20 non-patients?,34.05%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior5.5 D3,PPG,train/test not specified,10 patients 20 non-patients?,35.93%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior5.5 A3,PPG,train/test not specified,10 patients 20 non-patients?,39.01%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior6.8 D1,PPG,train/test not specified,10 patients 20 non-patients?,35.22%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior6.8 A1,PPG,train/test not specified,10 patients 20 non-patients?,33.07%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior6.8 D2,PPG,train/test not specified,10 patients 20 non-patients?,33.59%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior6.8 A2,PPG,train/test not specified,10 patients 20 non-patients?,30.94%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior6.8 D3,PPG,train/test not specified,10 patients 20 non-patients?,37.40%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 2 Bior6.8 A3,PPG,train/test not specified,10 patients 20 non-patients?,37.90%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 3 Bior1.1 Approx. Coefficient Fusion,PPG,train/test not specified,10 patients 20 non-patients?,14.00%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 3 Bior1.1 Coefficient Fusion,PPG,train/test not specified,10 patients 20 non-patients?,13.80%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 3 Bior1.3 Approx. Coefficient Fusion,PPG,train/test not specified,10 patients 20 non-patients?,14.83%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,486.0.1 / Exp 3 Bior1.3 Coefficient Fusion,PPG,train/test not specified,10 patients 20 non-patients?,14.89%,NA,NA,NA,NA,NA,3s,?,NA,NA
+486,Approx,PPG,train/test not specified,10 patients 20 non-patients?,13.17% (7.14),NA,NA,NA,NA,NA,3s,?,NA,NA
+486,Coef,PPG,train/test not specified,10 patients 20 non-patients?,12.42% (7.28),NA,NA,NA,NA,NA,3s,?,NA,NA
+382,382.0.1 HR CNN,PPG,LOO-CV at inhalation event level (6 fold CV),no unseen imposters,NA,60.3 (1.4),.569 (.001),NA,58 KB,not reported,10min,600 windows x 10 min,RMSE 0.44 (.001); GRR .670 (.001); GAR .534 (.001); AWSG .352,NA
+382,382.0.1 HR RNN,PPG,LOO-CV at inhalation event level (6 fold CV),no unseen imposters,NA,61.5 (1.4),.539 (.018),NA,63 KB,not reported,10min,600 windows x 10 min,RMSE 0.44 (.001); GRR .762 (.024); GAR .463 (.020); AWSG .351,NA
+382,382.0.1 HR CRNN,PPG,LOO-CV at inhalation event level (6 fold CV),no unseen imposters,NA,60.3 (1.9),.557 (.019),NA,86 KB,not reported,10min,600 windows x 10 min,RMSE 0.44 (.001); GRR .680 (.067); GAR .523 (.044); AWSG .348,NA
+382,382.0.1 HRB CNN,"PPG, microphone",LOO-CV at inhalation event level (6 fold CV),no unseen imposters,NA,94.4 (0.9),.816 (.014),NA,58 KB,not reported,10min,600 windows x 10 min,RMSE 0.30 (.001); GRR .787 (.049); GAR .834 (.020); AWSG .712,NA
+382,382.0.1 HRB RNN,"PPG, microphone",LOO-CV at inhalation event level (6 fold CV),no unseen imposters,NA,86.3 (0.8),.858 (.009),NA,63 KB,not reported,10min,600 windows x 10 min,RMSE 0.26 (.001); GRR .880 (.014); GAR .845 (.015); AWSG .742,NA
+382,382.0.1 HRB CRNN,"PPG, microphone",LOO-CV at inhalation event level (6 fold CV),no unseen imposters,NA,86.0 (0.1),.858 (.012),NA,86 KB,not reported,10min,600 windows x 10 min,RMSE 0.26 (.001); GRR .868 (.018); GAR .853 (.015); AWSG .739,NA
+374,374.0.1,PPG,5-fold CV within users,no unseen imposters,NA,96.0% (4),0.72,NA,not reported,not reported,8s,4 minutes (80%),Precision: 86%; Recall 67%,NA
+266,15 15 20 15,PPG,5-fold CV within users,no unseen imposters,NA,95.0%,0.77,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.75
+Precision: 0.82",NA
+266,15 15 30 15,PPG,5-fold CV within users,no unseen imposters,NA,95.0%,0.80,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.77
+Precision: 0.85",NA
+266,15 15 40 15,PPG,5-fold CV within users,no unseen imposters,NA,95.0%,0.80,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.77
+Precision: 0.85",NA
+266,15 15 50 15,PPG,5-fold CV within users,no unseen imposters,NA,96.0%,0.82,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.81
+Precision: 0.85",NA
+266,30 15 20 15,PPG,5-fold CV within users,no unseen imposters,NA,95.0%,0.81,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.78
+Precision: 0.86",NA
+266,30 15 30 15,PPG,5-fold CV within users,no unseen imposters,NA,95.0%,0.82,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.79
+Precision: 0.86",NA
+266,30 15 40 15,PPG,5-fold CV within users,no unseen imposters,NA,96.0%,0.82,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.80
+Precision: 0.89",NA
+266,30 15 50 15,PPG,5-fold CV within users,no unseen imposters,NA,96.0%,0.83,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.80
+Precision: 0.89",NA
+266,30 32 20 15,PPG,5-fold CV within users,no unseen imposters,NA,95.0%,0.81,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.78
+Precision: 0.86",NA
+266,30 32 30 32,PPG,5-fold CV within users,no unseen imposters,NA,96.0%,0.84,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.81
+Precision: 0.88",NA
+266,30 32 40 32,PPG,5-fold CV within users,no unseen imposters,NA,96.0%,0.84,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.81
+Precision: 0.89",NA
+266,30 32 50 32,PPG,5-fold CV within users,no unseen imposters,NA,96.0%,0.86,NA,not reported,not reported,?,4 minutes (80%),"Recall: 0.84
+Precision: 0.89",NA

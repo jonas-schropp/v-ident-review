@@ -1,0 +1,729 @@
+id,experience,modality,Authentication algorithm,Algorithm Details,Multimodal,Fusion,continuous,permanence,situational stability
+28,NA,PPG,LSTM,Exponentially Weighted Moving Average (EWMA) Confidence unit,no,NA,yes,no,all during driving task
+36,Hexoskin M50 NB,ECG,NB,NB + Manhattan distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin M40 NB,ECG,NB,NB + Manhattan distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin M30 NB,ECG,NB,NB + Manhattan distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin E50 NB,ECG,NB,NB + Euclidian distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin E40 NB,ECG,NB,NB + Euclidian distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin E30 NB,ECG,NB,NB + Euclidian distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin M50 DT,ECG,DT,DT + Manhattan distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin M40 DT,ECG,DT,DT + Manhattan distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin M30 DT,ECG,DT,DT + Manhattan distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin E50 DT,ECG,DT,DT + Euclidian distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin E40 DT,ECG,DT,DT + Euclidian distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+36,Hexoskin E30 DT,ECG,DT,DT + Euclidian distance,no,NA,no,no,"high - several settings (resting, standing, walking, walking uphill)"
+43,NA,ECG,CNN,"binarized neural network (EABNN) using convolutional layer with binarized weights, max pooling and fully connected layers",no,NA,no,no,?
+55,Empatica kNN 9/1,PPG,kNN,NA,no,NA,no,no,moderate (several situations including stress)
+55,Empatica RF 9/1,PPG,RF,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,Empatica MLP 9/1,PPG,MLP,"majority class subsampling, MLP with one hidden layer",no,NA,no,no,moderate (several situations including stress)
+55,Empatica LR 9/1,PPG,LR,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,Empatica NB 9/1,PPG,NB,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S kNN 9/1,PPG,kNN,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S RF 9/1,PPG,RF,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S MLP 9/1,PPG,MLP,"majority class subsampling, MLP with one hidden layer",no,NA,no,no,moderate (several situations including stress)
+55,S LR 9/1,PPG,LR,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S NB 9/1,PPG,NB,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 kNN 9/1,PPG,kNN,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 RF 9/1,PPG,RF,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 MLP 9/1,PPG,MLP,"majority class subsampling, MLP with one hidden layer",no,NA,no,no,moderate (several situations including stress)
+55,S2 LR 9/1,PPG,LR,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 NB 9/1,PPG,NB,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,Empatica kNN 7/3,PPG,kNN,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,Empatica RF 7/3,PPG,RF,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,Empatica MLP 7/3,PPG,MLP,"majority class subsampling, MLP with one hidden layer",no,NA,no,no,moderate (several situations including stress)
+55,Empatica LR 7/3,PPG,LR,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,Empatica NB 7/3,PPG,NB,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S kNN 7/3,PPG,kNN,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S RF 7/3,PPG,RF,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S MLP 7/3,PPG,MLP,"majority class subsampling, MLP with one hidden layer",no,NA,no,no,moderate (several situations including stress)
+55,S LR 7/3,PPG,LR,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S NB 7/3,PPG,NB,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 kNN 7/3,PPG,kNN,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 RF 7/3,PPG,RF,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 MLP 7/3,PPG,MLP,"majority class subsampling, MLP with one hidden layer",no,NA,no,no,moderate (several situations including stress)
+55,S2 LR 7/3,PPG,LR,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+55,S2 NB 7/3,PPG,NB,majority class subsampling,no,NA,no,no,moderate (several situations including stress)
+75,SVM AC/DCT,VHF,SVM,activity classification + SMOTE + SVM,no,NA,no,no,small (working at desk + resting)
+75,RF AC/DCT,VHF,RF,activity classification + SMOTE + RF,no,NA,no,no,small (working at desk + resting)
+75,XGB AC/DCT,VHF,GBM,activity classification + SMOTE + XGB,no,NA,no,no,small (working at desk + resting)
+75,MLP AC/DCT,VHF,MLP,activity classification + SMOTE + MLP,no,NA,no,no,small (working at desk + resting)
+75,SVM MFCC,VHF,SVM,activity classification + SMOTE + SVM,no,NA,no,no,small (working at desk + resting)
+75,RF MFCC,VHF,RF,activity classification + SMOTE + RF,no,NA,no,no,small (working at desk + resting)
+75,XGB MFCC,VHF,GBM,activity classification + SMOTE + XGB,no,NA,no,no,small (working at desk + resting)
+75,MLP MFCC,VHF,MLP,activity classification + SMOTE + MLP,no,NA,no,no,small (working at desk + resting)
+75,SVM AC/DCT+MFCC,VHF,SVM,activity classification + SMOTE + SVM,no,NA,no,no,small (working at desk + resting)
+75,RF AC/DCT+MFCC,VHF,RF,activity classification + SMOTE + RF,no,NA,no,no,small (working at desk + resting)
+75,XGB AC/DCT+MFCC,VHF,GBM,activity classification + SMOTE + XGB,no,NA,no,no,small (working at desk + resting)
+75,MLP AC/DCT+MFCC,VHF,MLP,activity classification + SMOTE + MLP,no,NA,no,no,small (working at desk + resting)
+75,SVM rr,VHF,SVM,activity classification + SMOTE + SVM,no,NA,no,no,no
+75,SVM ww,VHF,SVM,activity classification + SMOTE + SVM,no,NA,no,no,no
+75,SVM rw,VHF,SVM,activity classification + SMOTE + SVM,no,NA,no,no,small (working at desk + resting)
+75,RF rr,VHF,RF,activity classification + SMOTE + RF,no,NA,no,no,no
+75,RF ww,VHF,RF,activity classification + SMOTE + RF,no,NA,no,no,no
+75,RF rw,VHF,RF,activity classification + SMOTE + RF,no,NA,no,no,small (working at desk + resting)
+75,XGB rr,VHF,GBM,activity classification + SMOTE + XGB,no,NA,no,no,no
+75,XGB ww,VHF,GBM,activity classification + SMOTE + XGB,no,NA,no,no,no
+75,XGB rw,VHF,GBM,activity classification + SMOTE + XGB,no,NA,no,no,small (working at desk + resting)
+75,MLP rr,VHF,MLP,activity classification + SMOTE + MLP,no,NA,no,no,no
+75,MLP ww,VHF,MLP,activity classification + SMOTE + MLP,no,NA,no,no,no
+75,MLP rw,VHF,MLP,activity classification + SMOTE + MLP,no,NA,no,no,small (working at desk + resting)
+75,1D CNN rr,VHF,CNN,"activity classification + SMOTE + 1D-CNN with Conv1D, MaxPool1D, ADAM optimizer and learning rate 0.001",no,NA,no,no,no
+75,1D CNN ww,VHF,CNN,"activity classification + SMOTE + 1D-CNN with Conv1D, MaxPool1D, ADAM optimizer and learning rate 0.001",no,NA,no,no,no
+75,1D CNN rw,VHF,CNN,"activity classification + SMOTE + 1D-CNN with Conv1D, MaxPool1D, ADAM optimizer and learning rate 0.001",no,NA,no,no,small (working at desk + resting)
+147,Right Hand Vertical Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Resilient Sit,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Resilient Stand,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Resilient Walk,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Vertical Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Horizontal Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Right Hand Dorsal-Ventral Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Vertical Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Horizontal Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Hand Dorsal-Ventral Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Vertical Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Horizontal Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Left Carotid Dorsal-Ventral Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Vertical Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Horizontal Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Heart Dorsal-Ventral Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Vertical Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Horizontal Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+147,Sternum Dorsal-Ventral Resilient Post-Exercise,SCG,SVM,not provided,no,NA,no,no,no
+189,NN-FF intraday,EDA,FF-NN,NA,yes,feature level,yes,no,"yes, everyday activities"
+189,NN-FF 2,EDA,FF-NN,NA,yes,feature level,yes,2 consecutive days tested,"yes, everyday activities"
+189,NN-FF 3,EDA,FF-NN,NA,yes,feature level,yes,1 day between tests,"yes, everyday activities"
+189,NN-FF best score,EDA,FF-NN,"not properly described, FF-NN + best performance scoring algorithm",yes,feature level,yes,3 consecutive days tested,"yes, everyday activities"
+205,PPG,PPG,LSTM,"3 layers, mini-batch size 4, learning rate 0.01, SGDM optimizer",no,no,no,no,no
+205,ECG,ECG,LSTM,"3 layers, mini-batch size 4, learning rate 0.01, SGDM optimizer",no,no,no,no,no
+253,NA,ECG,MLP,NA,no,no,no,"unclear, several days","unclear, several situations not further described"
+278,S1 idle - S1 typing1 PPG,PPG,kNN,NA,no,no,no,no,small (idle+typing)
+278,S1 idle - S1 touchpad PPG,PPG,kNN,NA,no,no,no,no,small (idle+touchpad)
+278,S1 idle - S1 typing 2 PPG,PPG,kNN,NA,no,no,no,no,small (idle+typing)
+278,S1 idle - S2 idle PPG,PPG,kNN,NA,no,no,no,"yes, 8 weeks",no
+278,S1 idle - S1 typing1 ECG,ECG,kNN,NA,no,no,no,no,small (idle+typing)
+278,S1 idle - S1 touchpad ECG,ECG,kNN,NA,no,no,no,no,small (idle+touchpad)
+278,S1 idle - S1 typing 2 ECG,ECG,kNN,NA,no,no,no,no,small (idle+typing)
+278,S1 idle - S2 idle ECG,ECG,kNN,NA,no,no,no,"yes, 8 weeks",no
+298,static GBT,PPG,GBM,NA,no,no,yes,no,no
+298,static 4 windows,PPG,GBM,NA,no,no,yes,no,no
+298,static 6 windows,PPG,GBM,NA,no,no,yes,no,no
+298,static 5min,PPG,GBM,NA,no,no,yes,no,no
+298,static 1min,PPG,GBM,NA,no,no,yes,no,no
+298,static SVM,PPG,GBM,NA,no,no,yes,no,no
+298,static NN,PPG,GBM,NA,no,no,yes,no,no
+298,static 25hz,PPG,GBM,NA,no,no,yes,no,no
+298,far-wrist MA removal,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,far-wrist  no MA removal,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,near-wrist MA removal,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,near-wrist  no MA removal,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,static 2h,PPG,GBM,NA,no,no,yes,2h,no
+298,static 3h,PPG,GBM,NA,no,no,yes,3h,no
+298,static adaptive 3h,PPG,GBM,adaptive retraining for changes throughout the day,no,no,yes,"3h, involves adaptive retraining",no
+298,VMD+FastICA 12s,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,CEEMDAN + FastICA 12s,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,VMD+FastICA 24s,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+298,CEEMDAN + FastICA 24s,PPG,GBM,NA,no,no,yes,no,some (arm movement and sitting)
+305,LR 30 EDA,EDA,LR,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 30 EDA,EDA,MLP,15 layers,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 30 EDA,EDA,RF,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 60 EDA,EDA,LR,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 60 EDA,EDA,MLP,15 layers,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 60 EDA,EDA,RF,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 120 EDA,EDA,LR,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 120 EDA,EDA,MLP,15 layers,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 120 EDA,EDA,RF,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 30 HRV,PPG,LR,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 30 HRV,PPG,MLP,15 layers,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 30 HRV,PPG,RF,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 60 HRV,PPG,LR,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 60 HRV,PPG,MLP,15 layers,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 60 HRV,PPG,RF,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 120 HRV,PPG,LR,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 120 HRV,PPG,MLP,15 layers,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 120 HRV,PPG,RF,NA,no,no,no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 30 EDA-HRV,"EDA, PPG",LR,NA,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 30 EDA-HRV,"EDA, PPG",MLP,15 layers,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 30 EDA-HRV,"EDA, PPG",RF,NA,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 60 EDA-HRV,"EDA, PPG",LR,NA,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 60 EDA-HRV,"EDA, PPG",MLP,15 layers,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 60 EDA-HRV,"EDA, PPG",RF,NA,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,LR 120 EDA-HRV,"EDA, PPG",LR,NA,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,MLP 120 EDA-HRV,"EDA, PPG",MLP,15 layers,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+305,RF 120 EDA-HRV,"EDA, PPG",RF,NA,yes,early fusion (at feature level),no,"yes, over several days","high, data from everyday life ( days)"
+330,Apple watch LR:ACC,ECG,LR,L2-penalty of 0.5,no,NA,no,no,no
+330,Apple watch LR:MFCC,ECG,LR,L2-penalty of 0.5,no,NA,no,no,no
+330,Apple watch LR:QRS,ECG,LR,L2-penalty of 0.5,no,NA,no,no,no
+330,Apple watch LDA:ACC,ECG,LDA,symmetric loss function,no,NA,no,no,no
+330,Apple watch LDA:MFCC,ECG,LDA,symmetric loss function,no,NA,no,no,no
+330,Apple watch LDA:QRS,ECG,LDA,symmetric loss function,no,NA,no,no,no
+330,Apple watch SVM:ACC,ECG,SVM,"L2-penalty of 0.5, linear kernel",no,NA,no,no,no
+330,Apple watch SVM:MFCC,ECG,SVM,"L2-penalty of 0.5, linear kernel",no,NA,no,no,no
+330,Apple watch SVM:QRS,ECG,SVM,"L2-penalty of 0.5, linear kernel",no,NA,no,no,no
+330,Apple watch RBF-SVM:ACC,ECG,SVM,"L2-penalty of 0.5, RBF",no,NA,no,no,no
+330,Apple watch RBF-SVM:MFCC,ECG,SVM,"L2-penalty of 0.5, RBF",no,NA,no,no,no
+330,Apple watch RBF-SVM:QRS,ECG,SVM,"L2-penalty of 0.5, RBF",no,NA,no,no,no
+330,Apple watch KNN:ACC,ECG,kNN,5-Nearest Neighbor,no,NA,no,no,no
+330,Apple watch KNN:MFCC,ECG,kNN,5-Nearest Neighbor,no,NA,no,no,no
+330,Apple watch KNN:QRS,ECG,kNN,5-Nearest Neighbor,no,NA,no,no,no
+330,Apple watch DT:ACC,ECG,DT,"Gini index, min impurity 10e-7",no,NA,no,no,no
+330,Apple watch DT:MFCC,ECG,DT,"Gini index, min impurity 10e-7",no,NA,no,no,no
+330,Apple watch DT:QRS,ECG,DT,"Gini index, min impurity 10e-7",no,NA,no,no,no
+330,Apple watch RF:ACC,ECG,RF,100 trees,no,NA,no,no,no
+330,Apple watch RF:MFCC,ECG,RF,100 trees,no,NA,no,no,no
+330,Apple watch RF:QRS,ECG,RF,100 trees,no,NA,no,no,no
+401,S1 in-sample 30HB s80,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample 30HB s80,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample 1HB,PPG,NA,NA,NA,NA,NA,NA,NA
+401,S1 out-of-sample 5HB,PPG,NA,NA,NA,NA,NA,NA,NA
+401,S1 out-of-sample 15HB,PPG,NA,NA,NA,NA,NA,NA,NA
+401,S1 in-sample 1HB,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample 30HB s20,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample 30HB s40,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample 30HB s60,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 in-sample 30HB s20,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 in-sample s80 30HB low-HR,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 in-sample s80 30HB mid-HR,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 in-sample s80 30HB high-HR,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample s80 30HB low-HR,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample s80 30HB mid-HR,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S1 out-of-sample s80 30HB high-HR,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S2 in-sample s80 30HB low-low,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S2 in-sample s80 30HB low-mid,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 in-sample s80 30HB low-high,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 in-sample s80 30HB mid-low,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 in-sample s80 30HB mid-mid,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S2 in-sample s80 30HB mid-high,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 in-sample s80 30HB high-low,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 in-sample s80 30HB high-mid,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 in-sample s80 30HB high-high,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S2 out-of-sample s80 30HB low-low,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S2 out-of-sample s80 30HB low-mid,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 out-of-sample s80 30HB low-high,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 out-of-sample s80 30HB mid-low,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 out-of-sample s80 30HB mid-mid,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+401,S2 out-of-sample s80 30HB mid-high,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 out-of-sample s80 30HB high-low,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 out-of-sample s80 30HB high-mid,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,some (rest and exercise)
+401,S2 out-of-sample s80 30HB high-high,PPG,TCM + LSTM + template matching,"temporal convolutional network (TCN) single wave encoder and LSTM multi wave encoder, then template matching via cosine similarity",no,NA,no,includes training data from several sessions?,no
+61,L1HR binary SVM,PPG,SVM,binary SVM with RBF Kernel,no,NA,no,duration for data collection not described,not described
+61,L3aHR+Resp binary SVM,PPG+microphone,SVM,binary SVM with RBF Kernel,yes,feature level,no,duration for data collection not described,different situations simulated for respiration
+61,L1HR unary SVM,PPG,SVM,unary SVM with Polynomial Kernel,no,NA,no,duration for data collection not described,not described
+61,L3aHR+Resp unary SVM,PPG+microphone,SVM,unary SVM with RBF Kernel,yes,feature level,no,duration for data collection not described,different situations simulated for respiration
+495,S1,ECG,SVM,quadratic kernel / classification,no,NA,no,no,no controlled environment imposed (real-life conditions)
+495,S2,ECG,SVM,quadratic kernel / classification,no,NA,no,"yes, 30 days",no controlled environment imposed (real-life conditions)
+495,S3,ECG,SVM,quadratic kernel / classification,no,NA,no,"yes, 30 days",no controlled environment imposed (real-life conditions)
+495,S4,ECG,SVM,quadratic kernel / classification,no,NA,no,no,walking + no controlled environment imposed
+495,S5,ECG,SVM,quadratic kernel / classification,no,NA,no,"yes, 30 days",walking + no controlled environment imposed
+475,LSTM / PM 1 subject,ECG,LSTM,64 hidden LSTM cells + 3 fully connected layers with ReLu,no,NA,no,no,no different activity levels
+475,LSTM / PM 2 subject,ECG,LSTM,64 hidden LSTM cells + 3 fully connected layers with ReLu,no,NA,no,no,no different activity levels
+475,LSTM / PM 3 subject,ECG,LSTM,64 hidden LSTM cells + 3 fully connected layers with ReLu,no,NA,no,no,no different activity levels
+475,LSTM / PM 4 subject,ECG,LSTM,64 hidden LSTM cells + 3 fully connected layers with ReLu,no,NA,no,no,no different activity levels
+475,LSTM / PM 5 subject,ECG,LSTM,64 hidden LSTM cells + 3 fully connected layers with ReLu,no,NA,no,no,no different activity levels
+475,AE / PM 1 subject,ECG,Autoencoder,2 LSTM encoder layers + feature vectors + 2 LSTM decoder layers + dense layer,no,NA,no,no,no different activity levels
+475,AE / PM 2 subject,ECG,Autoencoder,2 LSTM encoder layers + feature vectors + 2 LSTM decoder layers + dense layer,no,NA,no,no,no different activity levels
+475,AE / PM 3 subject,ECG,Autoencoder,2 LSTM encoder layers + feature vectors + 2 LSTM decoder layers + dense layer,no,NA,no,no,no different activity levels
+475,AE / PM 4 subject,ECG,Autoencoder,2 LSTM encoder layers + feature vectors + 2 LSTM decoder layers + dense layer,no,NA,no,no,no different activity levels
+475,AE / PM 5 subject,ECG,Autoencoder,2 LSTM encoder layers + feature vectors + 2 LSTM decoder layers + dense layer,no,NA,no,no,no different activity levels
+460,460.0.1,ECG,distance based,Distance-based matching with a threshold decision rule. Does not specify the distance measure used.,no,NA,no,some (6 hour long session),"no controlled environment imposed (real-life conditions) or different activity levels, not sufficiently described"
+459,level 1,PPG,FF-NN,"Feed forward, no details provided",no,NA,no,no,no
+459,level 2,PPG,FF-NN,"Feed forward, no details provided",no,NA,no,no,no
+459,level 3,PPG,FF-NN,"Feed forward, no details provided",no,NA,no,no,no
+459,level 4,PPG,FF-NN,"Feed forward, no details provided",no,NA,no,no,no
+459,level fusion,PPG,FF-NN,"Feed forward, no details provided",no,NA,no,no,no
+455,time,ECG,RF,NA,no,NA,no,no,no
+455,wavelet,ECG,RF,NA,no,NA,no,no,no
+455,DL,ECG,CNN,"1D convolutional neural network
+with max pooling, dropout, signal flattening and dense output layer",no,NA,no,no,no
+447,ResNet50 1s Sc2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Sc4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Sc10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Sp2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Sp4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Sp10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Mel2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Mel4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 1s Mel10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Sc2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Sc4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Sc10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Sp2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Sp4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Sp10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Mel2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Mel4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 3s Mel10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Sc2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Sc4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Sc10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Sp2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Sp4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Sp10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Mel2,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Mel4,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,ResNet50 5s Mel10,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,different activity levels
+447,DensNet201 1s Sc2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Sc4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Sc10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Sp2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Sp4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Sp10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Mel2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Mel4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 1s Mel10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Sc2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Sc4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Sc10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Sp2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Sp4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Sp10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Mel2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Mel4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 3s Mel10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Sc2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Sc4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Sc10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Sp2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Sp4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Sp10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Mel2,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Mel4,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,DensNet201 5s Mel10,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,different activity levels
+447,ResNet50 1s Sc2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel2 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel4 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel10 Resting,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel2 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel4 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel10 Walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel2 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel4 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel10 Standing,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sc10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Sp10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 1s Mel10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sc10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Sp10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 3s Mel10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sc10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Sp10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel2 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel4 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,ResNet50 5s Mel10 walking,ECG,CNN,CNN with residual connections (ResNet50),no,NA,no,no,no
+447,DenseNet201 1s Sc2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel2 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel4 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel10 Resting,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel2 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel4 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel10 Walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel2 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel4 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel10 Standing,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sc10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Sp10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 1s Mel10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sc10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Sp10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 3s Mel10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sc10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Sp10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel2 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel4 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+447,DenseNet201 5s Mel10 walking,ECG,CNN,CNN with dense connections (DensNet201),no,NA,no,no,no
+445,445.0.1 / A1,ECG,SVM,"binary classification, quadratic",no,NA,no,no,no
+445,445.0.1 / A2,ECG,SVM,binary classification,no,NA,no,no,no
+445,445.0.1 / A3,ECG,SVM,binary classification,no,NA,no,no,no
+445,445.0.1 / B1,ECG,SVM,binary classification,no,NA,no,no,yes
+445,445.0.1 / B2,ECG,SVM,binary classification,no,NA,no,no,yes
+445,445.0.1 / C,ECG,SVM,binary classification,no,NA,no,no,yes
+486,486.0.1 / Exp 2 Bior1.1 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.1 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.1 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.1 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.1 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.1 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.3 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.3 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.3 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.3 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.3 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.3 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.5 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.5 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.5 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.5 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.5 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior1.5 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.2  D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.2 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.2 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.2 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.2 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.2 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.4  D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.4 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.4 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.4 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.4 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.4 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.6  D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.6 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.6 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.6 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.6 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.6 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.8  D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.8 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.8 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.8 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.8 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior2.8 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.1 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.1 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.1 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.1 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.1 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.1 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.3 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.3 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.3 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.3 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.3 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.3 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.5 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.5 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.5 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.5 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.5 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.5 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.7 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.7 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.7 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.7 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.7 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.7 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.9 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.9 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.9 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.9 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.9 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior3.9 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior4.4 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior4.4 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior4.4 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior4.4 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior4.4 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior4.4 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior5.5 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior5.5 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior5.5 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior5.5 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior5.5 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior5.5 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior6.8 D1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior6.8 A1,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior6.8 D2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior6.8 A2,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior6.8 D3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 2 Bior6.8 A3,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 3 Bior1.1 Approx. Coefficient Fusion,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 3 Bior1.1 Coefficient Fusion,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 3 Bior1.3 Approx. Coefficient Fusion,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,486.0.1 / Exp 3 Bior1.3 Coefficient Fusion,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,no controlled environment imposed (real-life conditions)
+486,Approx,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,NA
+486,Coef,PPG,FF-NN,"75 nodes, prob. 1 hidden layer, pure 0/1 classification",no,NA,planned,NA,NA
+382,382.0.1 HR CNN,PPG,CNN,"RELU, L2, LR=0.001, Batch Size=100, Epoch=100, 1 hidden layer with 16 nodes",no,NA,yes,no,no controlled environment imposed (real-life conditions)
+382,382.0.1 HR RNN,PPG,RNN,"RELU, L2, LR=0.001, Batch Size=100, Epoch=50, 1 hidden layer with 32 nodes",no,NA,yes,no,no controlled environment imposed (real-life conditions)
+382,382.0.1 HR CRNN,PPG,CRNN,"RELU, L2, LR=0.001, Batch Size=50, Epoch=100, 2 hidden layers with 32 nodes",no,NA,yes,no,no controlled environment imposed (real-life conditions)
+382,382.0.1 HRB CNN,"PPG, microphone",CNN,"RELU, L2, LR=0.001, Batch Size=50, Epoch=100, 2 hidden layers with 280 and 64 nodes",yes,feature level,yes,no,no controlled environment imposed (real-life conditions)
+382,382.0.1 HRB RNN,"PPG, microphone",RNN,"RELU, L2, LR=0.001, Batch Size=50, Epoch=100, 1 hidden layer with 32 nodes",yes,feature level,yes,no,no controlled environment imposed (real-life conditions)
+382,382.0.1 HRB CRNN,"PPG, microphone",CRNN,"RELU, L2, LR=0.001, Batch Size=100, Epoch=100, 2 hidden layers with 32 and 16 nodes",yes,feature level,yes,no,no controlled environment imposed (real-life conditions)
+374,374.0.1,PPG,CNN + LSTM,"2 CNN layers are used in conjunction with 2 LSTM layers, followed by a dense output
+layer for modelling the temporal sequence",no,NA,no,no,Different activity levels (TROIKA DB)
+266,15 15 20 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,15 15 30 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,15 15 40 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,15 15 50 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 15 20 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 15 30 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 15 40 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 15 50 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 32 20 15,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 32 30 32,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 32 40 32,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)
+266,30 32 50 32,PPG,CNN + LSTM,"2 convolutional layers (layer 1 filter size 15, 15 filters layer 2 filter size 20, 15 filters) and two LSTM layers followed by a dense output layer",no,NA,no,no,Different activity levels (TROIKA DB)

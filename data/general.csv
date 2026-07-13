@@ -1,0 +1,727 @@
+id,experience,authors,year,description
+28,NA,Chibbar,2024,NA
+36,Hexoskin M50 NB,Bıçakcı,2022,smart shirt
+36,Hexoskin M40 NB,Bıçakcı,2022,smart shirt
+36,Hexoskin M30 NB,Bıçakcı,2022,smart shirt
+36,Hexoskin E50 NB,Bıçakcı,2022,smart shirt
+36,Hexoskin E40 NB,Bıçakcı,2022,smart shirt
+36,Hexoskin E30 NB,Bıçakcı,2022,smart shirt
+36,Hexoskin M50 DT,Bıçakcı,2022,smart shirt
+36,Hexoskin M40 DT,Bıçakcı,2022,smart shirt
+36,Hexoskin M30 DT,Bıçakcı,2022,smart shirt
+36,Hexoskin E50 DT,Bıçakcı,2022,smart shirt
+36,Hexoskin E40 DT,Bıçakcı,2022,smart shirt
+36,Hexoskin E30 DT,Bıçakcı,2022,smart shirt
+43,NA,Weihong,2021,"This is not a wearable device, but a system designed to be integrated into wearable devices due to low memory footprint and fast processing speed"
+55,Empatica kNN 9/1,Ekiz,2020,NA
+55,Empatica RF 9/1,Ekiz,2020,NA
+55,Empatica MLP 9/1,Ekiz,2020,NA
+55,Empatica LR 9/1,Ekiz,2020,NA
+55,Empatica NB 9/1,Ekiz,2020,NA
+55,S kNN 9/1,Ekiz,2020,NA
+55,S RF 9/1,Ekiz,2020,NA
+55,S MLP 9/1,Ekiz,2020,NA
+55,S LR 9/1,Ekiz,2020,NA
+55,S NB 9/1,Ekiz,2020,NA
+55,S2 kNN 9/1,Ekiz,2020,NA
+55,S2 RF 9/1,Ekiz,2020,NA
+55,S2 MLP 9/1,Ekiz,2020,NA
+55,S2 LR 9/1,Ekiz,2020,NA
+55,S2 NB 9/1,Ekiz,2020,NA
+55,Empatica kNN 7/3,Ekiz,2020,NA
+55,Empatica RF 7/3,Ekiz,2020,NA
+55,Empatica MLP 7/3,Ekiz,2020,NA
+55,Empatica LR 7/3,Ekiz,2020,NA
+55,Empatica NB 7/3,Ekiz,2020,NA
+55,S kNN 7/3,Ekiz,2020,NA
+55,S RF 7/3,Ekiz,2020,NA
+55,S MLP 7/3,Ekiz,2020,NA
+55,S LR 7/3,Ekiz,2020,NA
+55,S NB 7/3,Ekiz,2020,NA
+55,S2 kNN 7/3,Ekiz,2020,NA
+55,S2 RF 7/3,Ekiz,2020,NA
+55,S2 MLP 7/3,Ekiz,2020,NA
+55,S2 LR 7/3,Ekiz,2020,NA
+55,S2 NB 7/3,Ekiz,2020,NA
+75,SVM AC/DCT,Hinatsu,2024,NA
+75,RF AC/DCT,Hinatsu,2024,NA
+75,XGB AC/DCT,Hinatsu,2024,NA
+75,MLP AC/DCT,Hinatsu,2024,NA
+75,SVM MFCC,Hinatsu,2024,NA
+75,RF MFCC,Hinatsu,2024,NA
+75,XGB MFCC,Hinatsu,2024,NA
+75,MLP MFCC,Hinatsu,2024,NA
+75,SVM AC/DCT+MFCC,Hinatsu,2024,NA
+75,RF AC/DCT+MFCC,Hinatsu,2024,NA
+75,XGB AC/DCT+MFCC,Hinatsu,2024,NA
+75,MLP AC/DCT+MFCC,Hinatsu,2024,NA
+75,SVM rr,Hinatsu,2024,NA
+75,SVM ww,Hinatsu,2024,NA
+75,SVM rw,Hinatsu,2024,NA
+75,RF rr,Hinatsu,2024,NA
+75,RF ww,Hinatsu,2024,NA
+75,RF rw,Hinatsu,2024,NA
+75,XGB rr,Hinatsu,2024,NA
+75,XGB ww,Hinatsu,2024,NA
+75,XGB rw,Hinatsu,2024,NA
+75,MLP rr,Hinatsu,2024,NA
+75,MLP ww,Hinatsu,2024,NA
+75,MLP rw,Hinatsu,2024,NA
+75,1D CNN rr,Hinatsu,2024,NA
+75,1D CNN ww,Hinatsu,2024,NA
+75,1D CNN rw,Hinatsu,2024,NA
+147,Right Hand Vertical Sit,Hsu,2021,NA
+147,Right Hand Horizontal Sit,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Sit,Hsu,2021,NA
+147,Left Hand Vertical Sit,Hsu,2021,NA
+147,Left Hand Horizontal Sit,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Sit,Hsu,2021,NA
+147,Left Carotid Vertical Sit,Hsu,2021,NA
+147,Left Carotid Horizontal Sit,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Sit,Hsu,2021,NA
+147,Heart Vertical Sit,Hsu,2021,NA
+147,Heart Horizontal Sit,Hsu,2021,NA
+147,Heart Dorsal-Ventral Sit,Hsu,2021,NA
+147,Sternum Vertical Sit,Hsu,2021,NA
+147,Sternum Horizontal Sit,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Sit,Hsu,2021,NA
+147,Right Hand Vertical Resilient Sit,Hsu,2021,NA
+147,Right Hand Horizontal Resilient Sit,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Resilient Sit,Hsu,2021,NA
+147,Left Hand Vertical Resilient Sit,Hsu,2021,NA
+147,Left Hand Horizontal Resilient Sit,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Resilient Sit,Hsu,2021,NA
+147,Left Carotid Vertical Resilient Sit,Hsu,2021,NA
+147,Left Carotid Horizontal Resilient Sit,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Resilient Sit,Hsu,2021,NA
+147,Heart Vertical Resilient Sit,Hsu,2021,NA
+147,Heart Horizontal Resilient Sit,Hsu,2021,NA
+147,Heart Dorsal-Ventral Resilient Sit,Hsu,2021,NA
+147,Sternum Vertical Resilient Sit,Hsu,2021,NA
+147,Sternum Horizontal Resilient Sit,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Resilient Sit,Hsu,2021,NA
+147,Right Hand Vertical Stand,Hsu,2021,NA
+147,Right Hand Horizontal Stand,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Stand,Hsu,2021,NA
+147,Left Hand Vertical Stand,Hsu,2021,NA
+147,Left Hand Horizontal Stand,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Stand,Hsu,2021,NA
+147,Left Carotid Vertical Stand,Hsu,2021,NA
+147,Left Carotid Horizontal Stand,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Stand,Hsu,2021,NA
+147,Heart Vertical Stand,Hsu,2021,NA
+147,Heart Horizontal Stand,Hsu,2021,NA
+147,Heart Dorsal-Ventral Stand,Hsu,2021,NA
+147,Sternum Vertical Stand,Hsu,2021,NA
+147,Sternum Horizontal Stand,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Stand,Hsu,2021,NA
+147,Right Hand Vertical Resilient Stand,Hsu,2021,NA
+147,Right Hand Horizontal Resilient Stand,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Resilient Stand,Hsu,2021,NA
+147,Left Hand Vertical Resilient Stand,Hsu,2021,NA
+147,Left Hand Horizontal Resilient Stand,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Resilient Stand,Hsu,2021,NA
+147,Left Carotid Vertical Resilient Stand,Hsu,2021,NA
+147,Left Carotid Horizontal Resilient Stand,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Resilient Stand,Hsu,2021,NA
+147,Heart Vertical Resilient Stand,Hsu,2021,NA
+147,Heart Horizontal Resilient Stand,Hsu,2021,NA
+147,Heart Dorsal-Ventral Resilient Stand,Hsu,2021,NA
+147,Sternum Vertical Resilient Stand,Hsu,2021,NA
+147,Sternum Horizontal Resilient Stand,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Resilient Stand,Hsu,2021,NA
+147,Right Hand Vertical Walk,Hsu,2021,NA
+147,Right Hand Horizontal Walk,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Walk,Hsu,2021,NA
+147,Left Hand Vertical Walk,Hsu,2021,NA
+147,Left Hand Horizontal Walk,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Walk,Hsu,2021,NA
+147,Left Carotid Vertical Walk,Hsu,2021,NA
+147,Left Carotid Horizontal Walk,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Walk,Hsu,2021,NA
+147,Heart Vertical Walk,Hsu,2021,NA
+147,Heart Horizontal Walk,Hsu,2021,NA
+147,Heart Dorsal-Ventral Walk,Hsu,2021,NA
+147,Sternum Vertical Walk,Hsu,2021,NA
+147,Sternum Horizontal Walk,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Walk,Hsu,2021,NA
+147,Right Hand Vertical Resilient Walk,Hsu,2021,NA
+147,Right Hand Horizontal Resilient Walk,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Resilient Walk,Hsu,2021,NA
+147,Left Hand Vertical Resilient Walk,Hsu,2021,NA
+147,Left Hand Horizontal Resilient Walk,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Resilient Walk,Hsu,2021,NA
+147,Left Carotid Vertical Resilient Walk,Hsu,2021,NA
+147,Left Carotid Horizontal Resilient Walk,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Resilient Walk,Hsu,2021,NA
+147,Heart Vertical Resilient Walk,Hsu,2021,NA
+147,Heart Horizontal Resilient Walk,Hsu,2021,NA
+147,Heart Dorsal-Ventral Resilient Walk,Hsu,2021,NA
+147,Sternum Vertical Resilient Walk,Hsu,2021,NA
+147,Sternum Horizontal Resilient Walk,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Resilient Walk,Hsu,2021,NA
+147,Right Hand Vertical Post-Exercise,Hsu,2021,NA
+147,Right Hand Horizontal Post-Exercise,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Post-Exercise,Hsu,2021,NA
+147,Left Hand Vertical Post-Exercise,Hsu,2021,NA
+147,Left Hand Horizontal Post-Exercise,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Post-Exercise,Hsu,2021,NA
+147,Left Carotid Vertical Post-Exercise,Hsu,2021,NA
+147,Left Carotid Horizontal Post-Exercise,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Post-Exercise,Hsu,2021,NA
+147,Heart Vertical Post-Exercise,Hsu,2021,NA
+147,Heart Horizontal Post-Exercise,Hsu,2021,NA
+147,Heart Dorsal-Ventral Post-Exercise,Hsu,2021,NA
+147,Sternum Vertical Post-Exercise,Hsu,2021,NA
+147,Sternum Horizontal Post-Exercise,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Post-Exercise,Hsu,2021,NA
+147,Right Hand Vertical Resilient Post-Exercise,Hsu,2021,NA
+147,Right Hand Horizontal Resilient Post-Exercise,Hsu,2021,NA
+147,Right Hand Dorsal-Ventral Resilient Post-Exercise,Hsu,2021,NA
+147,Left Hand Vertical Resilient Post-Exercise,Hsu,2021,NA
+147,Left Hand Horizontal Resilient Post-Exercise,Hsu,2021,NA
+147,Left Hand Dorsal-Ventral Resilient Post-Exercise,Hsu,2021,NA
+147,Left Carotid Vertical Resilient Post-Exercise,Hsu,2021,NA
+147,Left Carotid Horizontal Resilient Post-Exercise,Hsu,2021,NA
+147,Left Carotid Dorsal-Ventral Resilient Post-Exercise,Hsu,2021,NA
+147,Heart Vertical Resilient Post-Exercise,Hsu,2021,NA
+147,Heart Horizontal Resilient Post-Exercise,Hsu,2021,NA
+147,Heart Dorsal-Ventral Resilient Post-Exercise,Hsu,2021,NA
+147,Sternum Vertical Resilient Post-Exercise,Hsu,2021,NA
+147,Sternum Horizontal Resilient Post-Exercise,Hsu,2021,NA
+147,Sternum Dorsal-Ventral Resilient Post-Exercise,Hsu,2021,NA
+189,NN-FF intraday,Enamamu,2017,NA
+189,NN-FF 2,Enamamu,2017,NA
+189,NN-FF 3,Enamamu,2017,NA
+189,NN-FF best score,Enamamu,2017,NA
+205,PPG,Fahrid,2019,NA
+205,ECG,Fahrid,2019,NA
+253,NA,Pasero,2015,NA
+278,S1 idle - S1 typing1 PPG,Martinho,2018,"also includes ""forearm"" ECG, but this is an armrest."
+278,S1 idle - S1 touchpad PPG,Martinho,2018,NA
+278,S1 idle - S1 typing 2 PPG,Martinho,2018,NA
+278,S1 idle - S2 idle PPG,Martinho,2018,NA
+278,S1 idle - S1 typing1 ECG,Martinho,2018,NA
+278,S1 idle - S1 touchpad ECG,Martinho,2018,NA
+278,S1 idle - S1 typing 2 ECG,Martinho,2018,NA
+278,S1 idle - S2 idle ECG,Martinho,2018,NA
+298,static GBT,Zhao,2022,Not all experiments reported in detail - figures not extracted
+298,static 4 windows,Zhao,2022,NA
+298,static 6 windows,Zhao,2022,NA
+298,static 1min,Zhao,2022,NA
+298,static 5min,Zhao,2022,NA
+298,static SVM,Zhao,2022,NA
+298,static NN,Zhao,2022,NA
+298,static 25hz,Zhao,2022,NA
+298,far-wrist MA removal,Zhao,2022,NA
+298,far-wrist  no MA removal,Zhao,2022,NA
+298,near-wrist MA removal,Zhao,2022,NA
+298,near-wrist  no MA removal,Zhao,2022,NA
+298,static 2h,Zhao,2022,NA
+298,static 3h,Zhao,2022,NA
+298,static adaptive 3h,Zhao,2022,NA
+298,VMD+FastICA 12s,Zhao,2022,NA
+298,CEEMDAN + FastICA 12s,Zhao,2022,NA
+298,VMD+FastICA 24s,Zhao,2022,NA
+298,CEEMDAN + FastICA 24s,Zhao,2022,NA
+305,LR 30 EDA,Ekiz,2020,Part of a much larger study also including Accelerometer and skin temperature
+305,MLP 30 EDA,Ekiz,2020,NA
+305,RF 30 EDA,Ekiz,2020,NA
+305,LR 60 EDA,Ekiz,2020,NA
+305,MLP 60 EDA,Ekiz,2020,NA
+305,RF 60 EDA,Ekiz,2020,NA
+305,LR 120 EDA,Ekiz,2020,NA
+305,MLP 120 EDA,Ekiz,2020,NA
+305,RF 120 EDA,Ekiz,2020,NA
+305,LR 30 HRV,Ekiz,2020,NA
+305,MLP 30 HRV,Ekiz,2020,NA
+305,RF 30 HRV,Ekiz,2020,NA
+305,LR 60 HRV,Ekiz,2020,NA
+305,MLP 60 HRV,Ekiz,2020,NA
+305,RF 60 HRV,Ekiz,2020,NA
+305,LR 120 HRV,Ekiz,2020,NA
+305,MLP 120 HRV,Ekiz,2020,NA
+305,RF 120 HRV,Ekiz,2020,NA
+305,LR 30 EDA-HRV,Ekiz,2020,NA
+305,MLP 30 EDA-HRV,Ekiz,2020,NA
+305,RF 30 EDA-HRV,Ekiz,2020,NA
+305,LR 60 EDA-HRV,Ekiz,2020,NA
+305,MLP 60 EDA-HRV,Ekiz,2020,NA
+305,RF 60 EDA-HRV,Ekiz,2020,NA
+305,LR 120 EDA-HRV,Ekiz,2020,NA
+305,MLP 120 EDA-HRV,Ekiz,2020,NA
+305,RF 120 EDA-HRV,Ekiz,2020,NA
+330,Apple watch LR:ACC,Chandrashekhar,2020,NA
+330,Apple watch LR:MFCC,Chandrashekhar,2020,NA
+330,Apple watch LR:QRS,Chandrashekhar,2020,NA
+330,Apple watch LDA:ACC,Chandrashekhar,2020,NA
+330,Apple watch LDA:MFCC,Chandrashekhar,2020,NA
+330,Apple watch LDA:QRS,Chandrashekhar,2020,NA
+330,Apple watch SVM:ACC,Chandrashekhar,2020,NA
+330,Apple watch SVM:MFCC,Chandrashekhar,2020,NA
+330,Apple watch SVM:QRS,Chandrashekhar,2020,NA
+330,Apple watch RBF-SVM:ACC,Chandrashekhar,2020,NA
+330,Apple watch RBF-SVM:MFCC,Chandrashekhar,2020,NA
+330,Apple watch RBF-SVM:QRS,Chandrashekhar,2020,NA
+330,Apple watch KNN:ACC,Chandrashekhar,2020,NA
+330,Apple watch KNN:MFCC,Chandrashekhar,2020,NA
+330,Apple watch KNN:QRS,Chandrashekhar,2020,NA
+330,Apple watch DT:ACC,Chandrashekhar,2020,NA
+330,Apple watch DT:MFCC,Chandrashekhar,2020,NA
+330,Apple watch DT:QRS,Chandrashekhar,2020,NA
+330,Apple watch RF:ACC,Chandrashekhar,2020,NA
+330,Apple watch RF:MFCC,Chandrashekhar,2020,NA
+330,Apple watch RF:QRS,Chandrashekhar,2020,NA
+401,S1 in-sample 30HB s80,Wu,2025,NA
+401,S1 out-of-sample 30HB s80,Wu,2025,NA
+401,S1 out-of-sample 1HB,Wu,2025,NA
+401,S1 out-of-sample 5HB,Wu,2025,NA
+401,S1 out-of-sample 15HB,Wu,2025,NA
+401,S1 in-sample 1HB,Wu,2025,NA
+401,S1 out-of-sample 30HB s20,Wu,2025,NA
+401,S1 out-of-sample 30HB s40,Wu,2025,NA
+401,S1 out-of-sample 30HB s60,Wu,2025,NA
+401,S1 in-sample 30HB s20,Wu,2025,NA
+401,S1 in-sample s80 30HB low-HR,Wu,2025,NA
+401,S1 in-sample s80 30HB mid-HR,Wu,2025,NA
+401,S1 in-sample s80 30HB high-HR,Wu,2025,NA
+401,S1 out-of-sample s80 30HB low-HR,Wu,2025,NA
+401,S1 out-of-sample s80 30HB mid-HR,Wu,2025,NA
+401,S1 out-of-sample s80 30HB high-HR,Wu,2025,NA
+401,S2 in-sample s80 30HB low-low,Wu,2025,NA
+401,S2 in-sample s80 30HB low-mid,Wu,2025,NA
+401,S2 in-sample s80 30HB low-high,Wu,2025,NA
+401,S2 in-sample s80 30HB mid-low,Wu,2025,NA
+401,S2 in-sample s80 30HB mid-mid,Wu,2025,NA
+401,S2 in-sample s80 30HB mid-high,Wu,2025,NA
+401,S2 in-sample s80 30HB high-low,Wu,2025,NA
+401,S2 in-sample s80 30HB high-mid,Wu,2025,NA
+401,S2 in-sample s80 30HB high-high,Wu,2025,NA
+401,S2 out-of-sample s80 30HB low-low,Wu,2025,NA
+401,S2 out-of-sample s80 30HB low-mid,Wu,2025,NA
+401,S2 out-of-sample s80 30HB low-high,Wu,2025,NA
+401,S2 out-of-sample s80 30HB mid-low,Wu,2025,NA
+401,S2 out-of-sample s80 30HB mid-mid,Wu,2025,NA
+401,S2 out-of-sample s80 30HB mid-high,Wu,2025,NA
+401,S2 out-of-sample s80 30HB high-low,Wu,2025,NA
+401,S2 out-of-sample s80 30HB high-mid,Wu,2025,NA
+401,S2 out-of-sample s80 30HB high-high,Wu,2025,NA
+61,L1HR binary SVM,Vhaduri,2021,NA
+61,L3aHR+Resp binary SVM,Vhaduri,2021,NA
+61,L1HR unary SVM,Vhaduri,2021,NA
+61,L3aHR+Resp unary SVM,Vhaduri,2021,NA
+495,S1,Nawawi,2024,NA
+495,S2,Nawawi,2024,NA
+495,S3,Nawawi,2024,NA
+495,S4,Nawawi,2024,NA
+495,S5,Nawawi,2024,NA
+475,LSTM / PM 1 subject,Chang,2024,NA
+475,LSTM / PM 2 subject,Chang,2024,NA
+475,LSTM / PM 3 subject,Chang,2024,NA
+475,LSTM / PM 4 subject,Chang,2024,NA
+475,LSTM / PM 5 subject,Chang,2024,NA
+475,AE / PM 1 subject,Chang,2024,NA
+475,AE / PM 2 subject,Chang,2024,NA
+475,AE / PM 3 subject,Chang,2024,NA
+475,AE / PM 4 subject,Chang,2024,NA
+475,AE / PM 5 subject,Chang,2024,NA
+460,460.0.1,Šprager,2017,"Describes several experiments, but does not report the aggregate numbers (only figures). Insufficient description of algorithm, validation"
+459,level 1,Enamamu,2017,"always writes about ECG, but all devices tested actually use PPG"
+459,level 2,Enamamu,2017,NA
+459,level 3,Enamamu,2017,NA
+459,level 4,Enamamu,2017,NA
+459,level fusion,Enamamu,2017,NA
+455,time,Repcik,2020,NA
+455,wavelet,Repcik,2020,NA
+455,DL,Repcik,2020,NA
+447,ResNet50 1s Sc2,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc4,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc10,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp2,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp4,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp10,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel2,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel4,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel10,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc2,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc4,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc10,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp2,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp4,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp10,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel2,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel4,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel10,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc2,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc4,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc10,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp2,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp4,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp10,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel2,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel4,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel10,Yeşilkaya,2025,NA
+447,DensNet201 1s Sc2,Yeşilkaya,2025,NA
+447,DensNet201 1s Sc4,Yeşilkaya,2025,NA
+447,DensNet201 1s Sc10,Yeşilkaya,2025,NA
+447,DensNet201 1s Sp2,Yeşilkaya,2025,NA
+447,DensNet201 1s Sp4,Yeşilkaya,2025,NA
+447,DensNet201 1s Sp10,Yeşilkaya,2025,NA
+447,DensNet201 1s Mel2,Yeşilkaya,2025,NA
+447,DensNet201 1s Mel4,Yeşilkaya,2025,NA
+447,DensNet201 1s Mel10,Yeşilkaya,2025,NA
+447,DensNet201 3s Sc2,Yeşilkaya,2025,NA
+447,DensNet201 3s Sc4,Yeşilkaya,2025,NA
+447,DensNet201 3s Sc10,Yeşilkaya,2025,NA
+447,DensNet201 3s Sp2,Yeşilkaya,2025,NA
+447,DensNet201 3s Sp4,Yeşilkaya,2025,NA
+447,DensNet201 3s Sp10,Yeşilkaya,2025,NA
+447,DensNet201 3s Mel2,Yeşilkaya,2025,NA
+447,DensNet201 3s Mel4,Yeşilkaya,2025,NA
+447,DensNet201 3s Mel10,Yeşilkaya,2025,NA
+447,DensNet201 5s Sc2,Yeşilkaya,2025,NA
+447,DensNet201 5s Sc4,Yeşilkaya,2025,NA
+447,DensNet201 5s Sc10,Yeşilkaya,2025,NA
+447,DensNet201 5s Sp2,Yeşilkaya,2025,NA
+447,DensNet201 5s Sp4,Yeşilkaya,2025,NA
+447,DensNet201 5s Sp10,Yeşilkaya,2025,NA
+447,DensNet201 5s Mel2,Yeşilkaya,2025,NA
+447,DensNet201 5s Mel4,Yeşilkaya,2025,NA
+447,DensNet201 5s Mel10,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel2 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel4 Resting,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel10 Resting,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel2 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel4 Walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel10 Walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel2 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel4 Standing,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel10 Standing,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc2 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc4 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sc10 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp2 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp4 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Sp10 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel2 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel4 walking,Yeşilkaya,2025,NA
+447,ResNet50 1s Mel10 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc2 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc4 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sc10 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp2 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp4 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Sp10 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel2 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel4 walking,Yeşilkaya,2025,NA
+447,ResNet50 3s Mel10 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc2 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc4 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sc10 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp2 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp4 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Sp10 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel2 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel4 walking,Yeşilkaya,2025,NA
+447,ResNet50 5s Mel10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel2 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel4 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel10 Resting,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel2 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel4 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel10 Walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel2 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel4 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel10 Standing,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sc10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Sp10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 1s Mel10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sc10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Sp10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 3s Mel10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sc10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Sp10 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel2 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel4 walking,Yeşilkaya,2025,NA
+447,DenseNet201 5s Mel10 walking,Yeşilkaya,2025,NA
+445,445.0.1 / A1,Nawawi,2023,sehr ähnlich zu 495?; https://support.hexoskin.com/applying-conductive-cream-on-the-cardiac-sensors
+445,445.0.1 / A2,Nawawi,2023,sehr ähnlich zu 495?; https://support.hexoskin.com/applying-conductive-cream-on-the-cardiac-sensors
+445,445.0.1 / A3,Nawawi,2023,sehr ähnlich zu 495?; https://support.hexoskin.com/applying-conductive-cream-on-the-cardiac-sensors
+445,445.0.1 / B1,Nawawi,2023,sehr ähnlich zu 495?; https://support.hexoskin.com/applying-conductive-cream-on-the-cardiac-sensors
+445,445.0.1 / B2,Nawawi,2023,sehr ähnlich zu 495?; https://support.hexoskin.com/applying-conductive-cream-on-the-cardiac-sensors
+445,445.0.1 / C,Nawawi,2023,sehr ähnlich zu 495?; https://support.hexoskin.com/applying-conductive-cream-on-the-cardiac-sensors
+486,486.0.1 / Exp 2 Bior1.1 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.1 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.1 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.1 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.1 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.1 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.3 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.3 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.3 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.3 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.3 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.3 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.5 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.5 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.5 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.5 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.5 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior1.5 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.2  D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.2 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.2 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.2 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.2 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.2 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.4  D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.4 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.4 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.4 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.4 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.4 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.6  D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.6 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.6 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.6 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.6 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.6 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.8  D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.8 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.8 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.8 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.8 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior2.8 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.1 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.1 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.1 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.1 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.1 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.1 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.3 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.3 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.3 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.3 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.3 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.3 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.5 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.5 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.5 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.5 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.5 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.5 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.7 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.7 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.7 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.7 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.7 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.7 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.9 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.9 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.9 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.9 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.9 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior3.9 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior4.4 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior4.4 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior4.4 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior4.4 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior4.4 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior4.4 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior5.5 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior5.5 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior5.5 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior5.5 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior5.5 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior5.5 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior6.8 D1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior6.8 A1,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior6.8 D2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior6.8 A2,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior6.8 D3,Enamamu,2020,NA
+486,486.0.1 / Exp 2 Bior6.8 A3,Enamamu,2020,NA
+486,486.0.1 / Exp 3 Bior1.1 Approx. Coefficient Fusion,Enamamu,2020,all 3 types of approx coef fusion for Bior 1.1
+486,486.0.1 / Exp 3 Bior1.1 Coefficient Fusion,Enamamu,2020,all 3 types of coef fusion for Bior 1.1
+486,486.0.1 / Exp 3 Bior1.3 Approx. Coefficient Fusion,Enamamu,2020,all 3 types of approx coef fusion for Bior 1.3
+486,486.0.1 / Exp 3 Bior1.3 Coefficient Fusion,Enamamu,2020,all 3 types of coef fusion for Bior 1.3
+486,Approx,Enamamu,2020,the overall fusion of the approximate across all Bior
+486,Coef,Enamamu,2020,the overall fusion of the coef across all Bior
+382,382.0.1 HR CNN,Vhaduri,2024,NA
+382,382.0.1 HR RNN,Vhaduri,2024,NA
+382,382.0.1 HR CRNN,Vhaduri,2024,NA
+382,382.0.1 HRB CNN,Vhaduri,2024,NA
+382,382.0.1 HRB RNN,Vhaduri,2024,NA
+382,382.0.1 HRB CRNN,Vhaduri,2024,NA
+374,374.0.1,Biswas,2019,Biswas & Everson - follow up paper to 266 with similar modeling strategy and setup
+266,15 15 20 15,Everson,2018,Compares 12 different hyperparameter settings (window size and number for convolutional net) on a wearable wristband using the public TROICA data set
+266,15 15 30 15,Everson,2018,NA
+266,15 15 40 15,Everson,2018,NA
+266,15 15 50 15,Everson,2018,NA
+266,30 15 20 15,Everson,2018,NA
+266,30 15 30 15,Everson,2018,NA
+266,30 15 40 15,Everson,2018,NA
+266,30 15 50 15,Everson,2018,NA
+266,30 32 20 15,Everson,2018,NA
+266,30 32 30 32,Everson,2018,NA
+266,30 32 40 32,Everson,2018,NA
+266,30 32 50 32,Everson,2018,NA

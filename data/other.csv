@@ -1,0 +1,28 @@
+id,Use cases and application scenarios,independence,remaining challenges,Note
+28,continuous driver auth discussed in detail,NA,prolonged interruptions in data signals,screen table 2 for additional references
+36,NA,data not processed on device,NA,"Many of the experiments in the study use devices we don't consider wearable, especially medical chest straps with glued-on electrodes"
+43,low memory requirements and fast auth in device,data processed on device,NA,This does not report validation strategy or how many samples were used for each participant
+55,NA,no,"long enrol time, moderate situational stability but not real-world setting, low permanence",NA
+75,not mentioned,no,"activity classification hard for similar states, fake signals, several enrolment phases necessary",NA
+147,not mentioned,no,comparing different motion patterns,motion artifact removal highly successful
+189,not mentioned,no,NA,"insufficiently explained, but frequent re-training and evaluaiton could improve auth"
+205,Authentication for dementia patients that still works if they can't remember passwords,no,"enrolment time, multimodal, different situations",all metrics are just for a single user vs. 9 unauthorized users (that were nevertheless used for training).
+253,NA,no,NA,"The study only reports per-subject metrics and threshold dependent metrics, which means comparison is not possible.  These are not comparable because different settings are reported for each user."
+278,NA,no,poor performance due to significant amount of noise. Finger movements severely contaminate the signal with motion artifacts,"developed as part of a multimodal system, but the arm rest is unfortunately not wearable. Most experiments are identification, not authentication."
+298,p. 9543 has two scenarios (office and living environments),"no, relies on web server for data processing",still requires passwords in case of changes in health status,many of the reported metrics are not exact and rounded
+305,wearable device security to avoid shoulder attacks and forgetting passwords,no,"larger data sets needed, reducing computational burden for on-device computing",Unfortunately the more promising CNN-LSTM additionally uses non vital signs. Otherwise due to the use of a wearable during everyday use very interesting
+330,"IOT such as smart garage doors, automotive",no,"latency, especially due to segmentation",NA
+401,"online banking, corporate services, private devices",partially - processed on smartphone,signal deteriorates with higher HR,"Validation complicated, not entirely sure if I understood it correctly."
+61,burden-free implicit authentication mechanism for wearables,no,data set size,Data not sufficiently described
+495,not mentioned,no,different time courses and real world conditions,"Describes using 10-fold CV, but also describes training on T1 and testing on T2. Both don't really go together. Shirt types were not compared directly"
+460,NA,no,NA,NA
+459,NA,NA,"limitation to the fact that it is affected by aging, emotional factors; the use of multi-instance, multi-modal or multibioelectrical signals is expected to enhance the performance and overcome these limitations",NA
+455,NA,no,"For the higher reliability and
+transparency of this method, it would be needed to gather
+more data, mainly for simulation of intruders",NA
+447,"Device unlocking (e.g. waking a smartwatch from sleep); Accessing private or secure data; Continuous or context-aware authentication based on user activity; short enrollment times (2–10s), which are critical for real-time, user-friendly authentication on wearables",no,"Limited training data, transfer learning limits, poor model performance with long time windows, need for more diverse activity/emotion data.",NA
+445,not mentioned,no,sehr ähnlich zu Paper 495,NA
+486,secure transmission of health data from smartwatch to cloud,"no, data is sent to the ""computing system"" for processing",Robustness to real-life noise; Optimal wavelet selection; Computational constraints on mobile; Threshold tuning; Scalability & generalization (validation with 30 users; scaling to larger populations might affect both accuracy and processing requirements),NA
+382,"Securing IoT Objects (smart locks, connected home electronics, access control gates, etc.)",On-Phone Processing,"Include sensor noise, multi-modal fusion, model scalability, device variability, long-term changes in user’s biometric patterns, and ensuring robust on-device security.",NA
+374,"secure access, health record authentication, or continuous identity verification in wearable systems; personalized remote health monitoring and identity-aware wellness devices",Device independence; Computational constraints on wearables; two subjects having different skin types,Limited cohort diversity and generalization; No explicit impostor/return-to-zero evaluation; Long-term stability and situational shifts; energyefficient execution of the algorithm on wearable devices in realtime on a processor or hardware solutions,NA
+266,NA,"no, training and inference require a GPU","Due to the 11:1 training setup, the network needs to be retrained for every new user, which is very inefficient in a commercial setting. Additionally, energy-efficient execution of the algorithm on wearable devices still remains a challenge.",incorrectly describes PPG as 2-channel (TROIKA uses only green light)
