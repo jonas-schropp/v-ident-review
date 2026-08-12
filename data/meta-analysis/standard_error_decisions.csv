@@ -1,0 +1,10 @@
+id,se_provenance_category,se_conversion_denominator,include_se_primary,include_se_sensitivity,se_decision_note
+382,trustworthy SE,,1,1,Reported user-level SE accepted directly.
+55,converted subject-level SD,28,1,1,Parenthesized value is a subject-level SD; SE recovered as SD/sqrt(28).
+189,converted subject-level SD,30,1,1,Single-user uploaded results support SD/sqrt(30) conversion.
+459,converted subject-level SD,30,1,1,Single-user uploaded results support SD/sqrt(30) conversion.
+486,converted subject-level SD,30,1,1,Single-user uploaded results support SD/sqrt(30) conversion for rows with parenthesized SDs.
+374,converted subject-level SD,20,1,1,Single-user uploaded results support SD/sqrt(20) conversion.
+75,"fold-level SD, not usable as SE",,0,0,"Parenthesized values are fold-level SDs over cross-validation folds, not user-level SEs."
+278,unclear reporting,53,0,1,"Reported uncertainty has uncertain provenance; sensitivity analysis can treat it as SD/sqrt(53)."
+61,unclear reporting,10,0,1,"Reported uncertainty has uncertain provenance; sensitivity analysis can treat it as SD/sqrt(10)."

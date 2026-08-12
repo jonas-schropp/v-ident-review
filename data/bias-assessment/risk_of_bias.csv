@@ -1,0 +1,391 @@
+instrument,stage,domain_code,domain,study_id,rating
+PROBAST+AI,Development,D1,Participants and Data Sources,28,High
+PROBAST+AI,Development,D1,Participants and Data Sources,36,High
+PROBAST+AI,Development,D1,Participants and Data Sources,43,High
+PROBAST+AI,Development,D1,Participants and Data Sources,55,High
+PROBAST+AI,Development,D1,Participants and Data Sources,75,High
+PROBAST+AI,Development,D1,Participants and Data Sources,147,High
+PROBAST+AI,Development,D1,Participants and Data Sources,189,High
+PROBAST+AI,Development,D1,Participants and Data Sources,205,High
+PROBAST+AI,Development,D1,Participants and Data Sources,253,High
+PROBAST+AI,Development,D1,Participants and Data Sources,278,High
+PROBAST+AI,Development,D1,Participants and Data Sources,298,High
+PROBAST+AI,Development,D1,Participants and Data Sources,305,High
+PROBAST+AI,Development,D1,Participants and Data Sources,330,High
+PROBAST+AI,Development,D1,Participants and Data Sources,401,High
+PROBAST+AI,Development,D1,Participants and Data Sources,61,High
+PROBAST+AI,Development,D1,Participants and Data Sources,495,High
+PROBAST+AI,Development,D1,Participants and Data Sources,475,High
+PROBAST+AI,Development,D1,Participants and Data Sources,460,High
+PROBAST+AI,Development,D1,Participants and Data Sources,459,High
+PROBAST+AI,Development,D1,Participants and Data Sources,455,High
+PROBAST+AI,Development,D1,Participants and Data Sources,447,High
+PROBAST+AI,Development,D1,Participants and Data Sources,445,High
+PROBAST+AI,Development,D1,Participants and Data Sources,486,High
+PROBAST+AI,Development,D1,Participants and Data Sources,382,High
+PROBAST+AI,Development,D1,Participants and Data Sources,374,High
+PROBAST+AI,Development,D1,Participants and Data Sources,266,High
+PROBAST+AI,Development,D2,Predictors,28,Low
+PROBAST+AI,Development,D2,Predictors,36,Low
+PROBAST+AI,Development,D2,Predictors,43,Low
+PROBAST+AI,Development,D2,Predictors,55,Low
+PROBAST+AI,Development,D2,Predictors,75,Low
+PROBAST+AI,Development,D2,Predictors,147,Low
+PROBAST+AI,Development,D2,Predictors,189,Low
+PROBAST+AI,Development,D2,Predictors,205,Low
+PROBAST+AI,Development,D2,Predictors,253,Low
+PROBAST+AI,Development,D2,Predictors,278,Low
+PROBAST+AI,Development,D2,Predictors,298,Low
+PROBAST+AI,Development,D2,Predictors,305,Low
+PROBAST+AI,Development,D2,Predictors,330,Low
+PROBAST+AI,Development,D2,Predictors,401,Low
+PROBAST+AI,Development,D2,Predictors,61,Low
+PROBAST+AI,Development,D2,Predictors,495,High
+PROBAST+AI,Development,D2,Predictors,475,Low
+PROBAST+AI,Development,D2,Predictors,460,Low
+PROBAST+AI,Development,D2,Predictors,459,Low
+PROBAST+AI,Development,D2,Predictors,455,Low
+PROBAST+AI,Development,D2,Predictors,447,Low
+PROBAST+AI,Development,D2,Predictors,445,Low
+PROBAST+AI,Development,D2,Predictors,486,Low
+PROBAST+AI,Development,D2,Predictors,382,Low
+PROBAST+AI,Development,D2,Predictors,374,Low
+PROBAST+AI,Development,D2,Predictors,266,Low
+PROBAST+AI,Development,D3,Outcome,28,High
+PROBAST+AI,Development,D3,Outcome,36,High
+PROBAST+AI,Development,D3,Outcome,43,Unclear
+PROBAST+AI,Development,D3,Outcome,55,High
+PROBAST+AI,Development,D3,Outcome,75,High
+PROBAST+AI,Development,D3,Outcome,147,High
+PROBAST+AI,Development,D3,Outcome,189,High
+PROBAST+AI,Development,D3,Outcome,205,High
+PROBAST+AI,Development,D3,Outcome,253,High
+PROBAST+AI,Development,D3,Outcome,278,High
+PROBAST+AI,Development,D3,Outcome,298,High
+PROBAST+AI,Development,D3,Outcome,305,Low
+PROBAST+AI,Development,D3,Outcome,330,High
+PROBAST+AI,Development,D3,Outcome,401,Low
+PROBAST+AI,Development,D3,Outcome,61,High
+PROBAST+AI,Development,D3,Outcome,495,Low
+PROBAST+AI,Development,D3,Outcome,475,High
+PROBAST+AI,Development,D3,Outcome,460,High
+PROBAST+AI,Development,D3,Outcome,459,High
+PROBAST+AI,Development,D3,Outcome,455,High
+PROBAST+AI,Development,D3,Outcome,447,High
+PROBAST+AI,Development,D3,Outcome,445,High
+PROBAST+AI,Development,D3,Outcome,486,High
+PROBAST+AI,Development,D3,Outcome,382,High
+PROBAST+AI,Development,D3,Outcome,374,High
+PROBAST+AI,Development,D3,Outcome,266,High
+PROBAST+AI,Development,D4,Analysis,28,High
+PROBAST+AI,Development,D4,Analysis,36,High
+PROBAST+AI,Development,D4,Analysis,43,Unclear
+PROBAST+AI,Development,D4,Analysis,55,High
+PROBAST+AI,Development,D4,Analysis,75,High
+PROBAST+AI,Development,D4,Analysis,147,High
+PROBAST+AI,Development,D4,Analysis,189,High
+PROBAST+AI,Development,D4,Analysis,205,High
+PROBAST+AI,Development,D4,Analysis,253,High
+PROBAST+AI,Development,D4,Analysis,278,High
+PROBAST+AI,Development,D4,Analysis,298,High
+PROBAST+AI,Development,D4,Analysis,305,High
+PROBAST+AI,Development,D4,Analysis,330,High
+PROBAST+AI,Development,D4,Analysis,401,High
+PROBAST+AI,Development,D4,Analysis,61,High
+PROBAST+AI,Development,D4,Analysis,495,High
+PROBAST+AI,Development,D4,Analysis,475,High
+PROBAST+AI,Development,D4,Analysis,460,High
+PROBAST+AI,Development,D4,Analysis,459,High
+PROBAST+AI,Development,D4,Analysis,455,High
+PROBAST+AI,Development,D4,Analysis,447,High
+PROBAST+AI,Development,D4,Analysis,445,High
+PROBAST+AI,Development,D4,Analysis,486,High
+PROBAST+AI,Development,D4,Analysis,382,High
+PROBAST+AI,Development,D4,Analysis,374,High
+PROBAST+AI,Development,D4,Analysis,266,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,28,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,36,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,43,Unclear
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,55,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,75,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,147,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,189,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,205,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,253,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,278,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,298,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,305,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,330,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,401,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,61,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,495,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,475,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,460,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,459,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,455,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,447,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,445,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,486,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,382,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,374,High
+PROBAST+AI,Evaluation,E1,Participants and Data Sources,266,High
+PROBAST+AI,Evaluation,E2,Predictors,28,Low
+PROBAST+AI,Evaluation,E2,Predictors,36,Low
+PROBAST+AI,Evaluation,E2,Predictors,43,Low
+PROBAST+AI,Evaluation,E2,Predictors,55,Low
+PROBAST+AI,Evaluation,E2,Predictors,75,Low
+PROBAST+AI,Evaluation,E2,Predictors,147,Low
+PROBAST+AI,Evaluation,E2,Predictors,189,Low
+PROBAST+AI,Evaluation,E2,Predictors,205,Low
+PROBAST+AI,Evaluation,E2,Predictors,253,Low
+PROBAST+AI,Evaluation,E2,Predictors,278,Low
+PROBAST+AI,Evaluation,E2,Predictors,298,Low
+PROBAST+AI,Evaluation,E2,Predictors,305,Low
+PROBAST+AI,Evaluation,E2,Predictors,330,Low
+PROBAST+AI,Evaluation,E2,Predictors,401,Low
+PROBAST+AI,Evaluation,E2,Predictors,61,Low
+PROBAST+AI,Evaluation,E2,Predictors,495,High
+PROBAST+AI,Evaluation,E2,Predictors,475,Low
+PROBAST+AI,Evaluation,E2,Predictors,460,Low
+PROBAST+AI,Evaluation,E2,Predictors,459,Low
+PROBAST+AI,Evaluation,E2,Predictors,455,Low
+PROBAST+AI,Evaluation,E2,Predictors,447,Low
+PROBAST+AI,Evaluation,E2,Predictors,445,Low
+PROBAST+AI,Evaluation,E2,Predictors,486,Low
+PROBAST+AI,Evaluation,E2,Predictors,382,Low
+PROBAST+AI,Evaluation,E2,Predictors,374,Low
+PROBAST+AI,Evaluation,E2,Predictors,266,Low
+PROBAST+AI,Evaluation,E3,Outcome,28,High
+PROBAST+AI,Evaluation,E3,Outcome,36,High
+PROBAST+AI,Evaluation,E3,Outcome,43,Unclear
+PROBAST+AI,Evaluation,E3,Outcome,55,High
+PROBAST+AI,Evaluation,E3,Outcome,75,High
+PROBAST+AI,Evaluation,E3,Outcome,147,High
+PROBAST+AI,Evaluation,E3,Outcome,189,High
+PROBAST+AI,Evaluation,E3,Outcome,205,High
+PROBAST+AI,Evaluation,E3,Outcome,253,High
+PROBAST+AI,Evaluation,E3,Outcome,278,High
+PROBAST+AI,Evaluation,E3,Outcome,298,High
+PROBAST+AI,Evaluation,E3,Outcome,305,Low
+PROBAST+AI,Evaluation,E3,Outcome,330,High
+PROBAST+AI,Evaluation,E3,Outcome,401,Low
+PROBAST+AI,Evaluation,E3,Outcome,61,High
+PROBAST+AI,Evaluation,E3,Outcome,495,Low
+PROBAST+AI,Evaluation,E3,Outcome,475,High
+PROBAST+AI,Evaluation,E3,Outcome,460,High
+PROBAST+AI,Evaluation,E3,Outcome,459,High
+PROBAST+AI,Evaluation,E3,Outcome,455,High
+PROBAST+AI,Evaluation,E3,Outcome,447,High
+PROBAST+AI,Evaluation,E3,Outcome,445,High
+PROBAST+AI,Evaluation,E3,Outcome,486,High
+PROBAST+AI,Evaluation,E3,Outcome,382,High
+PROBAST+AI,Evaluation,E3,Outcome,374,High
+PROBAST+AI,Evaluation,E3,Outcome,266,High
+PROBAST+AI,Evaluation,E4,Analysis,28,High
+PROBAST+AI,Evaluation,E4,Analysis,36,High
+PROBAST+AI,Evaluation,E4,Analysis,43,High
+PROBAST+AI,Evaluation,E4,Analysis,55,High
+PROBAST+AI,Evaluation,E4,Analysis,75,High
+PROBAST+AI,Evaluation,E4,Analysis,147,High
+PROBAST+AI,Evaluation,E4,Analysis,189,High
+PROBAST+AI,Evaluation,E4,Analysis,205,High
+PROBAST+AI,Evaluation,E4,Analysis,253,High
+PROBAST+AI,Evaluation,E4,Analysis,278,High
+PROBAST+AI,Evaluation,E4,Analysis,298,High
+PROBAST+AI,Evaluation,E4,Analysis,305,High
+PROBAST+AI,Evaluation,E4,Analysis,330,High
+PROBAST+AI,Evaluation,E4,Analysis,401,High
+PROBAST+AI,Evaluation,E4,Analysis,61,High
+PROBAST+AI,Evaluation,E4,Analysis,495,High
+PROBAST+AI,Evaluation,E4,Analysis,475,High
+PROBAST+AI,Evaluation,E4,Analysis,460,High
+PROBAST+AI,Evaluation,E4,Analysis,459,High
+PROBAST+AI,Evaluation,E4,Analysis,455,High
+PROBAST+AI,Evaluation,E4,Analysis,447,High
+PROBAST+AI,Evaluation,E4,Analysis,445,High
+PROBAST+AI,Evaluation,E4,Analysis,486,High
+PROBAST+AI,Evaluation,E4,Analysis,382,High
+PROBAST+AI,Evaluation,E4,Analysis,374,High
+PROBAST+AI,Evaluation,E4,Analysis,266,High
+BRAIA-VS,,1,System Requirements,28,Moderate
+BRAIA-VS,,1,System Requirements,36,High
+BRAIA-VS,,1,System Requirements,43,High
+BRAIA-VS,,1,System Requirements,55,High
+BRAIA-VS,,1,System Requirements,75,High
+BRAIA-VS,,1,System Requirements,147,High
+BRAIA-VS,,1,System Requirements,189,High
+BRAIA-VS,,1,System Requirements,205,High
+BRAIA-VS,,1,System Requirements,253,High
+BRAIA-VS,,1,System Requirements,278,Moderate
+BRAIA-VS,,1,System Requirements,298,Low
+BRAIA-VS,,1,System Requirements,305,High
+BRAIA-VS,,1,System Requirements,330,High
+BRAIA-VS,,1,System Requirements,401,High
+BRAIA-VS,,1,System Requirements,61,Low
+BRAIA-VS,,1,System Requirements,495,High
+BRAIA-VS,,1,System Requirements,475,Low
+BRAIA-VS,,1,System Requirements,460,High
+BRAIA-VS,,1,System Requirements,459,High
+BRAIA-VS,,1,System Requirements,455,High
+BRAIA-VS,,1,System Requirements,447,High
+BRAIA-VS,,1,System Requirements,445,High
+BRAIA-VS,,1,System Requirements,486,High
+BRAIA-VS,,1,System Requirements,382,Moderate
+BRAIA-VS,,1,System Requirements,374,Low
+BRAIA-VS,,1,System Requirements,266,High
+BRAIA-VS,,2,Signal Acquisition,28,Moderate
+BRAIA-VS,,2,Signal Acquisition,36,High
+BRAIA-VS,,2,Signal Acquisition,43,Unclear
+BRAIA-VS,,2,Signal Acquisition,55,High
+BRAIA-VS,,2,Signal Acquisition,75,High
+BRAIA-VS,,2,Signal Acquisition,147,Unclear
+BRAIA-VS,,2,Signal Acquisition,189,Unclear
+BRAIA-VS,,2,Signal Acquisition,205,High
+BRAIA-VS,,2,Signal Acquisition,253,High
+BRAIA-VS,,2,Signal Acquisition,278,Moderate
+BRAIA-VS,,2,Signal Acquisition,298,High
+BRAIA-VS,,2,Signal Acquisition,305,Moderate
+BRAIA-VS,,2,Signal Acquisition,330,High
+BRAIA-VS,,2,Signal Acquisition,401,High
+BRAIA-VS,,2,Signal Acquisition,61,High
+BRAIA-VS,,2,Signal Acquisition,495,Moderate
+BRAIA-VS,,2,Signal Acquisition,475,High
+BRAIA-VS,,2,Signal Acquisition,460,Moderate
+BRAIA-VS,,2,Signal Acquisition,459,Moderate
+BRAIA-VS,,2,Signal Acquisition,455,High
+BRAIA-VS,,2,Signal Acquisition,447,Moderate
+BRAIA-VS,,2,Signal Acquisition,445,Moderate
+BRAIA-VS,,2,Signal Acquisition,486,Moderate
+BRAIA-VS,,2,Signal Acquisition,382,High
+BRAIA-VS,,2,Signal Acquisition,374,Moderate
+BRAIA-VS,,2,Signal Acquisition,266,High
+BRAIA-VS,,3,Signal Preprocessing,28,High
+BRAIA-VS,,3,Signal Preprocessing,36,High
+BRAIA-VS,,3,Signal Preprocessing,43,High
+BRAIA-VS,,3,Signal Preprocessing,55,High
+BRAIA-VS,,3,Signal Preprocessing,75,High
+BRAIA-VS,,3,Signal Preprocessing,147,High
+BRAIA-VS,,3,Signal Preprocessing,189,High
+BRAIA-VS,,3,Signal Preprocessing,205,High
+BRAIA-VS,,3,Signal Preprocessing,253,Unclear
+BRAIA-VS,,3,Signal Preprocessing,278,Unclear
+BRAIA-VS,,3,Signal Preprocessing,298,High
+BRAIA-VS,,3,Signal Preprocessing,305,High
+BRAIA-VS,,3,Signal Preprocessing,330,High
+BRAIA-VS,,3,Signal Preprocessing,401,High
+BRAIA-VS,,3,Signal Preprocessing,61,High
+BRAIA-VS,,3,Signal Preprocessing,495,Unclear
+BRAIA-VS,,3,Signal Preprocessing,475,High
+BRAIA-VS,,3,Signal Preprocessing,460,Unclear
+BRAIA-VS,,3,Signal Preprocessing,459,High
+BRAIA-VS,,3,Signal Preprocessing,455,High
+BRAIA-VS,,3,Signal Preprocessing,447,Unclear
+BRAIA-VS,,3,Signal Preprocessing,445,Unclear
+BRAIA-VS,,3,Signal Preprocessing,486,High
+BRAIA-VS,,3,Signal Preprocessing,382,High
+BRAIA-VS,,3,Signal Preprocessing,374,Unclear
+BRAIA-VS,,3,Signal Preprocessing,266,Unclear
+BRAIA-VS,,4,Signal Representation,28,Unclear
+BRAIA-VS,,4,Signal Representation,36,Unclear
+BRAIA-VS,,4,Signal Representation,43,Unclear
+BRAIA-VS,,4,Signal Representation,55,Unclear
+BRAIA-VS,,4,Signal Representation,75,Unclear
+BRAIA-VS,,4,Signal Representation,147,Unclear
+BRAIA-VS,,4,Signal Representation,189,Unclear
+BRAIA-VS,,4,Signal Representation,205,Unclear
+BRAIA-VS,,4,Signal Representation,253,Unclear
+BRAIA-VS,,4,Signal Representation,278,Unclear
+BRAIA-VS,,4,Signal Representation,298,Unclear
+BRAIA-VS,,4,Signal Representation,305,Unclear
+BRAIA-VS,,4,Signal Representation,330,Unclear
+BRAIA-VS,,4,Signal Representation,401,Unclear
+BRAIA-VS,,4,Signal Representation,61,Unclear
+BRAIA-VS,,4,Signal Representation,495,Unclear
+BRAIA-VS,,4,Signal Representation,475,Unclear
+BRAIA-VS,,4,Signal Representation,460,Unclear
+BRAIA-VS,,4,Signal Representation,459,Unclear
+BRAIA-VS,,4,Signal Representation,455,Unclear
+BRAIA-VS,,4,Signal Representation,447,Unclear
+BRAIA-VS,,4,Signal Representation,445,Unclear
+BRAIA-VS,,4,Signal Representation,486,Unclear
+BRAIA-VS,,4,Signal Representation,382,Unclear
+BRAIA-VS,,4,Signal Representation,374,Unclear
+BRAIA-VS,,4,Signal Representation,266,Unclear
+BRAIA-VS,,5,Signal Analysis,28,Moderate
+BRAIA-VS,,5,Signal Analysis,36,High
+BRAIA-VS,,5,Signal Analysis,43,Unclear
+BRAIA-VS,,5,Signal Analysis,55,High
+BRAIA-VS,,5,Signal Analysis,75,High
+BRAIA-VS,,5,Signal Analysis,147,High
+BRAIA-VS,,5,Signal Analysis,189,High
+BRAIA-VS,,5,Signal Analysis,205,High
+BRAIA-VS,,5,Signal Analysis,253,Moderate
+BRAIA-VS,,5,Signal Analysis,278,Low
+BRAIA-VS,,5,Signal Analysis,298,Unclear
+BRAIA-VS,,5,Signal Analysis,305,Unclear
+BRAIA-VS,,5,Signal Analysis,330,High
+BRAIA-VS,,5,Signal Analysis,401,Unclear
+BRAIA-VS,,5,Signal Analysis,61,High
+BRAIA-VS,,5,Signal Analysis,495,Moderate
+BRAIA-VS,,5,Signal Analysis,475,High
+BRAIA-VS,,5,Signal Analysis,460,High
+BRAIA-VS,,5,Signal Analysis,459,High
+BRAIA-VS,,5,Signal Analysis,455,High
+BRAIA-VS,,5,Signal Analysis,447,Moderate
+BRAIA-VS,,5,Signal Analysis,445,High
+BRAIA-VS,,5,Signal Analysis,486,High
+BRAIA-VS,,5,Signal Analysis,382,High
+BRAIA-VS,,5,Signal Analysis,374,High
+BRAIA-VS,,5,Signal Analysis,266,High
+BRAIA-VS,,6,Performance Evaluation,28,High
+BRAIA-VS,,6,Performance Evaluation,36,High
+BRAIA-VS,,6,Performance Evaluation,43,High
+BRAIA-VS,,6,Performance Evaluation,55,High
+BRAIA-VS,,6,Performance Evaluation,75,High
+BRAIA-VS,,6,Performance Evaluation,147,High
+BRAIA-VS,,6,Performance Evaluation,189,High
+BRAIA-VS,,6,Performance Evaluation,205,High
+BRAIA-VS,,6,Performance Evaluation,253,High
+BRAIA-VS,,6,Performance Evaluation,278,High
+BRAIA-VS,,6,Performance Evaluation,298,High
+BRAIA-VS,,6,Performance Evaluation,305,High
+BRAIA-VS,,6,Performance Evaluation,330,High
+BRAIA-VS,,6,Performance Evaluation,401,High
+BRAIA-VS,,6,Performance Evaluation,61,High
+BRAIA-VS,,6,Performance Evaluation,495,High
+BRAIA-VS,,6,Performance Evaluation,475,High
+BRAIA-VS,,6,Performance Evaluation,460,High
+BRAIA-VS,,6,Performance Evaluation,459,High
+BRAIA-VS,,6,Performance Evaluation,455,High
+BRAIA-VS,,6,Performance Evaluation,447,High
+BRAIA-VS,,6,Performance Evaluation,445,High
+BRAIA-VS,,6,Performance Evaluation,486,High
+BRAIA-VS,,6,Performance Evaluation,382,High
+BRAIA-VS,,6,Performance Evaluation,374,High
+BRAIA-VS,,6,Performance Evaluation,266,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",28,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",36,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",43,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",55,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",75,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",147,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",189,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",205,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",253,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",278,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",298,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",305,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",330,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",401,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",61,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",495,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",475,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",460,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",459,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",455,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",447,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",445,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",486,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",382,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",374,High
+BRAIA-VS,,7,"Governance, Fairness & Safety",266,High
