@@ -9,13 +9,14 @@ plot_algo <- function(midat, fit = fit_algo2) {
   # Use the factor levels present in your data (order preserved)
   levs <- levels(midat[[1]]$algo)
   
-  # New-study predictions for each algorithm level
+  # New-study predictions for each algorithm level. Non-target covariates are held
+  # at reference values (multimodal = 0, first activity/duration level).
   nd <- data.frame(
     algo    = factor(levs, levels = levs),
-    multimodal = c(0, 1),
+    multimodal = 0,
     logn = log(1),
-    activity = 'one condition',
-    duration = '1 day',
+    activity = levels(midat[[1]]$activity)[1],
+    duration = levels(midat[[1]]$duration)[1],
     se_logit = 0
   )
   
@@ -77,8 +78,8 @@ plot_multimodal <- function(midat, fit) {
     multimodal_between = c(0, 1),
     multimodal = c(0, 1),
     logn = log(1),
-    activity = 'one condition',
-    duration = '1 day',
+    activity = levels(midat[[1]]$activity)[1],
+    duration = levels(midat[[1]]$duration)[1],
     se_logit = 0
   )
   
@@ -139,9 +140,9 @@ plot_modalities <- function(midat, fit = fit_mod) {
     PPG = c(0, 0, 1),
     logn = log(1),
     multimodal = 0,
-    activity = 'one condition',
-    duration = '1 day',
-    se_logit = 0    
+    activity = levels(midat[[1]]$activity)[1],
+    duration = levels(midat[[1]]$duration)[1],
+    se_logit = 0
   )
   
   # Population-level predictions (new-study target)
@@ -201,16 +202,16 @@ plot_activity <- function(midat, fit = fit_activity) {
   # - between terms: 1 for the target level, 0 otherwise
   nd <- data.frame(
     activity = factor(levs, levels = levs),
-    duration = "1 day",
+    duration = levels(midat[[1]]$duration)[1],
     se_logit = 0,
     logn = log(1),
     multimodal = 0,
     multiC_within  = 0,
     everyC_within  = 0,
     multiC_between = as.integer(levs == "multiple conditions"),
-    everyC_between = as.integer(levs == "everyday conditions"),
+    everyC_between = as.integer(grepl("everyday", levs)),
     multiC = levs == "multiple conditions",
-    everyC = levs == "everyday conditions"
+    everyC = grepl("everyday", levs)
   )
   
   # Population-level predictions (no study REs)

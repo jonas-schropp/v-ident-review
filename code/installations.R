@@ -10,9 +10,13 @@ packages <- c("elizagrames/litsearchr", "easyPubMed", "revtools",
               "RefManageR", "stringdist", "fuzzyjoin",
               "reticulate", "tidytext", "tm", "text2vec",
               "topicmodels", "reshape2", "writexl", "readxl",
-              "roadoi", "brms", "devtools",
-              "flextable", "officer", "mice")
+              "roadoi", "brms", "devtools", "stan-dev/cmdstanr",
+              "flextable", "officer",
+              "mice", "miceadds",
+              # Publication figures: colour-blind pastel forest + raincloud plots.
+              "ggdist", "gghalves", "scales")
 
 renv::install(packages)
 y
  
+cmdstanr::install_cmdstan()
