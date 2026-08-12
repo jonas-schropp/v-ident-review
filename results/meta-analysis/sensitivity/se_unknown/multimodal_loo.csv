@@ -1,0 +1,2 @@
+model,nimp,mean_per_imputation_elpd,min_per_imputation_elpd,max_per_imputation_elpd,pooled_elpd,pooled_se,max_pareto_k,n_problematic_imputations
+multimodal,20,-1728.9622756091776,-1746.803582071029,-1708.2281838993374,-1728.9622756091778,35.5323797431892,0.38370614836591765,0

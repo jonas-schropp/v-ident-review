@@ -1,0 +1,33 @@
+predictor,level,category,count
+modality_ecg_ppg_other,experiment,ECG,330
+modality_ecg_ppg_other,experiment,Other,160
+modality_ecg_ppg_other,experiment,PPG,226
+modality_ecg_ppg_other,study,ECG,9
+modality_ecg_ppg_other,study,Other,4
+modality_ecg_ppg_other,study,PPG,13
+conditions,experiment,Missing,5
+conditions,experiment,everyday activities,141
+conditions,experiment,multiple conditions,163
+conditions,experiment,one condition,407
+conditions,study,Missing,2
+conditions,study,everyday activities,6
+conditions,study,multiple conditions,11
+conditions,study,one condition,11
+permanence_3_level,experiment,Missing,28
+permanence_3_level,experiment,high (> one week),5
+permanence_3_level,experiment,low (one day),623
+permanence_3_level,experiment,medium (multiple days),60
+permanence_3_level,study,Missing,4
+permanence_3_level,study,high (> one week),2
+permanence_3_level,study,low (one day),16
+permanence_3_level,study,medium (multiple days),3
+algorithm_family,experiment,Other algorithm,50
+algorithm_family,experiment,dl,402
+algorithm_family,experiment,dl_temp,59
+algorithm_family,experiment,kernel,147
+algorithm_family,experiment,tree,58
+algorithm_family,study,Other algorithm,5
+algorithm_family,study,dl,9
+algorithm_family,study,dl_temp,7
+algorithm_family,study,kernel,6
+algorithm_family,study,tree,6

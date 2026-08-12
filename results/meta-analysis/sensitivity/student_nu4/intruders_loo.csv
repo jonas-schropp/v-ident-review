@@ -1,0 +1,2 @@
+model,nimp,mean_per_imputation_elpd,min_per_imputation_elpd,max_per_imputation_elpd,pooled_elpd,pooled_se,max_pareto_k,n_problematic_imputations
+intruders,20,-1691.9561157874477,-1732.6868301514533,-1657.7560069555534,-1691.9561157874475,42.98975024920947,0.6561178079372365,0

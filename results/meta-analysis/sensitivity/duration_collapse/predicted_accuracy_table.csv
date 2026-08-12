@@ -1,0 +1,21 @@
+Construct,Level,Univariate,Multivariate
+Modality,Other,"84.0 [75.3, 89.9]","84.5 [74.7, 91.1]"
+Modality,ECG,"90.2 [82.9, 94.3]","90.3 [82.5, 94.8]"
+Modality,PPG,"87.1 [79.7, 92.0]","87.0 [78.4, 92.7]"
+Algorithm family,Other algorithm,"87.9 [80.9, 92.5]","84.5 [74.7, 91.1]"
+Algorithm family,Deep learning,"87.9 [80.9, 92.4]","84.8 [75.1, 91.3]"
+Algorithm family,Temporal deep learning,"88.5 [80.9, 93.2]","86.0 [75.3, 93.0]"
+Algorithm family,Tree-based methods,"88.1 [81.2, 92.7]","85.2 [75.6, 91.5]"
+Algorithm family,Kernel-based methods,"86.5 [77.4, 92.1]","82.1 [70.2, 90.1]"
+Study duration,low (one day),"88.3 [81.5, 92.7]","84.5 [74.7, 91.1]"
+Study duration,medium/high (> one day),"86.0 [74.0, 92.1]","81.8 [64.3, 90.2]"
+Multimodality,Unimodal,"88.0 [81.4, 92.2]","84.5 [74.7, 91.1]"
+Multimodality,Multimodal,"91.6 [86.5, 94.7]","87.9 [79.6, 93.3]"
+Intruders,No intruders,"88.1 [81.5, 92.4]",—
+Intruders,Intruders,"86.8 [78.2, 92.3]",—
+Feature type,handcrafted,"87.9 [81.1, 92.3]",—
+Feature type,deep,"89.4 [80.5, 94.3]",—
+Feature type,hybrid,"85.0 [73.3, 92.2]",—
+Activity,one condition,"86.9 [79.3, 91.9]","84.3 [73.8, 91.3]"
+Activity,multiple conditions,"88.2 [80.0, 93.1]","85.3 [74.0, 92.2]"
+Activity,everyday activities,"86.4 [76.6, 92.5]","84.7 [72.7, 92.2]"

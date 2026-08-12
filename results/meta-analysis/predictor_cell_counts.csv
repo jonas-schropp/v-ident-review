@@ -1,0 +1,27 @@
+predictor,category,experiment_count,study_count
+log_true_users_scaled,parsed,716,23
+modality_ecg_ppg_other,ECG,330,9
+modality_ecg_ppg_other,Other,160,4
+modality_ecg_ppg_other,PPG,226,13
+conditions,Missing,5,2
+conditions,everyday activities,141,6
+conditions,multiple conditions,163,11
+conditions,one condition,407,11
+permanence_3_level,Missing,28,4
+permanence_3_level,high (> one week),5,2
+permanence_3_level,low (one day),623,16
+permanence_3_level,medium (multiple days),60,3
+permanence_collapsed,Missing,28,4
+permanence_collapsed,low (one day),623,16
+permanence_collapsed,medium/high (> one day),65,5
+algorithm_family,Other algorithm,50,5
+algorithm_family,dl,402,9
+algorithm_family,dl_temp,59,7
+algorithm_family,kernel,147,6
+algorithm_family,tree,58,6
+intruders,Missing,102,3
+intruders,intruders,297,4
+intruders,no intruders,317,17
+feature_type,deep,53,5
+feature_type,handcrafted,385,15
+feature_type,hybrid,278,3

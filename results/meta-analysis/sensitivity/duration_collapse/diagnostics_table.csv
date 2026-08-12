@@ -1,0 +1,10 @@
+Model,rhat,ess,div,conv
+Null,1.022,380,0,2/20
+Activity,1.009,291,0,13/20
+Duration,1.021,224,0,14/20
+Modality,1.047,125,0,7/20
+Algorithm family,1.023,216,0,2/20
+Multimodality,1.037,145,0,1/20
+Intruders,1.017,375,0,6/20
+Feature type,1.023,159,0,1/20
+Full,1.087,37,0,6/20

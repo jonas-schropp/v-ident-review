@@ -1,0 +1,2 @@
+model,nimp,mean_per_imputation_elpd,min_per_imputation_elpd,max_per_imputation_elpd,pooled_elpd,pooled_se,max_pareto_k,n_problematic_imputations
+duration,1,-1259.7618759628892,-1259.7618759628892,-1259.7618759628892,-1259.7618759628892,26.28107804735035,0.6424646970852297,0

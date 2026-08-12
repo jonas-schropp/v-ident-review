@@ -1,0 +1,2 @@
+imputation,n_chains,post_warmup_draws,n_parameters,n_constant_parameters,max_rhat,worst_rhat_parameter,n_rhat_over_threshold,n_rhat_missing,min_bulk_ess,lowest_bulk_ess_parameter,n_bulk_ess_below_threshold,min_tail_ess,lowest_tail_ess_parameter,n_tail_ess_below_threshold,divergences,max_treedepth_hits,min_ebfmi,n_chains_low_ebfmi,converged
+1,4,20000,47,0,1.0010729242899274,sd_id__Intercept,0,0,3619.0978087654307,sd_id__Intercept,0,5922.41637260714,b_sigma_multimodal,0,0,0,0.6327122276959091,0,TRUE

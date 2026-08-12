@@ -1,0 +1,2 @@
+model_a,model_b,elpd_a,elpd_b,elpd_diff,se_diff,direction,nimp_a,nimp_b,nobs,n_clusters
+feature_type,null,-1708.2588597487215,-1680.391322614104,-27.867537134617443,9.966934586399745,positive favors feature_type,20,20,716,23

@@ -1,0 +1,9 @@
+Model,main,gaussian,student_nu4,sigma_intercept,sigma_re,sigma_cov_re,feature_collapse,duration_collapse,se_unknown,complete_case
+Activity,0.13,-0.02,0.05,0.08,0.01,0.05,n/a,0.16,0.13,0.17
+Duration,-0.02,-0.18,-0.04,-0.10,-0.09,-0.07,n/a,-0.03,-0.02,-0.00
+Modality,0.03,-0.02,0.01,0.02,-0.03,-0.03,n/a,0.04,0.03,-0.09
+Algorithm family,-0.02,-0.01,-0.02,-0.00,0.01,0.02,n/a,-0.02,-0.02,0.06
+Multimodality,0.02,0.03,0.03,-0.06,-0.06,0.06,n/a,0.03,0.02,0.05
+Intruders,0.01,0.01,0.01,0.02,0.02,0.02,n/a,0.02,0.01,0.04
+Feature type,0.04,-0.01,0.04,0.04,0.05,0.06,-0.01,0.04,0.03,0.05
+Full,0.06,-0.22,0.02,-0.05,-0.12,0.01,n/a,0.08,0.06,0.05
